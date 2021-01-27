@@ -4,10 +4,10 @@ title: "Know first!"
 ---
 
 Sign up to get the power of a red team, without the cost of a red team.
-[![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.png)](/assets/images/macbook_geoThreatsDashboard.png)
+[![Global threat exposure](assets/images/macbook_geoThreatsDashboard.png)](assets/images/macbook_geoThreatsDashboard.png)
 
 ## For security leaders
-[![Get graded against industry peers](/assets/images/macbook_gradingDashboard.png)](/assets/images/macbook_gradingDashboard.png)
+[![Get graded against industry peers](assets/images/macbook_gradingDashboard.png)](assets/images/macbook_gradingDashboard.png)
 * Continuously validate security architecture.
 * Test reaction times.
 * Get anonymously graded against industry peers.
@@ -21,7 +21,7 @@ Sign up to get the power of a red team, without the cost of a red team.
 These questions can be answered with the click of a button. See our blog for more info.
 
 ## For security engineers and architects
-[![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.png)](/assets/images/macbook_malwareDomainsTest.png)
+[![Deep dive into the gaps of your security tools](assets/images/macbook_malwareDomainsTest.png)](assets/images/macbook_malwareDomainsTest.png)
 * Don't simulate attacks. Emulate attacks!
 * Test:
   * Firewalls
