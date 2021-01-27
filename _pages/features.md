@@ -3,7 +3,7 @@ permalink: /features/
 title: "Know first!"
 ---
 
-Sign up to get the power of a red team, without the cost of a red team.
+Get the power of a red team, without the cost of a red team. Emulate attacks in 5 minutes.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 
 ## For security leaders
