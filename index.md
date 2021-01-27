@@ -6,7 +6,7 @@ title: "Know first!"
 Get the power of a red team, without the cost of a red team. Emulate attacks in 5 minutes.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 
-## Metrics for ledership
+## Metrics for leadership
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Continuously validate security architecture.
 * Test reaction times.
