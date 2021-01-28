@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: >"We help organizations understand their security posture like a Fortune 500, look through hype and fix what's relevant, so that they can get the highest ROI on security investments."
+title: ">We help organizations understand their security posture like a Fortune 500, look through hype and fix what's relevant, so that they can get the highest ROI on security investments."
 layout: single
 ---
 
