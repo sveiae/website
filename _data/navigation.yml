@@ -1,7 +1,7 @@
 main:
-  - title: "Pricing"
+  - title: "pricing"
     url: /pricing/
-  - title: "About"
+  - title: "about"
     url: /about/
   # - title: "Blog"
   #   url: /posts/
