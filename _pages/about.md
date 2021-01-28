@@ -11,3 +11,6 @@ Sven Eidissen, founder
 
 # Who we are
 We are a team of security professionals coming from several, for the most part, large US companies. Our team has set out to make it easier for other companies to see past all the "cyber hype" that is out there, and focus on the principals that have been proven effective in reducing cyber risk. 
+
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
