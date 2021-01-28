@@ -80,7 +80,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "/posts2"
+      path: ""
       type: posts
     values:
       layout: single
