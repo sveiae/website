@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Securiful Inc.
+title: Securiful Inc. 
 email:
 description: # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
   SaaS based continous security validation, continuous security monitoring, and threat centric testing.
