@@ -4,9 +4,17 @@ title: "Continuous Security Monitoring"
 ---
 Assess your attack surface through attack simulation
 
+## Understand your security exposure locally and globally.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
+* Test:
+  * within each device
+  * between each device
+  * within networks
+  * between networks
+  * within the globally trusted Internet
+  * beyond the trusted Internet
 
-## Metrics for leadership
+## Get metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Continuously validate security architecture.
 * Test reaction times.
@@ -19,7 +27,7 @@ Assess your attack surface through attack simulation
 
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 
-## In-depth knowledge for engineering
+## Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
 * Don't simulate attacks. Emulate attacks!
 * Test:
