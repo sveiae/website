@@ -1,9 +1,8 @@
 ---
 permalink: /
-title: "Continuous Security Monitoring"
+title: "We help organizations understand their security posture like a Fortune 500, look through hype and fix what's relevant, so that they can get the highest ROI on security investments."
 layout: single
 ---
-Validate your security controls like a Fortune 500.
 
 {% capture notice-2 %}
 ## Get security metrics that stick
