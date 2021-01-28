@@ -36,6 +36,7 @@ Plan for future challenges. Asses your security gaps while having your eyes over
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
+{% capture notice-2 %}
 ## Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
 * Don't simulate attacks. Emulate attacks!
@@ -49,6 +50,8 @@ Plan for future challenges. Asses your security gaps while having your eyes over
   * Core Network Services
 
 These services can be tested with the click of a button. Get deeper technical understanding of how your security tools react.
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Sign up for a free trial!
 
