@@ -3,7 +3,6 @@ permalink: /
 title: "Test security like a Fortune 500"
 layout: single
 ---
-{% include headWithAnalytics.html %}
 
 Continous security validation, with the use of machine learning and threat intelligence, enables you to find an ideal configuration for your security devices and services.
 
