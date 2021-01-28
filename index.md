@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "Continuous Security Monitoring"
+title: "Monitor security gaps like a Fortune 500"
 layout: single
 ---
->We help organizations understand their security posture like a Fortune 500, look through hype and fix what's relevant, so that they can get the highest ROI on security investments.
 
 {% capture notice-2 %}
-## Get security metrics that stick
+# Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Continuously validate security architecture.
 * Test reaction times.

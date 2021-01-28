@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-Securiful Inc. delivers continuous security validation and monitoring from the cloud. We gather threat intelligence from the entire Internet, using the latest machine learning and analytics. 
+We help organizations understand their security posture like a Fortune 500, look through hype and fix what’s relevant, so that they can get the highest ROI on security investments.
