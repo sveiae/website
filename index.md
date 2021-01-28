@@ -5,6 +5,7 @@ layout: single
 ---
 Assess your attack surface through attack simulation
 
+{% capture notice-2 %}
 ## Understand your security exposure locally and globally.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
@@ -14,6 +15,8 @@ Assess your attack surface through attack simulation
   * between networks
   * within the globally trusted Internet
   * beyond the trusted Internet
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Get metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
