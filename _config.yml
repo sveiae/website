@@ -109,7 +109,4 @@ tag_archive:
   path: /tags/
 
 # Analytics Section:
-analytics:
-  provider: "google-universal"
-  google:
-  tracking_id: "UA-188314022-1"
+google_analytics: "UA-188314022-1"
