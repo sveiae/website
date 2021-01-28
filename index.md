@@ -12,13 +12,12 @@ Assess your attack surface through attack simulation
 * Test reaction times.
 * Get anonymously graded against industry peers.
 * Understand ROI on your security tools.
-* No need for:
+* Reduces need for:
   * pentesters
   * red teams
-  * deployments
-  * training
+* zero deployment time.
 
-These questions can be answered with the click of a button. See our blog for more info.
+Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 
 ## In-depth knowledge for engineering
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
@@ -32,7 +31,7 @@ These questions can be answered with the click of a button. See our blog for mor
   * Traffic Filtering
   * Core Network Services
 
-These questions can be answered with the click of a button. See our blog for more info.
+These services can be tested with the click of a button. Get deeper technical understanding of how your security tools react.
 
 ## Sign up for a free trial!
 
