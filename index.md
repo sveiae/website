@@ -5,8 +5,6 @@ layout: single
 ---
 
 Continous security validation, with the use of machine learning and threat intelligence, enables you to find an ideal configuration for your security devices and services.
-
-
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
@@ -18,7 +16,6 @@ Continous security validation, with the use of machine learning and threat intel
   * pentesters
   * red teams
 * zero deployment time.
-
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
@@ -33,7 +30,6 @@ Increase your security architecture confidence with ease. Confidence building th
   * between networks
   * within the globally trusted Internet
   * beyond the trusted Internet
-
 Plan for future challenges. Asses your security gaps while having your eyes over the horizon at the threats you are facing.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
@@ -50,7 +46,6 @@ Plan for future challenges. Asses your security gaps while having your eyes over
   * SIEMs
   * Traffic Filtering
   * Core Network Services
-
 These services can be tested with the click of a button. Get deeper technical understanding of how your security tools react.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
