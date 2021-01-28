@@ -82,6 +82,8 @@ footer:
       url: "https://www.linkedin.com/company/securiful-inc/"
 
 defaults:
+  # Analytics Section:
+  google_analytics: "UA-188314022-1"
   # _posts
   - scope:
       path: ""
@@ -108,5 +110,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Analytics Section:
-google_analytics: "UA-188314022-1"
