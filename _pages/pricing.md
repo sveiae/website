@@ -29,5 +29,5 @@ title: "Pricing"
 });
 </script>
 
->**We help organizations monitor security gaps on a level of many Fortune 500s, and in turn improve ROI for security budgets.**
+>**We help organizations discover security gaps on a level of many Fortune 500s, and in turn improve ROI for security budgets.**
 >Sven Eidissen, founder
