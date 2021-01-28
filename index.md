@@ -1,19 +1,18 @@
 ---
 permalink: /
-# title.size: "12"
 title: "Test security like a Fortune 500"
 layout: single
 ---
-Continous security architecture validation through threat emulation.
+Continous security validation, through threat emulation, enables you to find an ideal configuration for your security devices and services.
 
 
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
-* Continuously validate security architecture.
+* Continuously validate security tools and architecture.
 * Test reaction times.
 * Get anonymously graded against industry peers.
-* Understand ROI on your security tools.
+* Increase ROI on your security tools.
 * Reduces need for:
   * pentesters
   * red teams
