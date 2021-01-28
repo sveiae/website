@@ -3,15 +3,21 @@ permalink: /pricing/
 title: "Pricing"
 ---
 
+{% capture notice-3 %}
 Basic:  $1 /employee/month
 * client-side attack emulation
 * global threat exposure
 * grading against industry peers
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
+{% capture notice-3 %}
 Visionary:  $2 /employee/month
 * all basic features
 * server side attack emulation
 * automatically inherit newly developed tests
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Sign up for a free trial!
 
