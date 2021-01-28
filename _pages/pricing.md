@@ -28,3 +28,8 @@ title: "Pricing"
 	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
 });
 </script>
+
+>**We help organizations** understand their security posture like a Fortune 500, 
+>look security through hype and fix what’s relevant, 
+>so that they can **get the highest ROI on security investments.**
+>-Sven Eidissen, founder
