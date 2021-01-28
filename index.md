@@ -9,8 +9,8 @@ Assess your attack surface through attack simulation
 ## Understand your security exposure locally and globally.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
-  * within each device
-  * between each device
+  * within devices
+  * between devices
   * within networks
   * between networks
   * within the globally trusted Internet
@@ -18,6 +18,7 @@ Assess your attack surface through attack simulation
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
+{% capture notice-2 %}
 ## Get metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Continuously validate security architecture.
@@ -30,6 +31,8 @@ Assess your attack surface through attack simulation
 * zero deployment time.
 
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
