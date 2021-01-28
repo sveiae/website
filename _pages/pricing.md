@@ -4,7 +4,7 @@ title: "Pricing"
 ---
 
 {% capture notice-3 %}
-# Basic:  $1 /employee/month **
+# Professional:  $1 /employee/month **
 * client-side attack emulation
 * global threat exposure
 * grading against industry peers
@@ -12,7 +12,7 @@ title: "Pricing"
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-3 %}
-# Visionary:  $2 /employee/month
+# Enterprise:  $2 /employee/month
 * all basic features
 * server side attack emulation
 * automatically inherit newly developed tests
