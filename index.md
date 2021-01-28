@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Continuous Security Monitoring"
+layout: single
 ---
 Assess your attack surface through attack simulation
 
