@@ -1,9 +1,11 @@
 ---
 permalink: /
 {% page.title.size = "12" %}
-title: "Test security like a Fortune 500"
+title: "Cyber Attack Emulation"
 layout: single
 ---
+Continous security architecture validation through threat emulation.
+
 
 {% capture notice-2 %}
 # Get security metrics that stick
