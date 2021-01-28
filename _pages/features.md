@@ -1,5 +1,5 @@
 ---
-permalink: /features/
+permalink: /
 title: "Continuous Security Monitoring"
 ---
 Assess your attack surface through attack simulation
