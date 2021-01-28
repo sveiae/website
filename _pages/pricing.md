@@ -9,7 +9,7 @@ Basic:  $1 /employee/month
 * global threat exposure
 * grading against industry peers
 {% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-3 %}
 Visionary:  $2 /employee/month
@@ -17,7 +17,7 @@ Visionary:  $2 /employee/month
 * server side attack emulation
 * automatically inherit newly developed tests
 {% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-3 | markdownify }}</div>
 
 ## Sign up for a free trial!
 
