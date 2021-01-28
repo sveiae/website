@@ -1,7 +1,7 @@
 ---
 permalink: /
 {% page.title.size = "12" %}
-title: "Cyber Attack Emulation"
+title: "Test security like a Fortune 500"
 layout: single
 ---
 Continous security architecture validation through threat emulation.
