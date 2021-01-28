@@ -3,7 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-# Mission
 We help organizations monitor security gaps on a level of many Fortune 500s, 
 look through security hype,
 fix what’s relevant, 
