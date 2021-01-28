@@ -3,7 +3,7 @@ permalink: /
 title: "Continuous Security Monitoring"
 layout: single
 ---
-Assess your attack surface through attack simulation
+Validate your security controls like a Fortune 500.
 
 {% capture notice-2 %}
 ## Understand your security exposure locally and globally.
