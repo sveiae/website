@@ -39,6 +39,7 @@ include:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
+exclude - _posts
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
