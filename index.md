@@ -22,7 +22,7 @@ Increase your security architecture confidence with ease. Confidence building th
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
-## Look beyond your Internet gateway.
+# Look beyond your Internet gateway.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
   * within devices
@@ -37,7 +37,7 @@ Plan for future challenges. Asses your security gaps while having your eyes over
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
-## Don't guess or trust. Test.
+# Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
 * Don't simulate attacks. Emulate attacks!
 * Test:
@@ -53,7 +53,7 @@ These services can be tested with the click of a button. Get deeper technical un
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
-## Sign up for a free trial!
+# Sign up for a free trial!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
