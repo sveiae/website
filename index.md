@@ -64,4 +64,4 @@ These services can be tested with the click of a button. Get deeper technical un
 >**We help organizations discover security gaps on a level of many Fortune 500s, and in turn improve ROI for security budgets.**
 >Sven Eidissen, founder
 
-{% include googleAnalytics.html %}
+{% include googleAnalytics %}
