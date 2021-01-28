@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Monitor security gaps like a Fortune 500"
+{% page.title.size = "12" %}
+title: "Test security like a Fortune 500"
 layout: single
 ---
 
