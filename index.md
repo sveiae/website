@@ -1,6 +1,6 @@
 ---
 permalink: /
-{% page.title.size = "12" %}
+title.size: "12"
 title: "Test security like a Fortune 500"
 layout: single
 ---
