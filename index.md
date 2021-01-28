@@ -22,7 +22,7 @@ Increase your security architecture confidence with ease. Confidence building th
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
-## Understand the worlds threat landscape.
+## Look beyond your Internet gateway.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
   * within devices
@@ -32,7 +32,7 @@ Increase your security architecture confidence with ease. Confidence building th
   * within the globally trusted Internet
   * beyond the trusted Internet
 
-Plan for future challenges. Asses your security gaps while having your eyes over the horizon.
+Plan for future challenges. Asses your security gaps while having your eyes over the horizon at the threats you are facing.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
