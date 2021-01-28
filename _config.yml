@@ -36,6 +36,9 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Analytics Section:
+google_analytics: "UA-188314022-1"
+
 include:
   - _pages
 
@@ -82,8 +85,6 @@ footer:
       url: "https://www.linkedin.com/company/securiful-inc/"
 
 defaults:
-  # Analytics Section:
-  google_analytics: "UA-188314022-1"
   # _posts
   - scope:
       path: ""
