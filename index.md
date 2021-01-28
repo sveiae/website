@@ -6,20 +6,7 @@ layout: single
 Validate your security controls like a Fortune 500.
 
 {% capture notice-2 %}
-## Understand your security exposure locally and globally.
-[![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
-* Test:
-  * within devices
-  * between devices
-  * within networks
-  * between networks
-  * within the globally trusted Internet
-  * beyond the trusted Internet
-{% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
-
-{% capture notice-2 %}
-## Get metrics that stick
+## Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Continuously validate security architecture.
 * Test reaction times.
@@ -31,6 +18,21 @@ Validate your security controls like a Fortune 500.
 * zero deployment time.
 
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
+
+{% capture notice-2 %}
+## Understand the worlds threat landscape.
+[![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
+* Test:
+  * within devices
+  * between devices
+  * within networks
+  * between networks
+  * within the globally trusted Internet
+  * beyond the trusted Internet
+
+Plan for future challenges. Asses your security gaps while having your eyes over the horizon.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
