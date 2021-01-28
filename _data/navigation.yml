@@ -2,6 +2,6 @@ main:
   - title: "Pricing"
     url: /pricing/
   - title: "Features"
-    url: /features/
+    url: /
   - title: "Blog"
     url: /posts/
