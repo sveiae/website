@@ -6,7 +6,8 @@ title: "Pricing"
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
-
+<!-- hotjar analytics -->
+{% include hotjar.html %}
 
 {% capture notice-3 %}
 # Professional:  $1 /employee/month **

@@ -6,6 +6,8 @@ title: "About"
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
+<!-- hotjar analytics -->
+{% include hotjar.html %}
 
 We help organizations discover security gaps on a level of many Fortune 500s, 
 look through security hype,
