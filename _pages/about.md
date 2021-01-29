@@ -4,10 +4,12 @@ title: "About"
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
+<!-- Leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
-<!-- hotjar analytics -->
+<!-- Hotjar analytics -->
 {% include hotjar.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
 
 We help organizations discover security gaps on a level of many Fortune 500s, 
 look through security hype,

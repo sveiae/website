@@ -5,11 +5,12 @@ layout: single
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
+<!-- Leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
-<!-- hotjar analytics -->
+<!-- Hotjar analytics -->
 {% include hotjar.html %}
-
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
 
 Continous security validation, with the use of machine learning and threat intelligence, enables you to find an ideal configuration for your security devices and services.
 {% capture notice-2 %}
@@ -57,7 +58,7 @@ These services can be tested with the click of a button. Get deeper technical un
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
-# Sign up for a free trial!
+# Create an account and start testing!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>

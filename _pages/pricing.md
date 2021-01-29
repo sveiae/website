@@ -4,10 +4,12 @@ title: "Pricing"
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
+<!-- Leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
-<!-- hotjar analytics -->
+<!-- Hotjar analytics -->
 {% include hotjar.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
 
 {% capture notice-3 %}
 # Professional:  $1 /employee/month **
@@ -25,7 +27,7 @@ title: "Pricing"
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
-## Sign up for a free trial!
+# Create an account and start testing!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
