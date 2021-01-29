@@ -68,3 +68,4 @@ These services can be tested with the click of a button. Get deeper technical un
 
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
+{% include leadfeederAnalytics.html %}
