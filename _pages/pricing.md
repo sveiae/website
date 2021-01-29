@@ -41,5 +41,5 @@ title: "Pricing"
 >* We enable you to look through security hype,  
 >* fix what’s relevant,  
 >* and in turn improve ROI for security budgets."  
->-Sven Eidissen, (founder)
+Sven Eidissen, (founder)
 
