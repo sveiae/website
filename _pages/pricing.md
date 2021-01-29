@@ -38,8 +38,8 @@ title: "Pricing"
 </script>
 
 >We help organizations find security gaps the same way Fortune 500s do.  
->We enable you to look through security hype,  
->fix what’s relevant,  
->and in turn improve ROI for security budgets."  
+>* We enable you to look through security hype,  
+>* fix what’s relevant,  
+>* and in turn improve ROI for security budgets."  
 >Sven Eidissen, founder
 
