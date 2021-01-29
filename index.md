@@ -3,6 +3,11 @@ permalink: /
 title: "Test security like a Fortune 500"
 layout: single
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- leadfeeder analytics -->
+{% include leadfeederAnalytics.html %}
+
 
 Continous security validation, with the use of machine learning and threat intelligence, enables you to find an ideal configuration for your security devices and services.
 {% capture notice-2 %}
@@ -66,6 +71,3 @@ These services can be tested with the click of a button. Get deeper technical un
 
 
 
-<!-- Google analytics -->
-{% include googleAnalytics.html %}
-{% include leadfeederAnalytics.html %}

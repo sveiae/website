@@ -6,6 +6,10 @@ tags:
   - Post Formats
   - notice
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- leadfeeder analytics -->
+{% include leadfeederAnalytics.html %}
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
 
@@ -67,6 +71,3 @@ Or you could skip the capture and stick with straight HTML.
   <p>A basic message.</p>
 </div>
 
-
-<!-- Google analytics -->
-{% include googleAnalytics.html %}

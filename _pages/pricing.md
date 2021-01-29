@@ -2,6 +2,11 @@
 permalink: /pricing/
 title: "Pricing"
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- leadfeeder analytics -->
+{% include leadfeederAnalytics.html %}
+
 
 {% capture notice-3 %}
 # Professional:  $1 /employee/month **
@@ -32,5 +37,3 @@ title: "Pricing"
 >**We help organizations discover security gaps on a level of many Fortune 500s, and in turn improve ROI for security budgets.**
 >Sven Eidissen, founder
 
-<!-- Google analytics -->
-{% include googleAnalytics.html %}
