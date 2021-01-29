@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Test security like a Fortune 500"
+title: "Enterprise Security Validation"
 layout: single
 ---
 <!-- Google analytics -->
@@ -12,7 +12,7 @@ layout: single
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-Continous security validation, with the use of machine learning and threat intelligence, enables you to find an ideal configuration for your security devices and services.
+Test security against threat intelligence, attack signatures, and security misconfigurations. Our continuous security validation platform provides the newest test data, gathered from thousands of sources by the use of machine learning. This enables you to find an ideal configuration for your security architecture.
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
