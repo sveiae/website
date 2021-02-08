@@ -19,7 +19,7 @@
 title: Securiful Inc. 
 email:
 description: # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  Validate your security using our continuous security validation platform . Perform continuous security monitoring to ensure compliance, and perform threat based tests to assure you can defend against real-life adversaries. 
+  Validate your information security architecture using our continuous security validation platform . Perform continuous information security monitoring to ensure compliance, and perform threat based tests to assure you can defend against real-life adversaries. 
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "default"
