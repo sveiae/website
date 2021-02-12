@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Enterprise Security Validation"
+title: "On Demand, Continuous, Security Validation"
 layout: single
 ---
 <!-- Google analytics -->
