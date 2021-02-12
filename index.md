@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "On Demand, Continuous, Security Validation"
+title: "On Demand Breach and Attack Simlation"
 layout: single
 ---
 <!-- Google analytics -->
@@ -12,18 +12,18 @@ layout: single
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-Test security against threat intelligence, attack signatures, and security misconfigurations. Our continuous security validation platform provides the newest test data, gathered from thousands of sources by the use of machine learning. This enables you to find an ideal configuration for your security architecture.
+Test your security architecture by simulating threats, attacks, while also probing for common security misconfigurations. Our on demand attack simlation platform provides tests based on threat intelligence gathered from thousands of sources. This enables you to find an ideal configuration for your security architecture.
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
-* Continuously validate security tools and architecture.
+* Validate security tools and architecture on demand.
 * Test reaction times.
 * Get anonymously graded against industry peers.
 * Increase ROI on your security tools.
 * Reduces need for:
   * pentesters
   * red teams
-* zero deployment time.
+* zero deployment time. Run our application and test.
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
