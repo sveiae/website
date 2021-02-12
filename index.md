@@ -21,7 +21,7 @@ Test your security architecture by simulating threats, attacks, while also probi
 * Test reaction times of your security team.
 * Get anonymously graded against industry peers.
 * Increase ROI on your security tools.
-* zero deployment time. Run our application and test.
+* Zero deployment time. Run our application and test.  
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
@@ -33,7 +33,7 @@ Increase your security architecture confidence with ease. Confidence building th
   * Holistic attack surface.
   * Geographic attack exposure.
   * Local network attack surfaces.
-  * Security compliance and best practice of Internet facing web services.
+  * Security compliance and best practice of Internet facing web services.  
 Plan for future challenges. Asses your security gaps while having your eyes over the horizon at the threats you are facing.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
@@ -49,7 +49,7 @@ Plan for future challenges. Asses your security gaps while having your eyes over
   * VPNs
   * SIEMs
   * Traffic Filtering
-  * Core Network Services
+  * Core Network Services  
 These services can be tested with the click of a button. Get deeper technical understanding of how your security tools react.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
