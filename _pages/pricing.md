@@ -12,18 +12,21 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture notice-3 %}
-# Professional:  $1 /employee/month **
-* client-side attack emulation
-* global threat exposure
-* grading against industry peers
+# Free Version
+* Client-side attack simulation.
+* Outbound threats and attack simulation.
+* Test Outbound rules for Firewalls, IDSes, Web Gateways and more.
+* Grading against industry peers.
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-3 %}
-# Enterprise:  $2 /employee/month
-* all basic features
-* server side attack emulation
-* automatically inherit newly developed tests
+# Visionary:  $500 per month
+* Free version features.
+* Server-side threats and attack simulation.
+* Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.
+* Holistic attack surface assessment.
+* Automatically inherit newly developed tests.
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 

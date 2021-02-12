@@ -17,12 +17,10 @@ Test your security architecture by simulating threats, attacks, while also probi
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Validate security tools and architecture on demand.
-* Test reaction times.
+* Test attack detection.
+* Test reaction times of your security team.
 * Get anonymously graded against industry peers.
 * Increase ROI on your security tools.
-* Reduces need for:
-  * pentesters
-  * red teams
 * zero deployment time. Run our application and test.
 Increase your security architecture confidence with ease. Confidence building through security architecture testing benefits the whole organizaiton.
 {% endcapture %}
@@ -32,12 +30,10 @@ Increase your security architecture confidence with ease. Confidence building th
 # Look beyond your Internet gateway.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
-  * within devices
-  * between devices
-  * within networks
-  * between networks
-  * within the globally trusted Internet
-  * beyond the trusted Internet
+  * Holistic attack surface.
+  * Geographic attack exposure.
+  * Local network attack surfaces.
+  * Security compliance and best practice of Internet facing web services.
 Plan for future challenges. Asses your security gaps while having your eyes over the horizon at the threats you are facing.
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
@@ -45,7 +41,7 @@ Plan for future challenges. Asses your security gaps while having your eyes over
 {% capture notice-2 %}
 # Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
-* Don't simulate attacks. Emulate attacks!
+* Test your security architecture!
 * Test:
   * Firewalls
   * IDSes
