@@ -39,7 +39,6 @@ Test your security architecture by simulating threats, attacks, while also probi
 {% capture notice-2 %}
 # Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
-* Test your security architecture!
 * Test:
   * Firewalls
   * IDSes

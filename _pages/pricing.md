@@ -13,6 +13,7 @@ title: "Pricing"
 
 {% capture notice-3 %}
 # Free Version
+* All beta-testing functionality
 * Client-side attack simulation.
 * Outbound threats and attack simulation.
 * Test Outbound rules for Firewalls, IDSes, Web Gateways and more.
