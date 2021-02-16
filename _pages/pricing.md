@@ -12,7 +12,7 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture notice-3 %}
-# Free Version
+# Pro: 500 per month
 * All beta-testing functionality
 * Client-side threats and attack simulation.
 * Outbound threats and attack simulation.
@@ -22,7 +22,7 @@ title: "Pricing"
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
 {% capture notice-3 %}
-# Visionary:  $500 per month
+# Visionary:  $1000 per month
 * Free version features.
 * Server-side threats and attack simulation.
 * Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.
