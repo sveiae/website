@@ -12,12 +12,18 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture notice-3 %}
-# Pro: 500 per month
+# Free
 * All beta-testing functionality
-* Client-side threats and attack simulation.
-* Outbound threats and attack simulation.
-* Test Outbound rules for Firewalls, IDSes, Web Gateways and more.
+* Test Outbound rules for Firewalls, Routers, Web Gateways, and more.
 * Grading against industry peers.
+{% endcapture %}
+<div class="notice">{{ notice-3 | markdownify }}</div>
+
+{% capture notice-3 %}
+# Pro: 500 per month
+* All free functionality
+* Outbound threats and attack simulation.
+* Test rules for IDSes, SIEMs, and more.
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
