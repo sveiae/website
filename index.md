@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "On Demand Breach and Attack Simlation"
+title: "Breach and Attack Simlation"
 layout: single
 ---
 <!-- Google analytics -->
@@ -12,7 +12,7 @@ layout: single
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-Test your security architecture by simulating threats, attacks, while also probing for common security misconfigurations. Our on demand attack simlation platform provides tests based on threat intelligence gathered from thousands of sources. This enables you to find an ideal configuration for your security architecture.
+Find your ideal security configuration by testing it against simulated information security threats and attacks.
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
