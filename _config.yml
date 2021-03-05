@@ -19,7 +19,7 @@
 title: Securiful Inc. 
 email:
 description: # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  Test driven information security app. Continuously test, measure, and track relevant security controls that give the highest return on security investment.
+  Test driven information security app. Continuously test, measure, and track relevant security CIS controls that give the highest return on security investment.
   # Test, understand, and track your attack surface in order to implement information security controls that are relevant in driving return on security investment.
 twitter_username: username
 github_username: username
