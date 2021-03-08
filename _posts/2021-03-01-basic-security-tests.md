@@ -36,10 +36,12 @@ In summary there are three problems:
 * We don't automate testing.
 
 This, in turn, lead to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
-<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}
 *Typical compliance- and hype-driven process*
+
+{% endcapture %}
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Solution: test-driven security
 > What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
