@@ -14,8 +14,8 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-# Implement fast, test fast, improve fast, repeat fast.
-TLDR: Build, test, fix, repeat. Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you don’t want to read the reasoning of why I’m doing all of this you can **just skip to “examples of tests and what they measure”**, or head over to our [landing page][securiful-landing] to start testing.
+# Security - Build, test, fix, repeat.
+TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [landing page][securiful-landing] to register for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security
 During my career, working in info sec, I’ve realized that security teams have a hard time implementing **effective security controls**, and an even harder time doing **effective security testing** of said controls. Even when these controls have been known for a very long time and are easy to implement.
