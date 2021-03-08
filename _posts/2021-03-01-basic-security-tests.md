@@ -20,17 +20,18 @@ TLDR: Use standard tests to see how your security posture is doing, instead of r
 ## Problem: compliance- and-hype driven security
 During my career, working in info sec, I’ve realized that security teams have a hard time implementing **effective security controls**, and an even harder time doing **effective security testing** of said controls. Even when these controls have been known for a very long time and are easy to implement.
 
-Too many times I’ve tested a simple control, like checking what outbound ports are allowed, and the security team had no idea they would fail this simple test— or they had no idea this was an important security control.
+Too many times I’ve tested a simple control, like checking what outbound ports are allowed, and the security team had no idea they would fail this simple test— or they had no idea this was an important security control. A reasonable explanation to this is that **we’re not prioritizing controls which are effective and easy to implement**. 
 
-Coming from application development, application security and penetration testing, the problem is probably more striking to me: security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
+There is another problem that might be even more striking - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
 
-Blame time: I blame it on security marketing and security news (which are the same thing in many cases), overly complex security frameworks (from NIST usually), and a lack of willingness to do root cause analysis.
+In summary there are three problems:
+* We don't know **how** to test.
+* we don't know **what** to test.
+* We don't automate testing.
 
-The end result is that **we’re not prioritizing controls which are effective and easy to implement**. This, in turn, has led to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
+This, in turn, lead to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 ![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}
-
-
 
 ## Solution: test-driven security
 > What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
@@ -45,8 +46,6 @@ The solution was to make something similar to test driven development; a securit
 * Easy to implement.
 * Measurable.
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
-
-
 
 ## Basic security test examples:
 ![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}
