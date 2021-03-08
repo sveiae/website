@@ -31,6 +31,7 @@ Blame time: I blame it on security marketing and security news (which are the sa
 
 The end result is that **we’re not prioritizing controls which are effective and easy to implement**. This, in turn, has led to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
+[![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}
 
 
 
