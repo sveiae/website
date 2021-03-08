@@ -42,7 +42,6 @@ This, in turn, lead to a significant lag time in effective security controls imp
 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
-
 ## Solution: test-driven security
 > What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
 
