@@ -17,7 +17,6 @@ tags:
 # If attackers can do it, you can test it.
 TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [landing page][securiful-landing] to register for a free trial of our testing software.
 
-{% capture notice-2 %}
 ## Problem: compliance- and-hype driven security
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}
 *NIST 800-53 anyone?*
@@ -36,7 +35,6 @@ In summary there are three problems:
 * We don't automate testing.
 
 This, in turn, lead to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
-<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}
 *Typical compliance- and hype-driven process*
