@@ -15,7 +15,7 @@ tags:
 {% include leadfeederAnalytics.html %}
 
 # If attackers can do it, you can test it.
-TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, go here to [register][https://www.securiful.com/blog/basic-security-tests/#create-an-account-and-start-testing] to register for a free trial of our testing software.
+TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [register][create account] to register for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
@@ -82,3 +82,5 @@ We're compiling more and more tests that you NEED to perform on your environment
 	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
 });
 </script>
+
+[create account]: #create-an-account-and-start-testing
