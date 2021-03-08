@@ -1,5 +1,5 @@
 ---
-title: "Test Driven Security"
+title: "Why test Driven Security?"
 last_modified_at: 2021-03-01T16:52:02-05:00
 categories:
   - Blog
@@ -15,12 +15,13 @@ tags:
 {% include leadfeederAnalytics.html %}
 
 # If attackers can do it, you can test it.
-TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [landing page][securiful-landing] to register for a free trial of our testing software.
+TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, go here to [register][https://www.securiful.com/blog/basic-security-tests/#create-an-account-and-start-testing] to register for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
+**Data breaches everywhere**
 Year after year, we see data breaches in companies with plenty of information security funding. It's not a secret that well-funded security teams have a hard time implementing **effective security controls**, and an even harder time doing **effective security testing** of said controls. Even when these controls have been known for a very long time and are easy to implement. Teams lacking funding are usually doing even worse. Too many times simple controls are failing - like managing what outbound ports are allowed, tuning the IDS to detect shellcode, or ensuring the antivirus is turned ON. Furthermore security teams are surprised to fail these kinds of simple tests. It's just not something we're focusing on. On the other hand, many of these same organizations don't have any problems passing a security audit.
 
 Why are there breaches in companies that have great security tools, funding, and pass security compliance audits year after year?
@@ -32,9 +33,9 @@ There is another problem that might be even more striking - security teams work 
 In summary there are three problems:
 * We don't know **how** to test.
 * we don't know **what** to test.
-* We don't automate testing.
+* We don't **automate** testing.
 
-This, in turn, lead to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
+This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 ![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
 *Typical compliance- and hype-driven process*
@@ -51,11 +52,12 @@ The solution was to make something similar to test driven development; a securit
 **Security controls requirements:** 
 * Effective.
 * Easy to implement.
-* Measurable.
+* Measurable.  
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
 
 ## Basic security test examples:
-![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}
+![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}  
+*Test. The. Things.*
 
 We're compiling more and more tests that you NEED to perform on your environment - whether it's for home office users, or in enterprise networks. Here are a few:
 **List of all tests so far (more to come)**
@@ -72,17 +74,11 @@ We're compiling more and more tests that you NEED to perform on your environment
 * testing all kinds of traffic that the IDS should detect on, and see if the IDS analyst reacts to it.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-[securiful-landing]: https://www.securiful.com
+# Create an account and start testing!  
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "8898112",
+	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
+});
+</script>
