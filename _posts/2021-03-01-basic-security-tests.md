@@ -14,28 +14,34 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-# If attackers can do it, you can test it.
-TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [register][create account] to register for a free trial of our testing software.
+# If attackers can do it, you should test it.
+TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. 
+
+If you just want to start testing, head over to [register][create account] for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
 **Data breaches everywhere**
-Year after year, we see data breaches in companies with plenty of information security funding. It's not a secret that well-funded security teams have a hard time implementing **effective security controls**, and an even harder time doing **effective security testing** of said controls. Even when these controls have been known for a very long time and are easy to implement. Teams lacking funding are usually doing even worse. Too many times simple controls are failing - like managing what outbound ports are allowed, tuning the IDS to detect shellcode, or ensuring the antivirus is turned ON. Furthermore security teams are surprised to fail these kinds of simple tests. It's just not something we're focusing on. On the other hand, many of these same organizations don't have any problems passing a security audit.
+Year after year, we see data breaches in companies with plenty of information security funding. It's not a secret that well-funded security teams have a hard time implementing __effective security controls__, and an even harder time doing __effective security testing__ of said controls. Even when these controls have been known for a very long time and are easy to implement. Teams lacking funding are usually doing even worse. Too many times simple controls are failing - like managing what outbound ports are allowed, tuning the IDS to detect shellcode, or ensuring the antivirus is turned ON. Furthermore security teams are surprised to fail these kinds of simple tests. It's just not something we're focusing on. On the other hand, many of these same organizations don't have any problems passing a security audit.
 
 Why are there breaches in companies that have great security tools, funding, and pass security compliance audits year after year?
 
-It happens because being compliant simply means an auditor found you to have sufficient controls in place. Having the newest security tech simply means just that, having new security tech. And having people working on security means you got people. We have to get away from thinking this equals effective security controls. The truth is **we’re not prioritizing controls which are effective and easy to implement**. The good news is that it's easy to do something about.
+**We're compliant, just not secure**
+It happens because being compliant simply means an auditor found you to have sufficient controls in place. Having the newest security tech simply means just that, having new security tech. And having people working on security means you got people. We have to get away from thinking this equals effective security controls. The truth is __we’re not prioritizing__ controls which are effective and easy to implement. The good news is that it's easy to do something about.
 
+**We're slow**
 There is another problem that might be even more striking - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
 
-In summary there are three problems:
-* We don't know **how** to test.
-* we don't know **what** to test.
-* We don't **automate** testing.
-
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
+
+**Start doing this:**
+* Know **how** to test.
+* Know **what** to test.
+* **Automate** testing.
+* Test often.
+
 
 ![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
 *Typical compliance- and hype-driven process*
