@@ -14,12 +14,8 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-# Get things done by testing, then fixing. 
-
-TLDR: Build, test, fix, repeat. Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news.
-
-If you don’t want to read the reasoning of why I’m doing all of this you can **just skip to “examples of tests and what they measure”**, or head over to our [landing page][securiful-landing] to start testing.
-
+# Implement fast, test fast, improve fast, repeat fast.
+TLDR: Build, test, fix, repeat. Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you don’t want to read the reasoning of why I’m doing all of this you can **just skip to “examples of tests and what they measure”**, or head over to our [landing page][securiful-landing] to start testing.
 
 ## Problem: compliance- and-hype driven security
 
@@ -43,15 +39,29 @@ The end result is that **we’re not prioritizing controls which are effective a
 
 **Test driven security:**
 
-My solution was to make something similar to test driven development; a security team chooses the most important/effective controls that must be passed, writes tests that verifies its effectiveness. Then whatever they fail on, they improve. Instead of slow and expensive iterations, we can get short and affordable iterations, with sensible feedback loops. At least that’s the idea. Like below:
+The solution was to make something similar to test driven development; a security team chooses the most important/effective controls that must be passed, writes tests that verifies its effectiveness. Then whatever they fail on, they improve. Instead of slow and expensive iterations, we can get short and affordable iterations, with sensible feedback loops. At least that’s the idea. Like below:
 
 ![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}
 
-**My criteria for the security controls tests were:** 
+**Security controls requirements:** 
 * Effective.
 * Easy to implement.
 * Measurable.
-If at some point I have met all of these criteria, I might up expanding the scope, but for now it’s already a handful — because writing tests takes time.
+If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
+
+**Basic security test examples:**
+List of all tests so far (more to come)
+* connecting to known malware download sites.
+* connecting to botnets and known attack networks.
+* connecting to all the countries in the world (three are many I have no interest in connecting to).
+* resolving known malicious domains.
+* checking outbound ports to the Internet.
+* checking inbound ports from the Internet.
+* checking open ports and services inside my network.
+* check if VPN is running ‘split tunnel’ and bypassing a bunch of controls (important in these times).
+* checking if my antivirus actually detects malware.
+* ensuring security and event logs are generated and sent to my central server.
+* testing all kinds of traffic that the IDS should detect on, and see if the IDS analyst reacts to it.
 
 
 
