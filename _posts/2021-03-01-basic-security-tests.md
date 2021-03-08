@@ -18,7 +18,7 @@ tags:
 TLDR: Use standard tests to see how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. If you just want to start testing, head over to [landing page][securiful-landing] to register for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security
-![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}
+![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
 Year after year, we see data breaches in companies with plenty of information security funding. It's not a secret that well-funded security teams have a hard time implementing **effective security controls**, and an even harder time doing **effective security testing** of said controls. Even when these controls have been known for a very long time and are easy to implement. Teams lacking funding are usually doing even worse. Too many times simple controls are failing - like managing what outbound ports are allowed, tuning the IDS to detect shellcode, or ensuring the antivirus is turned ON. Furthermore security teams are surprised to fail these kinds of simple tests. It's just not something we're focusing on. On the other hand, many of these same organizations don't have any problems passing a security audit.
@@ -36,7 +36,7 @@ In summary there are three problems:
 
 This, in turn, lead to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
-![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}
+![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
 *Typical compliance- and hype-driven process*
 
 ## Solution: test-driven security
@@ -45,7 +45,8 @@ This, in turn, lead to a significant lag time in effective security controls imp
 **Build, test, fix, repeat:**
 The solution was to make something similar to test driven development; a security team chooses the most important/effective controls that must be passed, writes tests that verifies its effectiveness. Then whatever they fail on, they improve. Instead of slow and expensive iterations, we can get short and affordable iterations, with sensible feedback loops. At least that’s the idea. Like below:
 
-![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}
+![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}  
+*Test driven security*
 
 **Security controls requirements:** 
 * Effective.
