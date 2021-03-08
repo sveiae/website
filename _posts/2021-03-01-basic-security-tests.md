@@ -49,7 +49,12 @@ The solution was to make something similar to test driven development; a securit
 * Measurable.
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
 
-**Basic security test examples:**
+
+
+## Basic security test examples:
+
+![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}
+
 List of all tests so far (more to come)
 * connecting to known malware download sites.
 * connecting to botnets and known attack networks.
