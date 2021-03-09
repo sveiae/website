@@ -1,6 +1,6 @@
 ---
-title: "Security tests that stand the test of time - Part 1: Network Security Tests"
-last_modified_at: 2021-03-09T16:52:02-05:00
+title: "Security tests that stand the test of time - Part 2: Intrusion Detection and Monitoring Tests"
+last_modified_at: 2021-03-10T14:42:02-05:00
 categories:
   - Blog
 tags:
@@ -14,13 +14,13 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-TLDR: Testing your most important network security controls is easy and incredibly important if you want to improve your security.
+TLDR: Testing your most important security controls is easy and incredibly important if you want to improve your security.
 
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
-# Testing network security.
-![compliance](/assets/images/2021-03-08/network.jpeg){:class="img-responsive"}  
-*securing connectivity between devices*
+# Example IDS/IPS + SIEM tests.
+![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
+*NIST 800-53 anyone?*
 
 **Leave no network behind!**  
 Almost all networks have unused security controls:
@@ -39,51 +39,43 @@ Almost all networks have unused security controls:
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-# Example Network Security tests.
+# Testing time.
 
-**Connect to botnets and known attack networks:**  
+**Connecting to botnets and known attack networks:**  
 Difficulty: Easy  
-Automation: Easy  
+Automation: Easy
 Use the EDROP list from [Spamhaus](https://www.spamhaus.org/drop/), which "include netblocks controlled by spammers and cybercriminals". Scan a few of these networks to see if your traffic is able to route to networks that you should never be able to route to.
 ```bash
 nmap --top-ports 5 "91.200.81.0/24" "208.12.64.0/19" "176.119.7.0/24"
-# Scan spamhaus networks on 5 most common ports and see what you're able to connect to. 
-# Any accessible IP is a failure
+# scans networks on 5 most common ports.
 ```
+Then see what hosts you're able to connect to.
 
-**Resolve known malicious domains (DNS):**  
-Difficulty: Easy  
-Automation: Hard  
+**Resolving known malicious domains (DNS):**  
+Difficulty: Easy
+Automation: Hard
 Get domain lists from [Urlhaus](https://urlhaus.abuse.ch/api/#retrieve), which has attacker domains that should not be resolved. Create a shortened list which is easier to iterate to. These domain lists change all the time so it makes no sense for me to recommend specific domains.  
 ```bash
 for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
-# Iterate through list of evil domains, trying to resolve them.
-# Any domain which resolves to a routable IP is a failure
+# iterate through list of evil domains, trying to resolve them.
 ```
+Then see what domains are actually resolved.
 
-**Check outbound ports to the Internet:**  
-Difficulty: Easy  
-Automation: Easy  
+**Checking outbound ports to the Internet:**  
+Difficulty: Easy
+Automation: Easy
 Simply scan scanme.nmap.org
 ```bash
 nmap --top-ports 1000 scanme.nmap.org
 # Testing top 1000 ports for outbound connections.
-# Any unneeded, open, port is a failure
 ```
+Then see which ports are open outbound to the Internet.
 
-**Check inbound ports from the Internet:**  
-Difficulty: Medium  
-Automation: Hard  
-Simply scan scanme.nmap.org
-```bash
-# from a server outside your own network:
-nmap --top-ports 1000 "your IP"
-# Any unneeded, open, port is a failure
-```
+**Want a tool that does it all for you?**
+These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
-# Want a tool that does it all for you?
-These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.  
 
+# Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
