@@ -17,7 +17,7 @@ tags:
 # What gets tested, gets done.
 TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
 
-If you want to start testing immediately, [register][create account] for a free trial of our testing software.
+If you want to start testing immediately, [download][create account] a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security.
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
@@ -44,12 +44,12 @@ There is another problem that might be even more striking in certain cases - sec
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 
-## Solution: test-driven security.
+## Solution: Test critical controls - often
 > What gets measured gets done —supposedly not Peter Drucker after all.
 
-**Start doing this:**  
-* Know **how** to test.
+**What we need to do is:**  
 * Know **what** to test.
+* Know **how** to test.
 * **Automate** testing.
 * Test often.
 
