@@ -31,8 +31,8 @@ Why are there breaches in companies that have great security tools, funding, and
 **We're compliant, not secure...**  
 It happens because being compliant simply means an auditor found you to have sufficient controls in place. Having the newest security tech simply means just that, having new security tech. And having people working on security means you got people. We have to get away from thinking this equals effective security controls. The truth is **we’re not prioritizing** controls which are effective and easy to implement. The good news is that it's easy to do something about.
 
-**Cyber security and news hype**  
-We spend lots of time and resources focusing on specific vulnerabilities which are reported in the news. The problem with this is that you can spend days fixing ONE vulnerability, or you can put in place the security control that mitigates the vulnerability + hundreds/thousands of other vulnerabilities. This happens all the time. We're playing whack-a-mole with vulnerabilities instead of putting in place simple security controls that handle vulnerabilities holistically.
+**We're caught up in the hype**  
+We spend lots of time and resources focusing on specific vulnerabilities which are reported in the news. The problem with this is that you can spend days fixing ONE vulnerability, or you can put in place the security control that mitigates the vulnerability + hundreds/thousands of other vulnerabilities. This happens all the time. We're playing whack-a-mole with vulnerabilities instead of putting in place simple security controls that handle vulnerabilities holistically. This exact same thing happens in terms of any hype - like shiny new security tools promising to solve our problems once and for all.
 
 **We're slow**  
 There is another problem that might be even more striking in certain cases - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
