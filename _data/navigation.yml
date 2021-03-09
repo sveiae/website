@@ -3,5 +3,5 @@ main:
     url: /pricing/
   - title: "about"
     url: /about/
-  # - title: "Blog"
-  #   url: /posts/
+  - title: "Blog"
+    url: /posts/

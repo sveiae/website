@@ -20,4 +20,4 @@ We enable our customers to see through security hype, fix relevant security issu
 
 # Why we do it
 People pay for expensive security solutions, such as firewalls, IDSes, and enterprise antivirus, without testing if these products help reduce risks to their business.  
-Our product makes it **easy to perform automated security monitoring and validation** to test whether their security solutions work, and are defending their businesses as promisted.
+Our product makes it **easy to perform automated security monitoring and validation** of critical security controls, to test whether their security solutions have critical gaps, or are defending their businesses as promisted.
