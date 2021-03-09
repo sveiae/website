@@ -14,12 +14,11 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-# Let's test our network security.
 TLDR: Testing your most important security controls is easy and incredibly important if you want to improve your security.
 
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
-## Test all things network security.
+# Let's test our network security.
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
@@ -36,11 +35,11 @@ All networks have unused security opportunities:
 * checking inbound ports from the Internet.
 * Test detection of a remote shell (IDS)
 
-## Testing time:
+# Testing time:
 ![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-### Connecting to botnets and known attack networks:
+**Connecting to botnets and known attack networks:**
 Difficulty: Easy  
 Automation: Easy
 Use the EDROP list from [Spamhaus](https://www.spamhaus.org/drop/), which "include netblocks controlled by spammers and cybercriminals". Scan a few of these networks to see if your traffic is able to route to networks that you should never be able to route to.
@@ -50,7 +49,7 @@ nmap --top-ports 5 "91.200.81.0/24" "208.12.64.0/19" "176.119.7.0/24"
 ```
 Then see what hosts you're able to connect to.
 
-### Resolving known malicious domains (DNS):
+**Resolving known malicious domains (DNS):**
 Difficulty: Easy
 Automation: Hard
 Get domain lists from [Urlhaus](https://urlhaus.abuse.ch/api/#retrieve), which has attacker domains that should not be resolved. Create a shortened list which is easier to iterate to. These domain lists change all the time so it makes no sense for me to recommend specific domains.  
@@ -60,7 +59,7 @@ for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
 ```
 Then see what domains are actually resolved.
 
-### Checking outbound ports to the Internet:
+**Checking outbound ports to the Internet:**
 Difficulty: Easy
 Automation: Easy
 Simply scan scanme.nmap.org
