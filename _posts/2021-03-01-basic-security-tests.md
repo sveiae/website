@@ -14,10 +14,10 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-# If attackers can do it, you should test it.
-TLDR: Get started using standard tests to get real metrics on how your security posture is doing, instead of reading up on hundreds of pages of compliance documents or worrying about the latest security news. 
+# Attackers test, you should too.
+TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
 
-If you just want to start testing, head over to [register][create account] for a free trial of our testing software.
+If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
 ## Problem: compliance- and-hype driven security.
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
@@ -37,8 +37,15 @@ We spend lots of time and resources focusing on specific vulnerabilities which a
 **We're slow**  
 There is another problem that might be even more striking in certain cases - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
 
+![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
+*Typical compliance- and hype-driven process*
+
 **Bad results over time**  
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
+
+
+## Solution: test-driven security.
+> What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
 
 **Start doing this:**  
 * Know **how** to test.
@@ -46,15 +53,8 @@ This, in turn, leads to a significant lag time in effective security controls im
 * **Automate** testing.
 * Test often.
 
-
-![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
-*Typical compliance- and hype-driven process*
-
-## Solution: test-driven security.
-> What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
-
 **Build, test, fix, repeat:**  
-The solution is to make something similar to test driven development; a security team chooses the most important/effective controls that must be passed, writes tests that verifies its effectiveness. Then whatever they fail on, they improve. Instead of slow and expensive iterations, we can get short and affordable iterations, with actionable feedback loops. Like below:
+Similar to test driven development; a security team chooses the most important/effective controls that must be passed, writes tests that verifies its effectiveness. Then whatever they fail on, they improve. Instead of slow and expensive iterations, we can get short and affordable iterations, with actionable feedback loops. Like below:
 
 ![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}  
 *Test driven security*
@@ -70,9 +70,7 @@ If at some point we have met all of these criteria, we could expand the scope to
 ![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-We're compiling more and more tests that you NEED to perform on your environment - whether it's for home office users, or in enterprise networks. 
-
-**List of all tests so far (more to come)**  
+**List of all tests our tool has (more to come):**  
 * connecting to known malware download sites.
 * connecting to botnets and known attack networks.
 * connecting to all the countries in the world (three are many I have no interest in connecting to).
