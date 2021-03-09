@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Breach and Attack Simlation"
+title: "Test critical security controls"
 layout: single
 ---
 <!-- Google analytics -->
@@ -12,7 +12,7 @@ layout: single
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-Find your ideal security configuration by testing it against simulated information security threats and attacks.
+Find your ideal security architecture by testing your security controls against simulated information security threats and attacks.
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
