@@ -45,7 +45,7 @@ This, in turn, leads to a significant lag time in effective security controls im
 
 
 ## Solution: test-driven security.
-> What doesn’t get measured doesn’t get done —supposedly not Peter Drucker after all.
+> What gets measured gets done —supposedly not Peter Drucker after all.
 
 **Start doing this:**  
 * Know **how** to test.
