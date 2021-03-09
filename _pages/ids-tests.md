@@ -1,5 +1,5 @@
 ---
-permalink: /html2/2018/inj-1_web/comm.html/
+permalink: /html2/2019/inj-12_1/gov.html
 title: "IDS tests"
 ---
 
