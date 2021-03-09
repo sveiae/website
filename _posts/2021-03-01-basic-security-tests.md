@@ -37,7 +37,7 @@ We spend lots of time and resources focusing on specific vulnerabilities which a
 **We're slow**  
 There is another problem that might be even more striking in certain cases - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management), and the feedback loop seems to rely on real failures and an occasional audit.
 
-**Bad results over time**
+**Bad results over time**  
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 **Start doing this:**  
