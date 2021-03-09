@@ -70,7 +70,7 @@ If at some point we have met all of these criteria, we could expand the scope to
 ![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-**List of all tests our tool has (more to come):**  
+**List of all tests (more to come):**  
 * connecting to known malware download sites.
 * connecting to botnets and known attack networks.
 * connecting to all the countries in the world (three are many I have no interest in connecting to).
