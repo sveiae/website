@@ -66,25 +66,6 @@ Similar to test driven development; a security team chooses the most important/e
 
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
 
-## Basic security test examples:
-![test all the security things](/assets/images/2021-03-01/test-all-the-things.png){:class="img-responsive"}  
-*Test. The. Important. Things.*
-
-**List of all tests (more to come):**  
-* connecting to known malware download sites.
-* connecting to botnets and known attack networks.
-* connecting to all the countries in the world (three are many I have no interest in connecting to).
-* resolving known malicious domains.
-* checking outbound ports to the Internet.
-* checking inbound ports from the Internet.
-* checking open ports and services inside my network.
-* check if VPN is running ‘split tunnel’ and bypassing a bunch of controls (important in these times).
-* checking if my antivirus actually detects malware.
-* ensuring security and event logs are generated and sent to my central server.
-* testing all kinds of traffic that the IDS should detect on, and see if the IDS analyst reacts to it.
-
-These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
-
 # Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
