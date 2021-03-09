@@ -20,7 +20,7 @@ If you want to start testing immediately, [register][create account] for a free 
 
 # Let's test our network security.
 ![compliance](/assets/images/2021-03-08/network.jpeg){:class="img-responsive"}  
-*NIST 800-53 anyone?*
+*securing connectivity between devices*
 
 **Leave no network behind!**  
 Almost all networks have unused security controls:
@@ -43,7 +43,7 @@ Almost all networks have unused security controls:
 
 **Connecting to botnets and known attack networks:**  
 Difficulty: Easy  
-Automation: Easy
+Automation: Easy  
 Use the EDROP list from [Spamhaus](https://www.spamhaus.org/drop/), which "include netblocks controlled by spammers and cybercriminals". Scan a few of these networks to see if your traffic is able to route to networks that you should never be able to route to.
 ```bash
 nmap --top-ports 5 "91.200.81.0/24" "208.12.64.0/19" "176.119.7.0/24"
@@ -52,8 +52,8 @@ nmap --top-ports 5 "91.200.81.0/24" "208.12.64.0/19" "176.119.7.0/24"
 Then see what hosts you're able to connect to.
 
 **Resolving known malicious domains (DNS):**  
-Difficulty: Easy
-Automation: Hard
+Difficulty: Easy  
+Automation: Hard  
 Get domain lists from [Urlhaus](https://urlhaus.abuse.ch/api/#retrieve), which has attacker domains that should not be resolved. Create a shortened list which is easier to iterate to. These domain lists change all the time so it makes no sense for me to recommend specific domains.  
 ```bash
 for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
@@ -62,8 +62,8 @@ for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
 Then see what domains are actually resolved.
 
 **Checking outbound ports to the Internet:**  
-Difficulty: Easy
-Automation: Easy
+Difficulty: Easy  
+Automation: Easy  
 Simply scan scanme.nmap.org
 ```bash
 nmap --top-ports 1000 scanme.nmap.org
