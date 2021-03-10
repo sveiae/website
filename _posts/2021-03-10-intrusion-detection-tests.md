@@ -37,7 +37,7 @@ If you want to start testing immediately, [register][create account] for a free 
 | shellcode             |quux                  | bar                    |     asdfds                |
 | C2C traffic           |                      |                        |     asdfds                |
 | browser attacks       |                      |                        |     asdfds                |
-|-----------------------+------------+-----------------+----------------|---------------------------|
+|-----------------------+----------------------+------------------------+---------------------------|
 {: .tablelines}
 
 
