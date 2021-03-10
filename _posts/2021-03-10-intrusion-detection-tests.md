@@ -31,7 +31,7 @@ If you want to start testing immediately, [register][create account] for a free 
 
 
 |                       |  Intrusion Detection | Intrusion Prevention   | Security Event Monitoring |
-|-----------------------|:---------------------|:-----------------------|:--------------------------|
+|-----------------------|----------------------|------------------------|---------------------------|
 | malware               |:heavy_check_mark:    | Third cell             | fourth cell               |
 | exploits              |foo                   | baz                    |     asdfds                |
 | shellcode             |quux                  | bar                    |     asdfds                |
