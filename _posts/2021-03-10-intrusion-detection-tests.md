@@ -14,19 +14,33 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-TLDR: Testing your most important security controls is easy and incredibly important if you want to improve your security.
+TLDR: Testing Network Detection and Monitoring controls is not easy, but is incredibly important if you want to improve your security beyond the very basics.
 
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
 # Example IDS/IPS + SIEM tests.
 ![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
-*NIST 800-53 anyone?*
+*Test your snort*
 
-**Leave no network behind!**  
-Almost all networks have unused security controls:
-* Home routers have firewall rules and can chose to use secure DNS servers.
-* Home firewalls have VLANs, URL filtering, and sometimes even Intrusion Detection/Prevention.
-* Enterprise firewalls can do deep packet inspection, SSL proxying, and other lot of other network monitoring.
+
+**Client-side tests:**
+|                       | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
+| :---                  |                 ---:    |                 ---:  |                     ---:  |
+| malware               |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
+| exploits              |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
+| shellcode             |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
+| C2C traffic           |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
+| browser attacks       |   :heavy_check_mark:    |                       |                           |
+
+**Server-side tests:**
+|                         | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
+| :---                    |                 ---:    |                 ---:  |                     ---:  |
+| web app attacks         |                         |                       |                           |
+| web app exploits        |                         |                       |                           |
+
+
+* Home: Open source or dedicated firewalls usually have an IDS and basic event monitoring
+* Enterprise IDSes and SIEMs firewalls can do deep packet inspection, SSL proxying, and other lot of other network monitoring.
 
 **What we'll be testing**  
 * connecting to botnets and known attack networks.
