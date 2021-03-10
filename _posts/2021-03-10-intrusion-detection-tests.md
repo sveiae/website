@@ -25,22 +25,19 @@ If you want to start testing immediately, [register][create account] for a free 
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
+        border: 1px gray;
         }
 </style>
 
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
+
+|                       |  Intrusion Detection | Intrusion Prevention   | Security Event Monitoring |
+|-----------------------|:---------------------|:-----------------------|:--------------------------|
+| malware               |:heavy_check_mark:    | Third cell             | fourth cell               |
+| exploits              |foo         | **strong**      | baz            |     asdfds                |
+| shellcode             |quux        | baz             | bar            |     asdfds                |
+| C2C traffic           |            |                 |                |     asdfds                |
+| browser attacks       |            |                 |                |     asdfds                |
+|-----------------------+------------+-----------------+----------------|---------------------------|
 {: .tablelines}
 
 
