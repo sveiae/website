@@ -23,39 +23,6 @@ If you want to start testing immediately, [register][create account] for a free 
 *Test your snort*
 
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px gray;
-        }
-</style>
-
-
-|                       |  **Intrusion Detection** | **Intrusion Prevention**   | **Security Event Monitoring** |
-| malware               |:heavy_check_mark:        | Third cell                 | fourth cell                   |
-| exploits              |foo                       | baz                        |     asdfds                    |
-| shellcode             |quux                      | bar                        |     asdfds                    |
-| C2C traffic           |                          |                            |     asdfds                    |
-| browser attacks       |                          |                            |     asdfds                    |
-{: .tablelines}
-
-
-
-**Client-side tests:**
-|                       | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
-| :---                  |                 ---:    |                 ---:  |                     ---:  |
-| malware               |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
-| exploits              |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
-| shellcode             |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
-| C2C traffic           |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
-| browser attacks       |   :heavy_check_mark:    |                       |                           |
-{: .tablelines}
-
-**Server-side tests:**
-|                         | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
-| :---                    |                 ---:    |                 ---:  |                     ---:  |
-| web app attacks         |                         |                       |                           |
-| web app exploits        |                         |                       |                           |
-{: .tablelines}
 
 * Home: Open source or dedicated firewalls usually have an IDS and basic event monitoring
 * Enterprise IDSes and SIEMs firewalls can do deep packet inspection, SSL proxying, and other lot of other network monitoring.
@@ -105,6 +72,22 @@ Then see which ports are open outbound to the Internet.
 
 **Want a tool that does it all for you?**
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
+
+Current capabilities for detection and monitoring  
+
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px gray;
+        }
+</style>
+
+|                       |  **Intrusion Detection** | **Intrusion Prevention**   | **Security Event Monitoring** |
+| malware               | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| exploits              | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| shellcode             | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| c2c traffic           | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| browser attacks       | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+{: .tablelines}
 
 
 # Create an account and start testing!  
