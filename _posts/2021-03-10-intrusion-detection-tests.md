@@ -74,7 +74,7 @@ Then see which ports are open outbound to the Internet.
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
 # Create an account and start testing!  
-Current tests for detection and monitoring:
+Available tests for intrusion detection, prevention, and monitoring controls:
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
@@ -86,8 +86,10 @@ Current tests for detection and monitoring:
 | exploits              | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
 | shellcode             | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
 | c2c traffic           | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
-| browser attacks       | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| browser attacks       | :heavy_check_mark:       | :heavy_check_mark:         |                               |
+| web app attacks       | :heavy_check_mark:       | :heavy_check_mark:         |                               |
 {: .tablelines}
+
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
