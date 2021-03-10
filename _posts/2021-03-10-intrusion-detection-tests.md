@@ -23,6 +23,13 @@ If you want to start testing immediately, [register][create account] for a free 
 *Test your snort*
 
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
+
 **Client-side tests:**
 |                       | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
 | :---                  |                 ---:    |                 ---:  |                     ---:  |
@@ -31,13 +38,14 @@ If you want to start testing immediately, [register][create account] for a free 
 | shellcode             |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
 | C2C traffic           |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
 | browser attacks       |   :heavy_check_mark:    |                       |                           |
+{: .tablelines}
 
 **Server-side tests:**
 |                         | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
 | :---                    |                 ---:    |                 ---:  |                     ---:  |
 | web app attacks         |                         |                       |                           |
 | web app exploits        |                         |                       |                           |
-
+{: .tablelines}
 
 * Home: Open source or dedicated firewalls usually have an IDS and basic event monitoring
 * Enterprise IDSes and SIEMs firewalls can do deep packet inspection, SSL proxying, and other lot of other network monitoring.
