@@ -29,8 +29,22 @@ If you want to start testing immediately, [register][create account] for a free 
         }
 </style>
 
+
+|                       |  Intrusion Detection | Intrusion Prevention   | Security Event Monitoring |
+|                       |                      |                        |                           |
+| malware               |:heavy_check_mark:    | Third cell             | fourth cell               |
+| exploits              |foo                   | baz                    |     asdfds                |
+| shellcode             |quux                  | bar                    |     asdfds                |
+| C2C traffic           |                      |                        |     asdfds                |
+| browser attacks       |                      |                        |     asdfds                |
+
+{: .tablelines}
+
+
+
 **Client-side tests:**
 |                       | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
+| :---                  |                 ---:    |                 ---:  |                     ---:  |
 | malware               |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
 | exploits              |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
 | shellcode             |   :heavy_check_mark:    |  :heavy_check_mark:   |                           |
@@ -40,6 +54,7 @@ If you want to start testing immediately, [register][create account] for a free 
 
 **Server-side tests:**
 |                         | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
+| :---                    |                 ---:    |                 ---:  |                     ---:  |
 | web app attacks         |                         |                       |                           |
 | web app exploits        |                         |                       |                           |
 {: .tablelines}
