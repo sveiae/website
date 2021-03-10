@@ -73,14 +73,14 @@ Then see which ports are open outbound to the Internet.
 **Want a tool that does it all for you?**
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
-Current capabilities for detection and monitoring  
+# Create an account and start testing!  
+Current tests for detection and monitoring:
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px gray;
         }
 </style>
-
 |                       |  **Intrusion Detection** | **Intrusion Prevention**   | **Security Event Monitoring** |
 | malware               | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
 | exploits              | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
@@ -89,8 +89,6 @@ Current capabilities for detection and monitoring
 | browser attacks       | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
 {: .tablelines}
 
-
-# Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
