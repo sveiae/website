@@ -29,6 +29,21 @@ If you want to start testing immediately, [register][create account] for a free 
         }
 </style>
 
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
+{: .tablelines}
+
+
 
 **Client-side tests:**
 |                       | Intrusion Detection     | Intrusion Prevention  | Security Event Monitoring |
