@@ -5,7 +5,7 @@ categories:
   - Blog
 tags:
   - Post Formats
-  # - readability
+  - readability
   - standard
   - link
 ---
@@ -14,7 +14,7 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-TLDR: Testing Network Detection and Monitoring controls isn't easy, but is incredibly important if you want to improve your security beyond the very basics.
+TLDR: Learn how to test network monitoring and detection to improve your security beyond the very basics.
 
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
@@ -33,34 +33,35 @@ We'll be testing basic aspects of our controls by:
 * Sending command-and-control traffic to a server we control on the Internet.
 * Sending a shell to a server we control on the Internet.
 * Sending exploit kit traffic to a server we control on the Internet.
-* Sending other indications of compromise type traffic.
 
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
 # Example IDS/IPS + SIEM tests.
 
-**Connecting to botnets and known attack networks:**  
-Use the EDROP list from [Spamhaus](https://www.spamhaus.org/drop/), which "include netblocks controlled by spammers and cybercriminals". Scan a few of these networks to see if your traffic is able to route to networks that you should never be able to route to.
+**Sending command-and-control traffic:**  
+Run command below:
 ```bash
-nmap --top-ports 5 "91.200.81.0/24" "208.12.64.0/19" "176.119.7.0/24"
-# scans networks on 5 most common ports.
+printf "GET /kU2QLsNB6TzexJv5vGdunVXT.php HTTP/1.1\r\n\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\r\nHost: 107.23.248.210\r\nAccept: */*\r\n\r\n" | nc -v 107.23.248.210 80
+# should create an IDS event alerting of a Microsoft Spyware called Strong Pity.
+# you will get a flag back which you can see if you actually are able to detect with deep packet inspection.
 ```
 Then see what hosts you're able to connect to.
 
-**Resolving known malicious domains (DNS):**  
-Get domain lists from [Urlhaus](https://urlhaus.abuse.ch/api/#retrieve), which has attacker domains that should not be resolved. Create a shortened list which is easier to iterate to. These domain lists change all the time so it makes no sense for me to recommend specific domains.  
+**Sending shell to a server:**  
+Run command below:
 ```bash
-for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
+to be continued...
 # iterate through list of evil domains, trying to resolve them.
 ```
 Then see what domains are actually resolved.
 
-**Checking outbound ports to the Internet:**  
-Simply scan scanme.nmap.org
+**Sending exploit kit traffic**  
+Run command below:
 ```bash
-nmap --top-ports 1000 scanme.nmap.org
-# Testing top 1000 ports for outbound connections.
+printf "GET /a.php?e=2884 HTTP/1.1\r\n\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\r\nHost: 107.23.248.210\r\nAccept: */*\r\n\r\n" | nc -v 107.23.248.210 80
+# should create an IDS event alerting of a Teletubbies Adobe Flash exploit indication.
+# you will get a flag back which you can see if you actually are able to detect with deep 
 ```
 Then see which ports are open outbound to the Internet.
 
