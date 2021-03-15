@@ -14,16 +14,17 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-TLDR: Testing Network Detection and Monitoring controls is not easy, but is incredibly important if you want to improve your security beyond the very basics.
+TLDR: Testing Network Detection and Monitoring controls isn't easy, but is incredibly important if you want to improve your security beyond the very basics.
 
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
-# Example IDS/IPS + SIEM tests.
+# Testing detection and monitoring controls.
 ![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
 *Test your snort*
 
 
-
+**Leave no IDS or CERT team behind!**  
+Many business networks run appliances with unused or underutilized IDSes and SIEMs:
 * Home: Open source or dedicated firewalls usually have an IDS and basic event monitoring
 * Enterprise IDSes and SIEMs firewalls can do deep packet inspection, SSL proxying, and other lot of other network monitoring.
 
@@ -38,7 +39,7 @@ If you want to start testing immediately, [register][create account] for a free 
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-# Testing time.
+# Example IDS/IPS + SIEM tests..
 
 **Connecting to botnets and known attack networks:**  
 Difficulty: Easy  
