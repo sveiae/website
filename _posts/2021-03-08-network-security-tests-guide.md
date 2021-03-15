@@ -1,5 +1,5 @@
 ---
-title: "Critical Security Tests Part 1: Network Security Tests"
+title: "Critical Security Tests Part 1: Network Security Tests Guide"
 last_modified_at: 2021-03-09T16:52:02-05:00
 categories:
   - Blog
