@@ -76,8 +76,8 @@ nmap --top-ports 1000 "your IP"
 # Any unneeded, open, port is a failure.
 ```
 
-## Want a tool that does it all for you?
-These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.  
+## Create an account and start testing!  
+Available tests for routers and firewalls:
 
 <style>
 .tablelines table, .tablelines td, .tablelines th {
