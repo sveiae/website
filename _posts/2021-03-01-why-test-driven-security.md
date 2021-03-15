@@ -20,7 +20,7 @@ TLDR: Get control of your security. Jump into improving your security posture by
 
 If you want to start testing immediately, [download][create account] a free trial of our testing software.
 
-# Problem: compliance- and-hype driven security.
+# Compliance- and-hype driven security.
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
@@ -45,7 +45,7 @@ There is another problem that might be even more striking in certain cases - sec
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 
-# Solution: Test critical controls - often
+## Solution: Test critical controls - often
 > What gets measured gets done —supposedly not Peter Drucker after all.
 
 **What we need to do is:**  
@@ -67,7 +67,7 @@ Similar to test driven development; a security team chooses the most important/e
 
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
 
-# Create an account and start testing!  
+## Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({

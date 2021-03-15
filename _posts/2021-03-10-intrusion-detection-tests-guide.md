@@ -38,7 +38,7 @@ We'll be testing basic aspects of our controls by:
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-# Example IDS/IPS + SIEM tests.
+## Example IDS/IPS + SIEM tests.
 
 **Sending command-and-control traffic:**  
 Run command below:
@@ -69,7 +69,7 @@ Then see which ports are open outbound to the Internet.
 **Want a tool that does it all for you?**
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
-# Create an account and start testing!  
+## Create an account and start testing!  
 Available tests for intrusion detection, prevention, and monitoring controls:
 
 <style>

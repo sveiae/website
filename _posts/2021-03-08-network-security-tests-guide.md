@@ -42,7 +42,7 @@ We'll be testing basic aspects of our controls by:
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
 
-# Example Network Security tests.
+## Example Network Security tests.
 
 **Connect to botnets and known attack networks:**  
 Use the EDROP list from [Spamhaus](https://www.spamhaus.org/drop/), which "include netblocks controlled by spammers and cybercriminals". Scan a few of these networks to see if your traffic is able to route to networks that you should never be able to route to.
@@ -76,8 +76,21 @@ nmap --top-ports 1000 "your IP"
 # Any unneeded, open, port is a failure.
 ```
 
-# Want a tool that does it all for you?
+## Want a tool that does it all for you?
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.  
+
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px gray;
+        }
+</style>
+|                       |  **Home Routers** | **SMB Firewalls**   | **Enterprise Firewalls** |
+| malware websites      |                          | :heavy_check_mark:         | :heavy_check_mark:            |
+| attack networks       |                          | :heavy_check_mark:         | :heavy_check_mark:            |
+| ports and protocols   | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| malicious dns         | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
+| network flows analysis|                          |                            | :heavy_check_mark:            |
+{: .tablelines}
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
