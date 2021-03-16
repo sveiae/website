@@ -14,7 +14,6 @@ tags:
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
-.center-image {margin: 0 auto;display: block;}
 
 **What gets tested, gets done.**  
 TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
@@ -22,7 +21,7 @@ TLDR: Get control of your security. Jump into improving your security posture by
 If you want to start testing immediately, [download][create account] a free trial of our testing software.
 
 # Compliance- and-hype driven security.
-![compliance](/assets/images/2021-03-01/paper-stack.jpeg){: .center-image .img-responsive}  
+![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
 **Data breaches everywhere**  
