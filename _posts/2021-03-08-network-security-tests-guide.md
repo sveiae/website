@@ -84,12 +84,12 @@ Available tests for routers and firewalls:
         border: 1px gray;
         }
 </style>
-|                       |  **Home Routers** | **SMB Firewalls**   | **Enterprise Firewalls** |
-| malware websites      |                          | :heavy_check_mark:         | :heavy_check_mark:            |
-| attack networks       |                          | :heavy_check_mark:         | :heavy_check_mark:            |
-| ports and protocols   | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
-| malicious dns         | :heavy_check_mark:       | :heavy_check_mark:         | :heavy_check_mark:            |
-| network flows analysis|                          |                            | :heavy_check_mark:            |
+|                       |  **Secure Routing and DNS** | **URL Filtering**   | **Port filtering**  |   **Network Monitoring**
+| malware websites      |                             | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  |
+| attack networks       | :heavy_check_mark:          | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  |
+| ports and protocols   | :heavy_check_mark:          |                     | :heavy_check_mark:  | :heavy_check_mark:  |
+| malicious dns         | :heavy_check_mark:          |                     | :heavy_check_mark:  | :heavy_check_mark:  |
+| c2c traffic           |                             |                     | :heavy_check_mark:  | :heavy_check_mark:  |
 {: .tablelines}
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
