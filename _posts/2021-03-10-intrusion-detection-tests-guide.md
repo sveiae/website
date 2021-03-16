@@ -69,7 +69,7 @@ Then see which ports are open outbound to the Internet.
 **Want a tool that does it all for you?**
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
-## Create an account and start testing!  
+## Create an account and to use our test app!  
 Available tests for intrusion detection, prevention, and monitoring controls:
 
 <style>

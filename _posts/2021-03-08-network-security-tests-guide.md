@@ -76,7 +76,7 @@ nmap --top-ports 1000 "your IP"
 # Any unneeded, open, port is a failure.
 ```
 
-## Create an account and start testing!  
+## Create an account and to use our test app!  
 Available tests for routers and firewalls:
 
 <style>
