@@ -37,7 +37,7 @@ title: "Pricing"
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
-# Create an account and start testing!
+## Create an account and start testing!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>

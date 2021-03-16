@@ -26,7 +26,7 @@ Find your ideal security architecture by testing your security controls against 
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
-# Look beyond your Internet gateway.
+## Look beyond your Internet gateway.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
   * Holistic attack surface.
@@ -37,7 +37,7 @@ Find your ideal security architecture by testing your security controls against 
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
-# Don't guess or trust. Test.
+## Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
 * Test:
   * Firewalls
@@ -50,7 +50,7 @@ Find your ideal security architecture by testing your security controls against 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
-# Create an account and start testing!
+## Create an account and start testing!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
