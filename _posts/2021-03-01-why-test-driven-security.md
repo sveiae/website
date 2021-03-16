@@ -21,7 +21,7 @@ TLDR: Get control of your security. Jump into improving your security posture by
 If you want to start testing immediately, [download][create account] a free trial of our testing software.
 
 # Compliance- and-hype driven security.
-![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
+![compliance](/assets/images/2021-03-01/paper-stack.jpeg){: .center-image .img-responsive}  
 *NIST 800-53 anyone?*
 
 **Data breaches everywhere**  
