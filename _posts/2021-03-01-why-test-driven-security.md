@@ -22,7 +22,7 @@ The current state we're in is that information security professionals know --tha
 
 We know that we don't know. So the path forward is to **find ways to learn, in order to obtain security clarity**.
 
-## We're effective when we have clarity into security gaps
+## We're effective when we have clarity on our security gaps
 The times when we learn of a significant security gap, we are able to put resources into fixing the problem. IT organizations, which usually are fairly stagnant, summon the troops, poor in resources, and quickly fix problems to reduce risk. Unfortunately this usually happens when news break about some exploitable vulnerability, after a annual penetration test, or when the organization fails a compliance requirement.
 
 The main problem with this type of learning, is that it is reactive and gives us knowledge that often times is irrelevant to us, which results in a slow progression towards clarity. We need to **find ways to learn about relevant information security gaps faster, in order to obtain security clarity faster**.
