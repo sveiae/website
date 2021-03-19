@@ -17,7 +17,7 @@ tags:
 
 Have you ever asked yourself if your security investments actually would be able to fend off cyber attack? You probably have, especially if you're in IT or in any kind of leadership position. As a security architect, I found myself asking this question over many years. I also asked others the same question. What I realized was that people had the same type of answer - "I hope so" or "I think so". Usually the answer was followed up with "I wish I knew". 
 
-# Getting security clarity
+# Getting clarity on security
 The current state we're in is that information security professionals know --that they don't know-- how secure their own systems are, and [feel I'll equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx). This extends to how [private citizens'](https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/) view companies' ability to manage security. There is little confidence accross the board.
 
 We know that we don't know. So the path forward is to **find ways to learn, in order to obtain security clarity**.
@@ -33,7 +33,7 @@ If you accept this argument, it means we'll be more effective the more clarity w
 TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news. -->
 
 
-# Obstacles to security clarity
+# Obstacles to clarity on security
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
@@ -61,7 +61,7 @@ This, in turn, leads to a significant lag time in effective security controls im
 # Solution: Test critical security controls - often
 > What gets measured gets done —supposedly not Peter Drucker after all.
 
-What we need to gain clarity, quickly, is to perform tests, and get immediate feedback, on the state of our most important security controls. This is a much better way than dreaming up ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
+What we need in order to gain clarity, quickly, is to perform tests, and get immediate feedback, on the state of our most important security controls. This is a much better way than dreaming up ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
 
 **What we need to do is:**  
 * Know **what is critical** to test.
