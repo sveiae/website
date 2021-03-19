@@ -15,7 +15,7 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-Have you ever asked yourself if all your work and investments in security would be able to fend off cyber attack? You probably have, especially if you're in IT or in a leadership position. As a security professional, I found myself asking this question over many years. I also asked others the same question. What I realized was that people had the same type of answer to the above question - "I hope so" or "I think so". Usually the answer was followed up with "I wish I knew". 
+Have you ever asked yourself if all your work and investments in security would be able to fend off cyber attack? You probably have, especially if you're in IT or in a leadership position. As a security professional, I found myself asking this question over many years. I also asked others the same question. What I realized was that people had the same type of answer - "I hope so" or "I think so". Usually the answer was followed up with "I wish I knew". 
 
 # Getting clarity on security
 The current state we're in is that information security professionals know --that they don't know-- how secure their own systems are, and [feel I'll equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx). This extends to how [private citizens'](https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/) view companies' ability to manage security. There is little confidence accross the board.
