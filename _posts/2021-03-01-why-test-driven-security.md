@@ -84,6 +84,10 @@ Similar to test driven development; a security team chooses the most important/e
 
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
 
+If you like this article, please share using the buttons below!
+
+Thanks!
+
 ## Create an account and to use our test app!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
