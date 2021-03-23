@@ -17,7 +17,7 @@ tags:
 
 Have you ever asked yourself if all your hard work and investments in security will pay off in stopping a cyber attack? You probably have, especially if you're in IT or in a leadership position. As a security professional for many years, I found myself asking this question a lot. I also asked others the same question. The answers I got was usually "I hope so" or "I think so". Usually the answer was followed up with "I wish I knew". 
 
-# Lack of clarity
+# The need to know
 The current state we're in is that information security professionals know --that they don't know-- how secure their own systems are, and [feel I'll equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx). This extends to how [private citizens'](https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/) view companies' ability to manage security. There is little confidence accross the board.
 
 A lack of confidence is the product of us not knowing if the security we've invested in works or not. The proven way to improve this situation is to **test whether what we're doing works, or if we need to change something**, before we can have confidence in our security. This line of thinking ties into the methodology of failing fast.
@@ -35,7 +35,7 @@ If you accept this argument, it means we'll have very **effective security effor
 TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news. -->
 
 
-# Obstacles to clarity on security
+<!-- # Obstacles to clarity on security
 Let's go over the main reasons why our attention isn't geared towards doing this in the first place...
 
 ![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
@@ -59,9 +59,9 @@ There is another problem that might be even more striking in certain cases - sec
 *Typical compliance- and hype-driven process*
 
 ## Bad results over time
-This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
+This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations. -->
 
-# Solution: Test critical security controls - often
+# Solution: Test Driven Security
 > What gets measured gets done —supposedly not Peter Drucker after all.
 
 What we need in order to gain clarity, quickly, is to perform tests, and get immediate feedback. This is a much better way than dreaming up ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
