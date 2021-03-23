@@ -13,7 +13,7 @@ title: "Pricing"
 
 {% capture notice-3 %}
 # Home: Free
-* Test Outbound rules for Firewalls, Routers, Web Gateways, and more.
+* Test Outbound rules for Firewalls, Routers, and more.
 * Grading against industry peers.
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
