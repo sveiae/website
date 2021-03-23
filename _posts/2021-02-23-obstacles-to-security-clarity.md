@@ -15,6 +15,8 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
+![compliance](/assets/images/2021-02-23/featureimage.jpg){:class="img-responsive"}  
+
 If you're wondering why your security efforts don't seem to pay off that much in terms of actually securing your system, you're not alone. Security professionals, and company leaderships, [feel ill equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx), and have been feeling this way for a long time. 
 
 <!-- ## Data breaches everywhere -->
@@ -27,7 +29,7 @@ This post will point out many of the hinders to effective cyber security, while 
 # Sources of confusion
 Let's go over the main reasons why our attention isn't geared towards solving the basics of information security.
 
-![compliance](/assets/images/2021-03-01/paper-stack.jpeg){:class="img-responsive"}  
+![compliance](/assets/images/2021-02-23/paper-stack.jpg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
 
 ## 1. We're compliant, not secure
