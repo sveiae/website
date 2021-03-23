@@ -12,8 +12,7 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture notice-3 %}
-# Free
-* All beta-testing functionality
+# Home
 * Test Outbound rules for Firewalls, Routers, Web Gateways, and more.
 * Grading against industry peers.
 {% endcapture %}
