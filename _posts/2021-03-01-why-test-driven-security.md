@@ -15,6 +15,8 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
+![test driven security](/assets/images/2021-03-01/featureimage.jpg){:class="img-responsive"}  
+
 Have you ever asked yourself if all your hard work and investments in security will pay off in stopping a cyber attack? You probably have, especially if you're in IT or in a leadership position. As a security professional for many years, I found myself asking this question a lot. I also asked others the same question. The answers I got was usually "I hope so" or "I think so". Usually the answer was followed up with "I wish I knew". 
 
 # The need to know
