@@ -46,7 +46,7 @@ There is another problem that might be even more striking in certain cases - sec
 This, in turn, leads to a significant lag time in effective security controls implementations — from small business to large enterprises and government organizations.
 
 # Solution: Test Driven Security
-The solution is to test important security controls as quickly and often as possible. This is what's referred to as test driven security. If you're interested in learning more, read on the method of [test driven security](/_posts/2021-03-01-why-test-driven-security.md), or check out posts on how to actually do the testing, starting with [network tests]({% _posts/2021-03-08-network-security-tests-guide)
+The solution is to test important security controls as quickly and often as possible. This is what's referred to as test driven security. If you're interested in learning more, read on the method of [test driven security](2021-03-01-why-test-driven-security.md), or check out posts on how to actually do the testing, starting with [network tests](2021-03-08-network-security-tests-guide.md)
 
 ![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}  
 *Test driven security*
