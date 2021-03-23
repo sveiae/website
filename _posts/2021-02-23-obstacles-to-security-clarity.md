@@ -13,7 +13,7 @@ tags:
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
-{% include leadfeederAnalytics.html %}
+<!-- {% include leadfeederAnalytics.html %} -->
 
 ![compliance](/assets/images/2021-02-23/featureimage.jpg){:class="img-responsive"}  
 
