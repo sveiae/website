@@ -16,7 +16,6 @@ tags:
 {% include leadfeederAnalytics.html %}
 
 ![compliance](/assets/images/2021-03-10/featureimage.jpg){:class="img-responsive"}  
-*Test your snort*
 
 TLDR: Learn how to test network monitoring and detection to improve your security beyond the very basics.
 
