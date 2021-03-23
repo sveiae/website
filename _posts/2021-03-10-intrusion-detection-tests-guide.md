@@ -22,8 +22,8 @@ TLDR: Learn how to test network monitoring and detection to improve your securit
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
 # Testing detection and monitoring controls.
-<!-- ![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
-*Test your snort* -->
+![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
+*Test your snort*
 
 
 **Controls**  

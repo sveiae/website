@@ -22,8 +22,8 @@ TLDR: Learn how to test basic network security controls to ensure you got the ba
 If you want to start testing immediately, [register][create account] for a free trial of our testing software.
 
 # Testing network security.
-<!-- ![compliance](/assets/images/2021-03-08/network.jpeg){:class="img-responsive"}  
-*securing connectivity between devices* -->
+![compliance](/assets/images/2021-03-08/network.jpg){:class="img-responsive"}  
+*securing connectivity between devices*
 
 **Controls**  
 Almost all networks have unused security controls:

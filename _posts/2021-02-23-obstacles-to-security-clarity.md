@@ -27,10 +27,10 @@ Year after year, we see data breaches in companies with plenty of information se
 This post will point out many of the hinders to effective cyber security, while outlining the remedy for some of the pains associated with securing an organization's IT systems.
 
 # Sources of confusion
-Let's go over the main reasons why our attention isn't geared towards solving the basics of information security.
-
 ![compliance](/assets/images/2021-02-23/paper-stack.jpg){:class="img-responsive"}  
 *NIST 800-53 anyone?*
+
+Let's go over the main reasons why our attention isn't geared towards solving the basics of information security.
 
 ## 1. We're compliant, not secure
 Being compliant simply means auditors found you to have sufficient controls in place. In practice, this means that someone, with *even less* understanding of your systems than the security team, tries to figure out if it is secure. For the most part, this becomes an exercise in creating paperwork which says "we do this, and we do that". At the end the auditor will usually give their blessing, along with a list of things to improve. 
