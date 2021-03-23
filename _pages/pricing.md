@@ -12,7 +12,7 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture notice-3 %}
-# Home
+# Home: Free
 * Test Outbound rules for Firewalls, Routers, Web Gateways, and more.
 * Grading against industry peers.
 {% endcapture %}
