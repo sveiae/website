@@ -51,14 +51,6 @@ printf "GET /kU2QLsNB6TzexJv5vGdunVXT.php HTTP/1.1\r\n\r\nUser-Agent: Mozilla/5.
 ```
 Then see what hosts you're able to connect to.
 
-**Sending shell to a server:**  
-Run command below:
-```bash
-to be continued...
-# iterate through list of evil domains, trying to resolve them.
-```
-Then see what domains are actually resolved.
-
 **Sending exploit kit traffic**  
 Run command below:
 ```bash
