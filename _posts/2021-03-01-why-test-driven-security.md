@@ -88,7 +88,7 @@ If you like this article, please share using the buttons below!
 
 Thanks!
 
-## Create an account and to use our test app!  
+## Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({

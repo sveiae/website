@@ -39,7 +39,7 @@ We spend lots of time and resources focusing on specific vulnerabilities which a
 ## 3. We're slow
 There is another problem that might be even more striking in certain cases - security teams work like development teams worked 10 years ago: slow iterations, very little testing (except for patch management). And the feedback loop relies on real failures and an occasional audit.
 
-![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive" caption="caption for image"}  
+![compliance and hype driven process](/assets/images/2021-03-01/static-security.png){:class="img-responsive"}  
 *Typical compliance- and hype-driven process*
 
 ## Bad results over time
@@ -55,7 +55,7 @@ If you like this article, please share using the buttons below!
 
 Thanks!
 
-## Create an account and to use our test app!  
+## Create an account and start testing!  
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
