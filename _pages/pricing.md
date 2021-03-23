@@ -22,7 +22,7 @@ title: "Pricing"
 # Pro: 500 per month
 * All free functionality
 * Outbound threats and attack simulation.
-* Test rules for IDSes, SIEMs, and more.
+* Test rules for IDSes, SIEMs, Web gateways, and more.
 {% endcapture %}
 <div class="notice">{{ notice-3 | markdownify }}</div>
 
