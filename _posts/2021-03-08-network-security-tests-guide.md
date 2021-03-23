@@ -15,7 +15,7 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-![feature image](/assets/images/featureImage.jpg){:class="img-responsive"}  
+![feature image](/assets/images/2021-03-08/featureImage.jpg){:class="img-responsive"}  
 
 TLDR: Learn how to test basic network security controls to ensure you got the basics down when it comes to nework security.
 
