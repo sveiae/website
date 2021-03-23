@@ -15,7 +15,7 @@ tags:
 <!-- leadfeeder analytics -->
 {% include leadfeederAnalytics.html %}
 
-If you're wondering why your security efforts don't seem to pay off that much in terms of actually securing your system, you're not alone. Security professionals, and company leaderships, [feel ill equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx), and have been thinking this for a long time. 
+If you're wondering why your security efforts don't seem to pay off that much in terms of actually securing your system, you're not alone. Security professionals, and company leaderships, [feel ill equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx), and have been feeling this way for a long time. 
 
 <!-- ## Data breaches everywhere -->
 Year after year, we see data breaches in companies with plenty of information security funding. It's not a secret that **well-funded security teams also have a hard time implementing effective security controls, and an even harder time doing effective security testing** of said controls. Even when these controls have been known for a very long time and are fairly easy to implement. Teams lacking funding are usually doing even worse. Too many times simple controls are failing - like managing what outbound ports are allowed, tuning the IDS to detecting obvious hacking, or even ensuring the antivirus is turned 'ON'. Furthermore security teams are surprised when they learn they fail such simple security controls. On the other hand, many of these same organizations don't have any problems passing a security audit.
