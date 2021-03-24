@@ -65,7 +65,7 @@ for i in $(cat short-list-of-urlhaus-domains.txt) | do host $i; done
 **Check outbound ports to the Internet:**  
 Simply scan scanme.nmap.org.
 ```bash
-nmap --top-ports 1000 scanme.nmap.org
+nmap -p1-65535 scanme.nmap.org
 # Testing top 1000 ports for outbound connections.
 # Any unneeded, open, port is a failure.
 ```
@@ -74,7 +74,7 @@ nmap --top-ports 1000 scanme.nmap.org
 Simply scan scanme.nmap.org from a cloud host.
 ```bash
 # from a server outside your own network:
-nmap --top-ports 1000 "your IP"
+nmap -p1-65535 "your routable IP"
 # Any unneeded, open, port is a failure.
 ```
 
