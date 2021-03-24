@@ -19,7 +19,7 @@ tags:
 
 TLDR: Learn how to test network monitoring and detection to improve your security beyond the very basics.
 
-If you want to start testing immediately, [register][create account] for a free trial of our testing software.
+If you don't want to spend time writing your own tests, just download our app instead. [Register][create account] for a free trial of our testing software.
 
 # Testing detection and monitoring controls.
 ![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
@@ -63,7 +63,7 @@ Then see which ports are open outbound to the Internet.
 **Want a tool that does it all for you?**
 These tests need to be done securely. If you're unsure, or don't have the time to compile your own tests, register to use our tool below.
 
-## Create an account and start testing!  
+## Want more tests? Register below! 
 Available tests for intrusion detection, prevention, and monitoring controls:
 
 <style>

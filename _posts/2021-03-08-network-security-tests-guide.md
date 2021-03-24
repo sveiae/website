@@ -19,7 +19,7 @@ tags:
 
 TLDR: Learn how to test basic network security controls to ensure you got the basics down when it comes to nework security.
 
-If you want to start testing immediately, [register][create account] for a free trial of our testing software.
+If you don't want to spend time writing your own tests, just download our app instead. [Register][create account] for a free trial of our testing software.
 
 # Testing network security.
 ![compliance](/assets/images/2021-03-08/network.jpg){:class="img-responsive"}  
@@ -78,7 +78,7 @@ nmap --top-ports 1000 "your IP"
 # Any unneeded, open, port is a failure.
 ```
 
-## Create an account and start testing!  
+## Want more tests? Register below!  
 Available tests for routers and firewalls:
 
 <style>
