@@ -22,16 +22,14 @@ Have you ever asked yourself if all your hard work and investments in security w
 # The need to know
 The current state we're in is that information security professionals know --that they don't know-- how secure their own systems are, and [feel I'll equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx). This extends to how [private citizens'](https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/) view companies' ability to manage security. There is little confidence accross the board.
 
-A lack of confidence is the product of us not knowing if the security we've invested in works or not. The proven way to improve this situation is to **test whether what we're doing works, or if we need to change something**, before we can have confidence in our security. This line of thinking ties into the methodology of failing fast.
+The proven way to get more confidence is to **test whether what we're doing works, or if we need to improve on something**. This line of thinking ties into the methodology of failing fast.
 
-It's like most other things in life - such as sports, personal health, dating: You need to test to know.
+It's like most other things in life - such as sports, personal health, and dating: You need to test to know.
 
 ## We're effective when we have clarity on our security gaps
-The times when we learn of a significant security gap, we are able to put resources into fixing the problem: IT organizations, which usually are fairly stagnant, summon the troops, poor in resources, and quickly fix problems to reduce risk. Unfortunately this usually happens when news break about some exploitable vulnerability, after a annual penetration test, or when the organization fails a compliance requirement.
+The times we understand we have a significant security gap, we are able to put resources into fixing the problem: IT organizations, which usually are fairly stagnant, summon the troops, poor in resources, and quickly fix problems to reduce risk. Unfortunately this usually happens when news break about some exploitable vulnerability, after a annual penetration test, or when the organization fails a compliance requirement.
 
-The main problem with this type of learning is that it is reactive, while often misleading us with things that are irrelevant (just like the newest dieting fad), which results in a slow progression towards clarity. We need to **find ways to learn about what is relevant to us, and to do it as fast as possible.**
-
-If you accept this argument, it means we'll have very **effective security efforts** when we quickly test, and measure, what's relevant to our security posture. 
+The main problem with this type of learning is that it is reactive and unstructured. In addition, the information we get is sometimes  irrelevant and over emphasized relative to other gaps, which results in a slow progression towards clarity. We need to find ways to learn about what is relevant to us, and to do it as fast as possible. This can be achieved through **methodic testing of relevant security controls and then analyzing the results.**
 
 <!-- It's easy to sit and dream up ideal architectures
 TLDR: Get control of your security. Jump into improving your security posture by seeing which important security controls you fail. This gives you immediate feedback on what you need to improve on, instead of going through the process of "dreaming up" ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news. -->
@@ -66,9 +64,9 @@ This, in turn, leads to a significant lag time in effective security controls im
 # Solution: Test Driven Security
 > What gets measured gets done —supposedly not Peter Drucker after all.
 
-What we need in order to gain clarity, quickly, is to perform tests, and get immediate feedback. This is a much better way than dreaming up ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
+What we need in order to gain clarity, quickly, is to perform tests, and get quick and actionable feedback. This is a much better way than dreaming up ideal architectures, being overwhelmed by hundreds of pages of compliance documents, or worrying about the latest security news.
 
-**What we need to do is:**  
+**Testing requirements:**  
 * Know what is critical to test.
 * Know how to test.
 * Test often.
@@ -81,10 +79,10 @@ Similar to test driven development; a security team chooses the most important/e
 
 **Security controls requirements:**  
 * Effective.
-* Easy to implement.
+* Easy(ish) to implement.
 * Measurable.
 
-If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to be measurable however.
+If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to implement the controls in such a way that they can be measured.
 
 If you like this article, please share using the buttons below!
 
