@@ -23,7 +23,7 @@ Find your ideal security architecture by testing your security controls against 
 * Increase ROI on your security tools.
 * Zero deployment time. Run our application and test.  
 {% endcapture %}
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
 ## Look beyond your Internet gateway.
@@ -34,7 +34,7 @@ Find your ideal security architecture by testing your security controls against 
   * Local network attack surfaces.
   * Security compliance and best practice of Internet facing web services.  
 {% endcapture %}
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 {% capture notice-2 %}
 ## Don't guess or trust. Test.
@@ -48,7 +48,7 @@ Find your ideal security architecture by testing your security controls against 
   * Traffic Filtering
   * Core Network Services  
 {% endcapture %}
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
+<div class="notice">{{ notice-2 | markdownify }}</div>
 
 ## Create an account and start testing!
 
