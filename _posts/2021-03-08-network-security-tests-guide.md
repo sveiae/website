@@ -104,4 +104,4 @@ Available tests for routers and firewalls:
 
 
 
-[create account]: #create-an-account-and-start-testing
+[create account]: https://www.securiful.com/blog/network-security-tests-guide/#want-more-tests-register-below
