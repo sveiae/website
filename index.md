@@ -50,6 +50,25 @@ Find your ideal security architecture by testing your security controls against 
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
 
+{% capture pro %}
+# Pro: 349 per month
+* Grading against industry peers.
+* Test Outbound rules for Firewalls, Routers, and more.
+* Outbound threats and attack simulation.
+* Test rules for IDSes, SIEMs, Web gateways, and more.
+{% endcapture %}
+<div class="notice--info">{{ pro | markdownify }}</div>
+
+{% capture visionary %}
+# Visionary:  $799 per month
+* Free version features.
+* Server-side threats and attack simulation.
+* Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.
+* Holistic attack surface assessment.
+* Automatically inherit newly developed tests.
+{% endcapture %}
+<div class="notice--info">{{ visionary | markdownify }}</div>
+
 ## Create an account and start testing!
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>

@@ -11,23 +11,17 @@ title: "Pricing"
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-{% capture home %}
-# Home: Free
-* Test Outbound rules for Firewalls, Routers, and more.
-* Grading against industry peers.
-{% endcapture %}
-<div class="notice--info">{{ home | markdownify }}</div>
-
 {% capture pro %}
-# Pro: 500 per month
-* All free functionality
+# Pro: 349 per month
+* Grading against industry peers.
+* Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
 * Test rules for IDSes, SIEMs, Web gateways, and more.
 {% endcapture %}
 <div class="notice--info">{{ pro | markdownify }}</div>
 
 {% capture visionary %}
-# Visionary:  $1000 per month
+# Visionary:  $799 per month
 * Free version features.
 * Server-side threats and attack simulation.
 * Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.

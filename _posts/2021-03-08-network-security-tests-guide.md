@@ -19,7 +19,7 @@ tags:
 
 TLDR: Learn how to test basic network security controls to ensure you got the basics down when it comes to nework security.
 
-If you don't want to spend time writing your own tests, just download our app instead. [Register][create account] for a free trial of our testing software.
+If you don't want to spend time writing your own tests, just download our app instead. [Register](https://www.securiful.com/pricing/) for a free trial of our testing software.
 
 # Testing network security.
 ![compliance](/assets/images/2021-03-08/network.jpg){:class="img-responsive"}  

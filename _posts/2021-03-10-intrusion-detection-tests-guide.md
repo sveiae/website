@@ -19,7 +19,7 @@ tags:
 
 TLDR: Learn how to test network monitoring and detection to improve your security beyond the very basics.
 
-If you don't want to spend time writing your own tests, just download our app instead. [Register][create account] for a free trial of our testing software.
+If you don't want to spend time writing your own tests, just download our app instead. [Register](https://www.securiful.com/pricing/) for a free trial of our testing software.
 
 # Testing detection and monitoring controls.
 ![compliance](/assets/images/2021-03-10/snort-ids.jpeg){:class="img-responsive"}  
@@ -88,7 +88,3 @@ Available tests for intrusion detection, prevention, and monitoring controls:
 	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
 });
 </script>
-
-
-
-[create account]: #want-more-tests-register-below
