@@ -11,22 +11,22 @@ title: "Pricing"
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-{% capture notice-3 %}
+{% capture home %}
 # Home: Free
 * Test Outbound rules for Firewalls, Routers, and more.
 * Grading against industry peers.
 {% endcapture %}
-<div class="notice">{{ notice-3 | markdownify }}</div>
+<div class="notice--info">{{ home | markdownify }}</div>
 
-{% capture notice-3 %}
+{% capture pro %}
 # Pro: 500 per month
 * All free functionality
 * Outbound threats and attack simulation.
 * Test rules for IDSes, SIEMs, Web gateways, and more.
 {% endcapture %}
-<div class="notice">{{ notice-3 | markdownify }}</div>
+<div class="notice--info">{{ pro | markdownify }}</div>
 
-{% capture notice-3 %}
+{% capture visionary %}
 # Visionary:  $1000 per month
 * Free version features.
 * Server-side threats and attack simulation.
@@ -34,7 +34,7 @@ title: "Pricing"
 * Holistic attack surface assessment.
 * Automatically inherit newly developed tests.
 {% endcapture %}
-<div class="notice">{{ notice-3 | markdownify }}</div>
+<div class="notice--info">{{ visionary | markdownify }}</div>
 
 ## Create an account and start testing!
 
