@@ -11,6 +11,15 @@ title: "Pricing"
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
+## Create an account and start testing!
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "8898112",
+	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
+});
+</script>
+
 {% capture pro %}
 # Pro: 349 per month
 * Grading against industry peers.
@@ -29,16 +38,6 @@ title: "Pricing"
 * Automatically inherit newly developed tests.
 {% endcapture %}
 <div class="notice--info">{{ visionary | markdownify }}</div>
-
-## Create an account and start testing!
-
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "8898112",
-	formId: "2b1cfdb3-6618-4dd8-86e4-4786274c0d38"
-});
-</script>
 
 >We help organizations find security gaps the same way Fortune 500s do.  
 >We enable our customers to see through security hype,  

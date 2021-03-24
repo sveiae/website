@@ -13,6 +13,13 @@ layout: single
 {% include hubSpot.html %}
 
 Find your ideal security architecture by testing your security controls against simulated information security threats and attacks.
+
+{% capture pro %}
+# Pro: 349 per month
+# Visionary:  $799 per month
+{% endcapture %}
+<div class="notice--info">{{ pro | markdownify }}</div>
+
 {% capture notice-2 %}
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
@@ -49,13 +56,6 @@ Find your ideal security architecture by testing your security controls against 
   * Core Network Services  
 {% endcapture %}
 <div class="notice">{{ notice-2 | markdownify }}</div>
-
-{% capture pro %}
-# Pro: 349 per month
-# Visionary:  $799 per month
-{% endcapture %}
-<div class="notice--info">{{ pro | markdownify }}</div>
-
 
 ## Create an account and start testing!
 
