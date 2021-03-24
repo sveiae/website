@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Test critical security controls"
+title: "Test Driven Security"
 layout: single
 ---
 <!-- Google analytics -->
@@ -12,7 +12,7 @@ layout: single
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-Find your ideal security architecture by testing your security controls against simulated information security threats and attacks.
+Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
 {% capture pro %}
 # Pro: 349 per month
