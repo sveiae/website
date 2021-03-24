@@ -55,6 +55,8 @@ The solution is to test important security controls as quickly and often as poss
 ![test driven security](/assets/images/2021-03-01/test-driven-security.png){:class="img-responsive"}  
 *Test driven security*
 
+**In the [next article](https://www.securiful.com/blog/why-test-driven-security/) we'll look at test driven security in depth.**
+
 If you like this article, please share using the buttons below!
 
 Thanks!
