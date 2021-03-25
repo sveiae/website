@@ -18,6 +18,7 @@ image:
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
+{% include general/og.html %}
 
 ![feature image](/assets/images/2021-03-08/featureImage.jpg){:class="img-responsive"}  
 
