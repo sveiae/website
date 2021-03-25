@@ -9,7 +9,8 @@ tags:
   - readability
   - standard
   - link
-image: https://www.securiful.com/assets/images/2021-03-08/featureImage.jpg
+image:
+  path: /assets/images/2021-03-01/featureimage.jpg
   # height: 100
   # width: 100
 ---
