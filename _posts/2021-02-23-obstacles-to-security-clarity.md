@@ -9,7 +9,7 @@ tags:
   - readability
   - standard
   - link
-og:image:
+image:
   path: /assets/images/2021-02-23/featureimage.jpg
   height: 100
   width: 100
