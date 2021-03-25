@@ -11,8 +11,8 @@ tags:
   - link
 image:
   path: /assets/images/2021-03-10/featureimage.jpg
-  height: 100
-  width: 100
+  # height: 100
+  # width: 100
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
