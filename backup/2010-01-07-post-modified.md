@@ -8,10 +8,6 @@ tags:
   - readability
   - standard
 ---
-<!-- Google analytics -->
-{% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
-{% include leadfeederAnalytics.html %}
 
 This post has been updated and should show a modified date if used in a layout.
 
