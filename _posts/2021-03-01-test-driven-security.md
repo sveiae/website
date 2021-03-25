@@ -9,6 +9,10 @@ tags:
   - readability
   - standard
   - link
+image:
+  path: /assets/images/2021-03-01/featureimage.jpg
+  height: 100
+  width: 100
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
