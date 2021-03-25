@@ -10,7 +10,7 @@ tags:
   - standard
   - link
 image:
-  path: /assets/images/2021-03-01/featureimage.jpg
+  path: https://www.securiful.com/assets/images/2021-03-08/featureImage.jpg
   # height: 100
   # width: 100
 ---
