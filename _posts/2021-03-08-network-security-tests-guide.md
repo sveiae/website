@@ -5,10 +5,8 @@ description: "Learn how to test your security controls in firewall and routers u
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
-  - link
+  - Security Testing
+  - Network Security
 image:
   path: /assets/images/2021-03-08/featureimage.jpg
   # height: 100

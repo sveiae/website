@@ -5,10 +5,8 @@ description: "Learn how to test your security controls in your IDS and SIEM usin
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
-  - link
+  - Security Testing
+  - Security Monitoring
 image:
   path: /assets/images/2021-03-10/featureimage.jpg
   # height: 100

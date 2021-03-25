@@ -5,10 +5,8 @@ description: "The reason why test driven security is the future of security test
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
-  - link
+  - Security Theory
+  - Security Operations
 image:
   path: /assets/images/2021-03-01/featureimage.jpg
   # height: 100

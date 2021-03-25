@@ -5,10 +5,8 @@ description: "The main reason why security efforts often are ineffective and exp
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
-  - link
+  - Security Theory
+  - Security Operations
 image:
   path: /assets/images/2021-02-23/featureimage.jpg
   # height: 100
