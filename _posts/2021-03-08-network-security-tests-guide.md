@@ -9,7 +9,7 @@ tags:
   - readability
   - standard
   - link
-image:
+page.featured-image:
   path: /assets/images/2021-03-08/featureimage.jpg
   height: 100
   width: 100
@@ -18,7 +18,7 @@ image:
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
-{% include og.html %}
+{% include openGraph.html %}
 
 ![feature image](/assets/images/2021-03-08/featureImage.jpg){:class="img-responsive"}  
 
