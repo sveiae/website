@@ -84,6 +84,8 @@ Similar to test driven development; a security team chooses the most important/e
 
 If at some point we have met all of these criteria, we could expand the scope to include controls that are either less effective, or harder to implement. We still need them to implement the controls in such a way that they can be measured.
 
+**In the next articles we'll take a look at how we can run test driven [network security](https://www.securiful.com/blog/network-security-tests-guide/) and test driven [intrusion detection and monitoring](https://www.securiful.com/blog/intrusion-detection-tests-guide/)**
+
 If you like this article, please share using the buttons below!
 
 Thanks!
