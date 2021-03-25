@@ -14,7 +14,7 @@ image:
   height: 100
   width: 100
 ---
-{% include og.html %}
+{% include general/og.html %}
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
