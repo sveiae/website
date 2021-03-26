@@ -73,7 +73,7 @@ nmap -p1-65535 scanme.nmap.org
 ```
 
 **Check inbound ports from the Internet:**  
-Simply scan scanme.nmap.org from a cloud host.
+Simply scan your routable IPs from a cloud host.
 ```bash
 # from a server outside your own network:
 nmap -p1-65535 "your routable IP"
