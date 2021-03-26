@@ -4,13 +4,7 @@ title: "Test Driven Security"
 layout: single
 ---
 
-<!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- Leadfeeder analytics -->
-<!-- {% include leadfeederAnalytics.html %} -->
-<!-- Hotjar analytics -->
-<!-- {% include hotjar.html %} -->
-<!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
