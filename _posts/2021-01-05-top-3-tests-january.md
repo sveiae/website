@@ -3,7 +3,7 @@ title: "Top 3 Security - January"
 last_modified_at: 2021-01-05T09:42:00-05:00
 description: "Learn how to test your security controls in firewall and routers using your command line"
 categories:
-  - Monthly Top 3 Security Tests
+  - Monthly Security Tests
 tags:
   - Security Testing
   - Network Security
