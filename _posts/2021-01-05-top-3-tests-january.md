@@ -65,7 +65,6 @@ nmap -sV --script ssl-enum-ciphers -p 443 your-website
 Implemented in platform: :x:
 
 ## Want more tests? Register below!  
-Available tests for routers and firewalls:
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
