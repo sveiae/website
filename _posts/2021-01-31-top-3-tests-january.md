@@ -25,8 +25,8 @@ This list was compiled from answers to our monthly questionnaire on what securit
 A big thanks to everyone one that contributed!
 
 ## 1. Check outbound ports to the Internet
-CIS 9: Limitation and Control of Network Ports, Protocols and Services
-**From James:**
+**CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
+**From:** James  
 >Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure. I'm amazed of how many don't do this more often.
 
 ```bash
@@ -37,8 +37,8 @@ nmap -p1-65535 scanme.nmap.org
 Implemented in platform: :heavy_check_mark:
 
 ## 2. Check antivirus related controls
-CIS 8: Malware Defenses
-**From Brian:**
+**CIS 8:** Malware Defenses  
+**From:** Brian  
 >Try to run Eicar. It's a test virus, and doesn't harm your computer. I use it to see if my SIEM picks up antivirus detection, and that security team responds.
 Simply download eicar here: https://secure.eicar.org/eicar.com
 
@@ -53,8 +53,8 @@ eicar.com
 Implemented in platform: :heavy_check_mark:
 
 ## 3. Test SSL on company websites
-CIS 3: Continuous Vulnerability Management
-**From Samir:**
+**CIS 3:** Continuous Vulnerability Management  
+**From:** Samir  
 >I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit.
 Simply put in your website urls here: https://secure.eicar.org/eicar.com and then run the test.
 You can also script this with nmap, which is what I do:
