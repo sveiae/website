@@ -30,7 +30,7 @@ From James:
 nmap -p1-65535 scanme.nmap.org
 # Any unneeded, open, port is a failure.
 ```
-Has been implemented in testing platform: :heavy_check_mark: {: .notice} 
+Implemented in platform: :heavy_check_mark:
 ## 2. Check antivirus related controls:
 From Brian:
 >"Try to run Eicar. It's a test virus, and doesn't harm your computer. I use it to see if my SIEM picks up antivirus detection, and that security team responds."
@@ -43,6 +43,7 @@ eicar.com
 # your antivirus should detect this. 
 # Now check your SIEM and see how your security responds.
 ```
+Implemented in platform: :heavy_check_mark:
 ## 3. Test SSL on company websites:
 From Samir:
 >"I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit"
@@ -54,7 +55,7 @@ You can also script this with nmap, which is what I do:
 nmap -sV --script ssl-enum-ciphers -p 443 your-website
 # The test will output a grading on your SSL configuration.
 ```
-
+Implemented in platform: :x:
 ## Want more tests? Register below!  
 Available tests for routers and firewalls:
 
