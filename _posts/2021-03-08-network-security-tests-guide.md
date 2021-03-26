@@ -1,7 +1,7 @@
 ---
 title: "Critical Security Tests Part 1: Network Security Tests Guide"
 # last_modified_at: 2021-03-09T16:52:02-05:00
-date: 2021-03-09
+date: 2021-03-08
 description: "Learn how to test your security controls in firewall and routers using your command line"
 categories:
   - Blog
