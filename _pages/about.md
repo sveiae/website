@@ -5,9 +5,9 @@ title: "About"
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- Leadfeeder analytics -->
-{% include leadfeederAnalytics.html %}
+<!-- {% include leadfeederAnalytics.html %} -->
 <!-- Hotjar analytics -->
-{% include hotjar.html %}
+<!-- {% include hotjar.html %} -->
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
