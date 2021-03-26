@@ -8,7 +8,7 @@ tags:
   - Security Testing
   - Network Security
 image:
-  path: /assets/images/2021-01-05/featureimage.jpg
+  path: /assets/images/monthly-tests/featureImage.png
   # height: 100
   # width: 100
 ---
@@ -17,10 +17,12 @@ image:
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
 
-![feature image](/assets/images/2021-01-05/featureimage.jpg){:class="img-responsive"}  
+![feature image](/assets/images/monthly-tests/featureImage.png){:class="img-responsive"}
 
-# Thanks for contributing!
-This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses.
+# Highest voted tests for January
+This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
+
+A big thanks to everyone one that contributed!
 
 ## 1. Check outbound ports to the Internet: 
 From James:
