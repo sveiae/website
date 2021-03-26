@@ -36,7 +36,6 @@ Many business networks run appliances with unused or underutilized IDS and SIEM 
 **Tests**  
 We'll be testing basic aspects of our controls by:
 * Sending command-and-control traffic to a server we control on the Internet.
-* Sending a shell to a server we control on the Internet.
 * Sending exploit kit traffic to a server we control on the Internet.
 
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  

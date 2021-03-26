@@ -41,7 +41,6 @@ We'll be testing basic aspects of our controls by:
 * Resolving known malicious domains (DNS).
 * Checking outbound ports to the Internet.
 * Checking inbound ports from the Internet.
-* Testing detection of remote shells (IDS)
 
 ![test all the security things](/assets/images/2021-03-08/test-all-the-things.png){:class="img-responsive"}  
 *Test. The. Important. Things.*
