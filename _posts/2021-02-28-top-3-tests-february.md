@@ -27,6 +27,7 @@ If you want to get on the email list just register below. :)
 ## 1. Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
 **From:** Eion  
+Implemented in platform: :heavy_check_mark:  
 >Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country
 
 ```bash
@@ -35,11 +36,11 @@ If you want to get on the email list just register below. :)
 nmap -Pn --top-ports 10 bad-IPs-list
 # The test will output a grading on your SSL configuration.
 ```
-Implemented in platform: :heavy_check_mark:
 
 ## 2. Check user privileges
 **CIS 4:** Controlled Use of Administrative Privileges  
-**From:** Lindsey:  
+**From:** Lindsey  
+Implemented in platform: :x:  
 >I check for windows privileges on user login, for all the endpoints, to have a good overview of how many priveleged accounts are running out there.
 
 ```bash
@@ -52,11 +53,11 @@ whoami /groups | find "S-1-5-32-544" && Echo I am a local admin
 whoami /groups | find "-512 " && Echo I am a domain admin
 # Track changes and audit for unnecessary privileges.
 ```
-Implemented in platform: :x:
 
 ## 3. Check endpoint VPN state
 **CIS 11:** Secure Configuration for Network Devices, such as Firewalls, Routers and Switches  
-**From:** Anonymous:  
+**From:** Anonymous  
+Implemented in platform: :X:  
 >We've started to have some serious VPN issues on the east-coast, starting mid-January. As a consequence our remote users (basically everyone) have lost VPN multiple times per day. To track this we're checking endpoints routable IPs from time to time, and push this information to a secret service that we control.
 
 ```bash
@@ -66,7 +67,6 @@ Implemented in platform: :x:
 Invoke-RestMethod ifconfig.me
 # send this information through channels you can control and analyze the data. 
 ```
-Implemented in platform: :X:
 
 Thank you to everyone one that contributed!
 

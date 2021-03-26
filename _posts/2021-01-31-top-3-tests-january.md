@@ -27,6 +27,7 @@ If you want to get on the email list just register below. :)
 ## 1. Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
+Implemented in platform: :heavy_check_mark:  
 >Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.
 
 ```bash
@@ -34,11 +35,11 @@ If you want to get on the email list just register below. :)
 nmap -p1-65535 scanme.nmap.org
 # Any unneeded, open, port is a failure.
 ```
-Implemented in platform: :heavy_check_mark:
 
 ## 2. Check antivirus related controls
 **CIS 8:** Malware Defenses  
 **From:** Brian  
+Implemented in platform: :heavy_check_mark:  
 >Try to run Eicar. It's a test virus, and doesn't harm your computer. I use it to see if my SIEM picks up antivirus detection, and that security team responds.
 Simply download eicar here: https://secure.eicar.org/eicar.com
 
@@ -50,11 +51,11 @@ eicar.com
 # your antivirus should detect this. 
 # Now check your SIEM and see how your security responds.
 ```
-Implemented in platform: :heavy_check_mark:
 
 ## 3. Test SSL on company websites
 **CIS 3:** Continuous Vulnerability Management  
 **From:** Samir  
+Implemented in platform: :x:  
 >I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit.
 Simply put in your website urls here: https://secure.eicar.org/eicar.com and then run the test.
 You can also script this with nmap, which is what I do:
@@ -62,10 +63,9 @@ You can also script this with nmap, which is what I do:
 ```bash
 # From a computer on the Internet:
 # open a cmd prompt, then simply run:
-nmap -sV --script ssl-enum-ciphers -p 443 your-website
+nmap -sV --script ssl-enum-ciphers -p 443 your-websites
 # The test will output a grading on your SSL configuration.
 ```
-Implemented in platform: :x:
 
 Thank you to everyone one that contributed! 
 
