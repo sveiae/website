@@ -29,7 +29,7 @@ A big thanks to everyone one that contributed!
 ## 1. Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
->Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure. I'm amazed of how many don't do this more often.
+>Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.
 
 ```bash
 # From a computer your own network:
