@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Test Driven Security"
+title: "Test Driven Security Platform"
 layout: single
 ---
 <!-- Google analytics -->
