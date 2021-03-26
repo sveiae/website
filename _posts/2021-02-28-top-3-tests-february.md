@@ -22,7 +22,9 @@ image:
 # Highest voted tests for February
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
-A big thanks to everyone one that contributed!
+**If you want to get on the list just register below.**
+
+A big thanks to everyone one that contributed! 
 
 ## 1. Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
