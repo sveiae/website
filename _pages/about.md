@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 ---
-
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- Leadfeeder analytics -->
