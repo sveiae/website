@@ -2,6 +2,7 @@
 permalink: /pricing/
 title: "Pricing"
 ---
+
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- Leadfeeder analytics -->
