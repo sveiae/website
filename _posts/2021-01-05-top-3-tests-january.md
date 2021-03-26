@@ -1,5 +1,5 @@
 ---
-title: "Top 3 January"
+title: "Top 3 Security - January"
 last_modified_at: 2021-01-05T09:42:00-05:00
 description: "Learn how to test your security controls in firewall and routers using your command line"
 categories:
@@ -19,8 +19,8 @@ image:
 
 ![feature image](/assets/images/2021-01-05/featureimage.jpg){:class="img-responsive"}  
 
-# Top 3 January
-This list is compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses.
+# Thank you for contributing!
+This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses.
 
 ## 1. Check outbound ports to the Internet: 
 From James:
