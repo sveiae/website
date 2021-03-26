@@ -8,7 +8,7 @@ tags:
   - Security Testing
   - Network Security
 image:
-  path: /assets/images/monthly-tests/featureImage.png
+  path: /assets/images/monthly-tests/featureImage.jpg
   # height: 100
   # width: 100
 ---
@@ -17,7 +17,7 @@ image:
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
 
-![feature image](/assets/images/monthly-tests/featureImage.png){:class="img-responsive"}
+![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
 # Highest voted tests for January
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
