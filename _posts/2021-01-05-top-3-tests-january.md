@@ -67,19 +67,6 @@ Implemented in platform: :x:
 ## Want more tests? Register below!  
 Available tests for routers and firewalls:
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px gray;
-        }
-</style>
-|                       |  **Secure Routing and DNS** | **URL Filtering**   | **Port filtering**  |   **Network Monitoring**
-| malware websites      |                             | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  |
-| attack networks       | :heavy_check_mark:          | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark:  |
-| ports and protocols   | :heavy_check_mark:          |                     | :heavy_check_mark:  | :heavy_check_mark:  |
-| malicious dns         | :heavy_check_mark:          |                     | :heavy_check_mark:  | :heavy_check_mark:  |
-| c2c traffic           |                             |                     | :heavy_check_mark:  | :heavy_check_mark:  |
-{: .tablelines}
-
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
