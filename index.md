@@ -5,7 +5,7 @@ layout: single
 ---
 
 <!-- Google analytics -->
-{% include googleAnalytics.html %}
+<!-- {% include googleAnalytics.html %} -->
 <!-- Leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
 <!-- Hotjar analytics -->
