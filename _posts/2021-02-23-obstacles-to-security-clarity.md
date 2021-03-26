@@ -1,6 +1,6 @@
 ---
 title: "Obstacles to security clarity"
-last_modified_at: 2021-03-02T16:52:02-05:00
+# last_modified_at: 2021-03-02T16:52:02-05:00
 description: "The main reason why security efforts often are ineffective and expensive"
 categories:
   - Blog
