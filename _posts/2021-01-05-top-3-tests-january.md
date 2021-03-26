@@ -19,7 +19,7 @@ image:
 
 ![feature image](/assets/images/2021-01-05/featureimage.jpg){:class="img-responsive"}  
 
-# Thank you for contributing!
+# Thanks for contributing!
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses.
 
 ## 1. Check outbound ports to the Internet: 
