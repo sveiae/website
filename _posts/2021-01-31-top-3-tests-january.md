@@ -22,9 +22,7 @@ image:
 # Highest voted tests for January
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
-**If you want to get on the list just register below.**
-
-A big thanks to everyone one that contributed! 
+If you want to get on the email list just register below. :)
 
 ## 1. Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
@@ -68,6 +66,8 @@ nmap -sV --script ssl-enum-ciphers -p 443 your-website
 # The test will output a grading on your SSL configuration.
 ```
 Implemented in platform: :x:
+
+Thank you to everyone one that contributed! 
 
 ## Want more tests? Register below!  
 
