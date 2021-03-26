@@ -1,6 +1,6 @@
 main:
   - title: "blog"
-    url: /categories/
+    url: /posts/
   - title: "pricing"
     url: /pricing/
   - title: "about"

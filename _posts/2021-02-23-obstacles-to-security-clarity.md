@@ -1,6 +1,6 @@
 ---
 title: "Obstacles to security clarity"
-date: 2021-02-23
+date: 2020-12-18
 description: "The main reason why security efforts often are ineffective and expensive"
 categories:
   - Blog
