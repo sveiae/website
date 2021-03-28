@@ -1,10 +1,10 @@
 ---
-title: "Top 3 - January"
+title: "Top Tests - January"
 date: 2021-01-31
 # last_modified_at: 2021-01-05T09:42:00-05:00
 description: "Our user survey's best security tests for January"
 categories:
-  - Monthly Security Tests
+  - Monthly-Security-Tests
 tags:
   - Security Testing
 image:
@@ -19,7 +19,7 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# Highest voted tests for January
+# Best tests for January
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
 If you want to get on the email list just register below. :)
@@ -40,11 +40,11 @@ nmap -p1-65535 scanme.nmap.org
 **CIS 8:** Malware Defenses  
 **From:** Brian  
 Implemented in platform: :heavy_check_mark:  
->Try to run Eicar. It's a test virus, and doesn't harm your computer. I use it to see if my SIEM picks up antivirus detection, and that security team responds.
+>Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds.
 Simply download eicar here: https://secure.eicar.org/eicar.com
 
 ```bash
-# From a server on your own network:
+# From a computer you want to test from:
 # open a cmd prompt, go to where you downloaded the file, 
 # then simply run:
 eicar.com
@@ -57,14 +57,14 @@ eicar.com
 **From:** Samir  
 Implemented in platform: :x:  
 >I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit.
-Simply put in your website urls here: https://secure.eicar.org/eicar.com and then run the test.
+Simply put in your website urls here: https://www.ssllabs.com/ssltest/ and then run the test.
 You can also script this with nmap, which is what I do:
 
 ```bash
 # From a computer on the Internet:
 # open a cmd prompt, then simply run:
 nmap -sV --script ssl-enum-ciphers -p 443 your-websites
-# The test will output a grading on your SSL configuration.
+# The test will output a grading of your SSL configuration.
 ```
 
 Thank you to everyone one that contributed! 

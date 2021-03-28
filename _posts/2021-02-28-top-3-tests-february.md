@@ -1,10 +1,10 @@
 ---
-title: "Top 3 - February"
+title: "Top Tests - February"
 date: 2021-02-28
 # last_modified_at: 2021-01-05T09:42:00-05:00
 description: "Our user survey's best security tests for January"
 categories:
-  - Monthly Security Tests
+  - Monthly-Security-Tests
 tags:
   - Security Testing
 image:
@@ -19,7 +19,7 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# Highest voted tests for February
+# Best tests for February
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
 If you want to get on the email list just register below. :)
@@ -41,7 +41,7 @@ nmap -Pn --top-ports 10 bad-IPs-list
 **CIS 4:** Controlled Use of Administrative Privileges  
 **From:** Lindsey  
 Implemented in platform: :x:  
->I check for windows privileges on user login, for all the endpoints, to have a good overview of how many priveleged accounts are running out there.
+>Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.
 
 ```bash
 # From the computer(s) under test:
@@ -54,18 +54,18 @@ whoami /groups | find "-512 " && Echo I am a domain admin
 # Track changes and audit for unnecessary privileges.
 ```
 
-## 3. Check endpoint VPN state
+## 3. Check for split tunneling
 **CIS 11:** Secure Configuration for Network Devices, such as Firewalls, Routers and Switches  
 **From:** Anonymous  
-Implemented in platform: :X:  
->We've started to have some serious VPN issues on the east-coast, starting mid-January. As a consequence our remote users (basically everyone) have lost VPN multiple times per day. To track this we're checking endpoints routable IPs from time to time, and push this information to a secret service that we control.
+Implemented in platform: :x:  
+>The network team has on multiple times configured our endpoints VPN client run with split tunneling, practically bypassing most of our firewalls, IDSes, and URL filters. We have made the helpdesk team run this command at random times a day on about a quarter of our endpoints to ensure we don't run split tunneling anywhere.
 
 ```bash
 # From a remote client:
-# open a cmd prompt, go to where you downloaded the file, 
+# open a cmd prompt, 
 # then simply run:
 Invoke-RestMethod ifconfig.me
-# send this information through channels you can control and analyze the data. 
+# capture the data and run reports. 
 ```
 
 Thank you to everyone one that contributed!
