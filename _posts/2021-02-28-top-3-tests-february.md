@@ -20,9 +20,9 @@ image:
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
 # Best tests for February
-This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
-
-If you want to get on the email list just register below. :)
+* Test connectivity to other countries
+* Check user privileges
+* Check VPN split tunneling
 
 ## 1. Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
@@ -54,7 +54,7 @@ whoami /groups | find "-512 " && Echo I am a domain admin
 # Track changes and audit for unnecessary privileges.
 ```
 
-## 3. Check for split tunneling
+## 3. Check for VPN split tunneling
 **CIS 11:** Secure Configuration for Network Devices, such as Firewalls, Routers and Switches  
 **From:** Anonymous  
 Implemented in platform: :x:  
@@ -67,6 +67,8 @@ Implemented in platform: :x:
 Invoke-RestMethod ifconfig.me
 # capture the data and run reports. 
 ```
+
+This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
 Thank you to everyone one that contributed!
 

@@ -20,9 +20,9 @@ image:
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
 # Best tests for January
-This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
-
-If you want to get on the email list just register below. :)
+* Outbound ports to the Internet
+* Check AV is on and reporting
+* Test SSL on Websites
 
 ## 1. Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
@@ -36,7 +36,7 @@ nmap -p1-65535 scanme.nmap.org
 # Any unneeded, open, port is a failure.
 ```
 
-## 2. Check antivirus related controls
+## 2. Check antivirus is ON and reporting
 **CIS 8:** Malware Defenses  
 **From:** Brian  
 Implemented in platform: :heavy_check_mark:  
@@ -66,6 +66,8 @@ You can also script this with nmap, which is what I do:
 nmap -sV --script ssl-enum-ciphers -p 443 your-websites
 # The test will output a grading of your SSL configuration.
 ```
+
+This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
 
 Thank you to everyone one that contributed! 
 
