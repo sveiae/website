@@ -31,7 +31,6 @@ If you want to get a hold on all tests, please subscribed to our email newslette
 * We can expect to get similar results on similar systems in the organization.
 * Does not need special software or hardware
 
-# February:
 
 ## 1. Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
