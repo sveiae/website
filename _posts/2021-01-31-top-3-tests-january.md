@@ -19,10 +19,16 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# Best tests for January
-* Outbound ports to the Internet
-* Check AV is on and reporting
-* Test SSL on Websites
+# Run these security tests today!
+
+## What is this list?
+These are tests submitted to our monthly email newsletter called **"Security tests to put your worries to rest"**. All the tests are submitted by people with extensive information security experience, and are voted on being implemented in our security testing platform.
+
+**Requirements**
+* Can be done from a single computer
+* Does not need special software or hardware
+* We can expect to get similar results on similar systems in the organization.
+
 
 ## 1. Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  

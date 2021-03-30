@@ -19,10 +19,15 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# Best tests for February
-* Test connectivity to other countries
-* Check user privileges
-* Check VPN split tunneling
+# Run these security tests today!
+
+## What is this list?
+These are tests submitted to our monthly email newsletter called **"Security tests to put your worries to rest"**. All the tests are submitted by people with extensive information security experience, and are voted on being implemented in our security testing platform.
+
+**Requirements**
+* Can be done from a single computer
+* Does not need special software or hardware
+* We can expect to get similar results on similar systems in the organization.
 
 ## 1. Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
