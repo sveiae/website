@@ -22,7 +22,9 @@ image:
 # Run these security tests today!
 
 ## What is this list?
-These are tests submitted to our monthly email newsletter called **"Security tests to put your worries to rest"**. All the tests are submitted by people with extensive information security experience, and are voted on being implemented in our security testing platform.
+These are tests submitted to our monthly email newsletter. All the tests are submitted by people with extensive information security experience. Members of the list can vote on which tests should be implemented in our security testing platform.
+
+If you want to get a hold on all tests, please subscribed to our email newsletter: **Security tests to put your worries to rest**. 
 
 **Requirements**
 * Can be done from a single computer
