@@ -28,8 +28,8 @@ If you want to get a hold on all tests, please subscribed to our email newslette
 
 **Requirements**
 * Can be done from a single computer
-* Does not need special software or hardware
 * We can expect to get similar results on similar systems in the organization.
+* Does not need special software or hardware
 
 
 ## 1. Check outbound ports to the Internet
