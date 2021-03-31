@@ -19,7 +19,7 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# Run these security tests today!
+# User submitted tests
 
 ## What is this list?
 These tests are from our monthly email newsletter called  **Security tests to put your worries to rest**. All the tests are submitted by people with extensive information security experience. Members of the list can vote on which tests should be implemented in our security testing platform.
