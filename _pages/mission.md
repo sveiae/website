@@ -21,8 +21,8 @@ Big corporations spend millions every year on step 1 and 2, so that step 3 is do
 If SMBs can be helped with step 1 and 2, then it will be as easy for SMBs, as it is for big corporations, to implement cost effective cyber security solutions (step 3).
 
 **NB! SMBs must help themselves**
-* There is no effort by governements, on any level, to reduce attacks cyber against SMBs.
-* There is no effort by telecommunications providers to reduce cyber attacks against SMBs.
+* There is no effort by governements, on any level, to prevent cyber attacks  against SMBs.
+* There is no effort by telecommunications providers to prevent cyber attacks against SMBs.
 * Big Tech benefits from this state of affairs.
 * Security companies have an incentive in increasing prices of their services.
 
