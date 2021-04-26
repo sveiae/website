@@ -16,7 +16,7 @@ There are three fundamental steps in solving cyber security flaws:
 2) identifying which security flaws cause high risk to the business (hard).  
 3) implementing cost effective solutions to said any high risk flaws identified (easy).  
 
-Big corporations spend millions every year on step 1 and 2, so that step 3 is done right. SMBs, on the other hand, cannot spend on #1 and #2, which leaves them unable to implement sound cyber security solutions.
+Big corporations spend millions every year on step 1 and 2, so that step 3 is done right. SMBs, on the other hand, cannot spend on step 1 and 2, which leaves them unable to implement sound cyber security solutions.
 
 If SMBs can be helped with step 1 and 2, then it will be as easy for SMBs, as it is for big corporations, to implement cost effective cyber security solutions (step 3).
 
