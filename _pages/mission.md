@@ -23,14 +23,14 @@ If SMBs can be helped with step 1 and 2, then it will be as easy for SMBs, as it
 **NB! SMBs must help themselves**
 * There is no effort by governements, on any level, to prevent cyber attacks  against SMBs.
 * There is no effort by telecommunications providers to prevent cyber attacks against SMBs.
-* Big Tech benefits from this state of affairs.
+* Big Tech benefits from the current state of affairs.
 * Security companies have an incentive in increasing prices of their services.
 
 # The good news
 The good news is that the *most basic* security issues cause the *most risk* on SMBs. These flaws also happen to be the *cheapest* to fix. In other words; the most severe information security risks to an SMB cost little to fix. It's just that SMBs do not have the ability to understand what these flaws are, so that they can remediate them.
 
-## This software helps with steps 1 and 2, so that step 3 is a breeze
-My software tests for the most fundamental (and highest risk) security flaws, provides a score, and finally gives cost effective recommendations on how to remediate any problems. This makes it possible for SMBs to have clarity in what security products they need in order to reduce cyber risks to their business.
+**Our product:**
+This product tests for the most fundamental (and highest risk) security flaws, provides a score, and finally gives cost effective recommendations on how to remediate any problems. This makes it possible for SMBs to have clarity in what security products they need in order to reduce cyber risks to their business.
 
 The software makes it possible for a layman to assess their computer and network security using nothing but their own computer. This allows SMBs that otherwise would not be able to afford getting good advice on information security improvements to implement cost effective solutions, and thereby reducing their cyber security risks significantly.
 
