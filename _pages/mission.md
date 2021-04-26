@@ -2,7 +2,7 @@
 permalink: /mission/
 title: "Helping American SMBs reduce cyber risks"
 ---
-It is extraordinarily costly to properly test for information security weaknesses, and those in the information security space want to keep it that way. For most companies, testing for security weaknesses costs several hundred thousand dollars annually. Many small and medium sized businesses cannot afford this cost. As a result, a large part of the businesses in America remain exposed to intellectual property, identity, and creditcard theft. In addition; these same businesses are vulnerable to be taken offline if criminal organizations, hired hackers, or nation states choses to do so. What makes matters worse is that practically all attacks on computer infrastructure go unpunished. 
+It is extraordinarily costly to properly test for information security weaknesses, and the big players in the information security space want to keep it that way. For most companies, testing for security weaknesses costs several hundred thousand dollars annually. Many small and medium sized businesses cannot afford this cost. As a result, a large part of the businesses in America remain exposed to intellectual property, identity, and creditcard theft. In addition; these same businesses are vulnerable to be taken offline if criminal organizations, hired hackers, or nation states choses to do so. What makes matters worse is that practically all attacks on computer infrastructure go unpunished. 
 
 ## Many SMBs will wither away because of cyber attacks
 * Small and mid-sized businesses are highly vulnerable to cyber attacks.
