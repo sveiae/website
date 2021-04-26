@@ -2,11 +2,11 @@
 permalink: /mission/
 title: "Helping American SMBs reduce cyber risks"
 ---
-It is extraordinarily costly to properly test for information security weaknesses, and the big players in the information security space want to keep it that way. For most companies, testing for security weaknesses costs several hundred thousand dollars annually. Many small and medium sized businesses cannot afford this cost. As a result, a large part of the businesses in America remain exposed to intellectual property, identity, and creditcard theft. In addition; these same businesses are vulnerable to be taken offline if criminal organizations, hired hackers, or nation states choses to do so. What makes matters worse is that practically all attacks on computer infrastructure go unpunished. 
+It is extraordinarily costly to properly test for information security weaknesses, and the big players in the information security space want to keep it that way. For most companies, testing for security weaknesses costs several hundred thousand dollars annually. Many small and medium sized businesses cannot afford this cost. As a result, a large part of SMBs in America remain exposed to intellectual property, identity, and creditcard theft. In addition; these same businesses are vulnerable to be taken offline if criminal organizations, hired hackers, or nation states choses to do so. What makes matters worse is that practically all attacks on computer infrastructure go unpunished. 
 
 ## Many SMBs will wither away because of cyber attacks
 * Small and mid-sized businesses are highly vulnerable to cyber attacks.
-* 60% of small businesses fold within 6 months of a cyber attack: https://www.inc.com/joe-galvin/60-percent-of-small-businesses-fold-within-6-months-of-a-cyber-attack-heres-how-to-protect-yourself.html
+* [60% of small businesses fold within 6 months of a cyber attack](https://www.inc.com/joe-galvin/60-percent-of-small-businesses-fold-within-6-months-of-a-cyber-attack-heres-how-to-protect-yourself.html)
 * The only practical way to avoid the risks is for SMBs to partner with big businesses like Amazon, Uber Eats, Google, and the like - who take 30% of income and can 'cancel' SMBs at any time, for any reason.
 
 The end game is that many SMBs will shut down, while others will be forced to depend on the "cyber protection" through partnerships with big business - and in return big business will take a big cut of their profit margins. To stop this from happening, SMBs must be empowered to solve fundamental security flaws themselves.
