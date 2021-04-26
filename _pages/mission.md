@@ -11,7 +11,7 @@ It is extraordinarily costly to properly test for information security weaknesse
 
 The end game is that many SMBs will shut down, while others will be forced to depend on the "cyber protection" through partnerships with big business - and in return big business will take a big cut of their profit margins. To stop this from happening, SMBs must be empowered to solve fundamental security flaws themselves.
 # Solving cyber security flaws is hard
-There are three fundamental steps in solving cyber security flaws: 
+There are three fundamental steps in solving cyber security flaws:  
 1) testing your computer systems/networks for security flaws (hard).  
 2) identifying which security flaws cause high risk to the business (hard).  
 3) implementing cost effective solutions to said any high risk flaws identified (easy).  
