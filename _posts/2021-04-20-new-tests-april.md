@@ -17,7 +17,8 @@ image:
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
 
-![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
+[![feature image](/assets/images/monthly-tests/featureImage.jpg)](/assets/images/monthly-tests/featureImage.jpg)
+<!-- {:class="img-responsive"} -->
 
 # This months implemented tests:
 
