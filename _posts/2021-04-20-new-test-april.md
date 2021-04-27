@@ -48,11 +48,8 @@ $ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort 
 ### Automated - Using our platform:
 The application counts unique services in the main window, which is indicative of how many different services you have to protect in your network - It's basically the same thing. You can also drill into the details to find out which hosts are outliers in terms of what services are listening.  
 
-![app image](/assets/images/monthly-tests/networ-ports-unique.png){:class="img-responsive"}
+![app image](/assets/images/monthly-tests/network-ports-unique.png){:class="img-responsive"}
 
-This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
-
-Thank you to everyone one that contributed!
 
 ## Want more tests? Register below!  
 

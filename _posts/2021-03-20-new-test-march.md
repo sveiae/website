@@ -42,10 +42,6 @@ nmap -Pn --top-ports 10 bad-IPs-list
 ### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/geo-fencing.png){:class="img-responsive"}
 
-This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
-
-Thank you to everyone one that contributed!
-
 ## Want more tests? Register below!  
 
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
