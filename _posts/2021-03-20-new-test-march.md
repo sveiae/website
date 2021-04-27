@@ -39,7 +39,7 @@ Implemented in platform: :heavy_check_mark:
 nmap -Pn --top-ports 10 bad-IPs-list
 # The test will output a grading on your SSL configuration.
 ```
-### Automated - Using our application:
+### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/geo-fencing.png){:class="img-responsive"}
 
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 

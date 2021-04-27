@@ -1,5 +1,5 @@
 ---
-title: "New Tests - December"
+title: "New Tests - November"
 date: 2020-11-28
 # last_modified_at: 2021-01-05T09:42:00-05:00
 description: "User submitted tests implemented in application"
@@ -42,7 +42,7 @@ eicar.com
 # your antivirus should detect this. 
 # Now check your SIEM and see how your security responds.
 ```
-### Automated - Using our application:
+### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/antivirus.png){:class="img-responsive"}
 
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 

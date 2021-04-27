@@ -1,5 +1,5 @@
 ---
-title: "New Tests - November"
+title: "New Tests - December"
 date: 2020-12-28
 # last_modified_at: 2021-01-05T09:42:00-05:00
 description: "User submitted tests implemented in application"
@@ -41,7 +41,7 @@ ping -c 3 -p 2b2b2b415448300d scanme.nmap.org
 # your IDS should detect this. 
 # Now check your SIEM and see how your security responds.
 ```
-### Automated - Using our application:
+### Automated - Using our platform:
 We built a few hundred IDS tests that tests shell and payload traffic to simulate attack traffic.  
 
 ![app image](/assets/images/monthly-tests/intrusion-detection.png){:class="img-responsive"}

@@ -26,7 +26,7 @@ image:
 * We can expect to get similar results on similar systems in the organization.
 * Does not need special software or hardware
 
-## Asess density of listening services in network
+## Assess density of listening services in network
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
 Implemented in platform: :heavy_check_mark:  
@@ -45,7 +45,7 @@ $ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort 
       1 21/open      <- anomaly
       1 3389/open    <- anomaly
 ```
-### Automated - Using our application:
+### Automated - Using our platform:
 The application counts unique services in the main window, which is indicative of how many different services you have to protect in your network - It's basically the same thing. You can also drill into the details to find out which hosts are outliers in terms of what services are listening.  
 
 ![app image](/assets/images/monthly-tests/networ-ports-unique.png){:class="img-responsive"}

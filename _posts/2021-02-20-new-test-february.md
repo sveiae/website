@@ -38,7 +38,7 @@ Implemented in platform: :heavy_check_mark:
 nmap -p1-65535 scanme.nmap.org
 # Any unneeded, open, port is a failure.
 ```
-### Automated - Using our application:
+### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/outbound-ports.png){:class="img-responsive"}
 
 This list was compiled from answers to our monthly questionnaire on what security leaders throughout the world vote on being the most important in order to test an organization's security defenses. 
