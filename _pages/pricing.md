@@ -18,7 +18,7 @@ title: "Pricing"
 
 {% capture visionary %}
 # Visionary:  $799 per month
-* Free version features.
+* Pro version features.
 * Server-side threats and attack simulation.
 * Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.
 * Holistic attack surface assessment.

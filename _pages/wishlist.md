@@ -1,10 +1,6 @@
 ---
-permalink: /pricing/
-title: "Pricing"
-image:
-  path: /assets/images/monthly-tests/featureImage.jpg
-  # height: 100
-  # width: 100
+permalink: /requested-tests/
+title: "Requested Tests"
 ---
 
 <!-- Google analytics -->
@@ -12,7 +8,7 @@ image:
 <!-- leadfeeder analytics -->
 <!-- {% include leadfeederAnalytics.html %} -->
 
-![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
+<!-- ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"} -->
 
 These are the current tests people have been recommending we implement into our testing platform.
 
