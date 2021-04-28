@@ -26,20 +26,24 @@ image:
 * We can expect to get similar results on similar systems in the organization.
 * Does not need special software or hardware
 
-## Assess average listening services per host in network
+## Assess density of listening services in network
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
 Implemented in platform: :heavy_check_mark:  
->Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country
-
+>When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.
+### Manual test:
 ```bash
 # From a computer on the network:
 # open a cmd prompt, then simply run:
 nmap -Pn --top-ports 100 192.168.0.0/24 -oG result
 # This will write the output to a file "result"
 # Then count the number of services and sort by highest occurance:
-cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
-```
+$ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
+      53 22/open
+      53 443/open
+      1 21/open      <- anomaly
+      1 3389/open    <- anomaly
+```      
 ### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/network-ports.png){:class="img-responsive"}
 

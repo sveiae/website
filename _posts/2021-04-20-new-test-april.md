@@ -26,29 +26,22 @@ image:
 * We can expect to get similar results on similar systems in the organization.
 * Does not need special software or hardware
 
-## Assess density of listening services in network
-**CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
-**From:** Brice  
+## Test ability to interact with Malware and Cybercrime controlled websites
+**CIS 9:** Malware Defense
+**From:** Phil  
 Implemented in platform: :heavy_check_mark:  
->When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.
+>I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks.
 
 ### Manual test:
 ```bash
 # From a computer on the network:
+# make or download a file with malware URLs.
 # open a cmd prompt, then simply run:
-nmap -Pn --top-ports 100 192.168.0.0/24 -oG result
-# This will write the output to a file "result"
-# Then count the number of services and sort by highest occurance:
-$ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
-      53 22/open
-      53 443/open
-      1 21/open      <- anomaly
-      1 3389/open    <- anomaly
+for i in $(cat textFileWithMalwareURLS); do curl $i -I; done
+# HTTP 200 means you were able to hit that website
 ```
 ### Automated - Using our platform:
-The application counts unique services in the main window, which is indicative of how many different services you have to protect in your network - It's basically the same thing. You can also drill into the details to find out which hosts are outliers in terms of what services are listening.  
-
-![app image](/assets/images/monthly-tests/network-ports-unique.png){:class="img-responsive"}
+![app image](/assets/images/monthly-tests/malicious-website.png){:class="img-responsive"}
 
 
 ## Want more tests? Register below!  
