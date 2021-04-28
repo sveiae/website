@@ -1,17 +1,12 @@
 ---
-title: "Wishlist"
-date: 2021-02-28
-last_modified_at: 2021-04-13T09:00:00-05:00
-description: "User submitted tests implemented in application"
-categories:
-  - Monthly-Security-Tests
-tags:
-  - Security Testing
+permalink: /pricing/
+title: "Pricing"
 image:
   path: /assets/images/monthly-tests/featureImage.jpg
   # height: 100
   # width: 100
 ---
+
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- leadfeeder analytics -->
