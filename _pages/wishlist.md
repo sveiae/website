@@ -10,7 +10,7 @@ title: "Requested Tests"
 
 <!-- ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"} -->
 
-These are the current tests people have been recommending we implement into our testing platform.
+These are the most highly ranked tests, that people have been recommending we implement into our testing platform through our email list.
 
 **Test requirements**
 * Can be done from a single computer
