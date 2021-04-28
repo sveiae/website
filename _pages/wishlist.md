@@ -22,7 +22,7 @@ These are the most highly ranked tests, that people have been recommending we im
 **CIS 12:** Boundary Defense  
 **From:** Eion  
 Implemented in platform: :heavy_check_mark:  
->Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country
+>Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
 
 ```bash
 # From a computer on the Internet:
@@ -35,7 +35,7 @@ nmap -Pn --top-ports 10 bad-IPs-list
 **CIS 8:** Malware Defenses  
 **From:** Brian  
 Implemented in platform: :heavy_check_mark:  
->This is a very crude test of IDS, and I hope you can create a better test. But for what it's worth this little test checks if the IDS is listening and reporting.
+>This is a very crude test of IDS, and I hope you can create a better test. But for what it's worth this little test checks if the IDS is listening and reporting.  
 
 ### Manual test:
 ```bash
@@ -51,7 +51,7 @@ ping -c 3 -p 2b2b2b415448300d scanme.nmap.org
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
 Implemented in platform: :heavy_check_mark:  
->When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.
+>When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.  
 ```bash
 # From a computer on the network:
 # open a cmd prompt, then simply run:
@@ -69,7 +69,7 @@ $ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort 
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
 Implemented in platform: :heavy_check_mark:  
->Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.
+>Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.  
 
 ### Manual test:
 ```bash
@@ -83,7 +83,7 @@ nmap -p1-65535 scanme.nmap.org
 **From:** Brian  
 Implemented in platform: :heavy_check_mark:  
 >Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds.
-Simply download eicar here: https://secure.eicar.org/eicar.com
+Simply download eicar here: https://secure.eicar.org/eicar.com  
 
 ### Manual test:
 ```bash
@@ -102,7 +102,7 @@ Implemented in platform: :x:
 ### Manual Test:
 >I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit.
 Simply put in your website urls here: https://www.ssllabs.com/ssltest/ and then run the test.
-You can also script this with nmap, which is what I do:
+You can also script this with nmap, which is what I do:  
 
 ```bash
 # From a computer on the Internet:
@@ -115,7 +115,7 @@ nmap -sV --script ssl-enum-ciphers -p 443 your-websites
 **CIS 4:** Controlled Use of Administrative Privileges  
 **From:** Lindsey  
 Implemented in platform: :x:  
->Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.
+>Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.  
 
 ```bash
 # From the computer(s) under test:
@@ -132,7 +132,7 @@ whoami /groups | find "-512 " && Echo I am a domain admin
 **CIS 11:** Secure Configuration for Network Devices, such as Firewalls, Routers and Switches  
 **From:** Anonymous  
 Implemented in platform: :x:  
->The network team has on multiple times configured our endpoints VPN client run with split tunneling, practically bypassing most of our firewalls, IDSes, and URL filters. We have made the helpdesk team run this command at random times a day on about a quarter of our endpoints to ensure we don't run split tunneling anywhere.
+>The network team has on multiple times configured our endpoints VPN client run with split tunneling, practically bypassing most of our firewalls, IDSes, and URL filters. We have made the helpdesk team run this command at random times a day on about a quarter of our endpoints to ensure we don't run split tunneling anywhere.  
 
 ```bash
 # From a remote client:
@@ -146,7 +146,7 @@ Invoke-RestMethod ifconfig.me
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
 Implemented in platform: :heavy_check_mark:  
->Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country
+>Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
 
 ```bash
 # From a computer on the network:
@@ -161,7 +161,7 @@ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
 **CIS 4:** Limitation and Control of Network Ports, Protocols, and Services   
 **From:** Ash  
 Implemented in platform: :heavy_check_mark:  
->Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.
+>Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.  
 
 ```bash
 # From the computer(s) under test:
@@ -178,7 +178,7 @@ whoami /groups | find "-512 " && Echo I am a domain admin
 **CIS 12:** Boundary Defense  
 **From:** Jason  
 Implemented in platform: :x:  
->The network team has on multiple times configured our endpoints VPN client run with split tunneling, practically bypassing most of our firewalls, IDSes, and URL filters. We have made the helpdesk team run this command at random times a day on about a quarter of our endpoints to ensure we don't run split tunneling anywhere.
+>The network team has on multiple times configured our endpoints VPN client run with split tunneling, practically bypassing most of our firewalls, IDSes, and URL filters. We have made the helpdesk team run this command at random times a day on about a quarter of our endpoints to ensure we don't run split tunneling anywhere.  
 
 ```bash
 # From a remote client:
