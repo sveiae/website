@@ -1,6 +1,6 @@
 ---
 title: "Critical Security Tests Part 2: Intrusion Detection and Monitoring Tests Guide"
-date: 2021-04-08
+date: 2021-06-08
 description: "Learn how to test your security controls in your IDS and SIEM using your command line"
 categories:
   - Blog
