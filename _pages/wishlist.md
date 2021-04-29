@@ -34,7 +34,7 @@ nmap -Pn --top-ports 10 bad-IPs-list
 ## Check Intrusion Detection/Prevention is ON and reporting
 **CIS 8:** Malware Defenses  
 **From:** Brian  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: (December 2020)[https://www.securiful.com/monthly-security-tests/new-test-december/]
 >This is a very crude test of IDS, and I hope you can create a better test. But for what it's worth this little test checks if the IDS is listening and reporting.  
 
 ### Manual test:
@@ -81,7 +81,7 @@ nmap -p1-65535 scanme.nmap.org
 ## Check antivirus is ON and reporting
 **CIS 8:** Malware Defenses  
 **From:** Brian  
-Implemented in platform: :heavy_check_mark: [november 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
+Implemented in platform: :heavy_check_mark: [November 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
 >Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds.
 Simply download eicar here: https://secure.eicar.org/eicar.com  
 
