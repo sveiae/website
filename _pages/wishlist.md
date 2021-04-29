@@ -50,7 +50,7 @@ ping -c 3 -p 2b2b2b415448300d scanme.nmap.org
 ## Asess density of listening services in network
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: [november 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
 >When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.  
 ```bash
 # From a computer on the network:
