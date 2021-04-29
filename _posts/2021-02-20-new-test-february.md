@@ -30,7 +30,7 @@ image:
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
 Implemented in platform: :heavy_check_mark:  
->Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.
+>Unneded outbound ports are constantly used by attackers to call home. Simply scan **scanme.nmap.org** from your office computer. Any unneded ports is a failure.
 
 ### Manual test:
 ```bash

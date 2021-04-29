@@ -32,7 +32,7 @@ image:
 Implemented in platform: :heavy_check_mark:  
 >I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks.  
 
-I download lists from the [blocklists project](https://blocklistproject.github.io/Lists/)
+I use the malware list from the [blocklists project](https://blocklistproject.github.io/Lists/)
 ### Manual test:
 ```bash
 # From a computer on the network:
