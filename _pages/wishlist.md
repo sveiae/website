@@ -50,7 +50,7 @@ ping -c 3 -p 2b2b2b415448300d scanme.nmap.org
 ## Asess density of listening services in network
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
-Implemented in platform: :heavy_check_mark: [november 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
+Implemented in platform: :heavy_check_mark: 
 >When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.  
 ```bash
 # From a computer on the network:
@@ -81,7 +81,7 @@ nmap -p1-65535 scanme.nmap.org
 ## Check antivirus is ON and reporting
 **CIS 8:** Malware Defenses  
 **From:** Brian  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: [november 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
 >Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds.
 Simply download eicar here: https://secure.eicar.org/eicar.com  
 
