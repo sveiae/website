@@ -47,24 +47,6 @@ ping -c 3 -p 2b2b2b415448300d scanme.nmap.org
 # Now check your SIEM and see how your security responds.
 ```
 
-## Asess density of listening services in network
-**CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
-**From:** Brice  
-Implemented in platform: :heavy_check_mark: 
->When it comes to listening services in the client network, I like to run a tight ship. We had an attacker in our network that was able to pivot wayyy to easy because our users stood up any server they wanted. Not anymore. The command below allow you to quickly see if there are any services that are anomalies in your network.  
-```bash
-# From a computer on the network:
-# open a cmd prompt, then simply run:
-nmap -Pn --top-ports 100 192.168.0.0/24 -oG result
-# This will write the output to a file "result"
-# Then count the number of services and sort by highest occurance:
-$ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
-      53 22/open
-      53 443/open
-      1 21/open      <- anomaly
-      1 3389/open    <- anomaly
-```
-
 ## Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
