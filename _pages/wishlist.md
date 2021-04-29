@@ -21,7 +21,7 @@ These are the most highly ranked tests, that people have been recommending we im
 ## Test connectivity out to other countries
 **CIS 12:** Boundary Defense  
 **From:** Eion  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: [March 2021](https://www.securiful.com/monthly-security-tests/new-test-march/)
 >Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
 
 ```bash
@@ -34,7 +34,7 @@ nmap -Pn --top-ports 10 bad-IPs-list
 ## Check Intrusion Detection/Prevention is ON and reporting
 **CIS 8:** Malware Defenses  
 **From:** Brian  
-Implemented in platform: :heavy_check_mark: (December 2020)[https://www.securiful.com/monthly-security-tests/new-test-december/]
+Implemented in platform: :heavy_check_mark: [December 2020](https://www.securiful.com/monthly-security-tests/new-test-december/)
 >This is a very crude test of IDS, and I hope you can create a better test. But for what it's worth this little test checks if the IDS is listening and reporting.  
 
 ### Manual test:
@@ -68,7 +68,7 @@ $ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort 
 ## Check outbound ports to the Internet
 **CIS 9:** Limitation and Control of Network Ports, Protocols and Services  
 **From:** James  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark:  [February 2021](https://www.securiful.com/monthly-security-tests/new-test-february/)
 >Unneded outbound ports are constantly used by attackers to call home. Simply scan scanme.nmap.org from your office computer. Any unneded ports is a failure.  
 
 ### Manual test:
@@ -111,6 +111,22 @@ nmap -sV --script ssl-enum-ciphers -p 443 your-websites
 # The test will output a grading of your SSL configuration.
 ```
 
+## Test ability to interact with Malware and Cybercrime controlled websites
+**CIS 9:** Malware Defense
+**From:** Phil  
+Implemented in platform: :heavy_check_mark: [April 2021](https://www.securiful.com/monthly-security-tests/new-test-april/)
+>I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks.  
+
+I use the malware list from the [blocklists project](https://blocklistproject.github.io/Lists/)
+### Manual test:
+```bash
+# From a computer on the network:
+# make or download a file with malware URLs.
+# open a cmd prompt, then simply run:
+for i in $(cat textFileWithMalwareURLS); do curl $i -I; done
+# HTTP 200 means you were able to hit that website
+```
+
 ## Check user privileges
 **CIS 4:** Controlled Use of Administrative Privileges  
 **From:** Lindsey  
@@ -145,7 +161,7 @@ Invoke-RestMethod ifconfig.me
 ## Assess average listening services per host
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: [January 2021](https://www.securiful.com/monthly-security-tests/new-test-january/)
 >Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
 
 ```bash
@@ -160,7 +176,7 @@ cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
 ## Assess diversity of services inside your network
 **CIS 4:** Limitation and Control of Network Ports, Protocols, and Services   
 **From:** Ash  
-Implemented in platform: :heavy_check_mark:  
+Implemented in platform: :heavy_check_mark: [January 2021](https://www.securiful.com/monthly-security-tests/new-test-january/)
 >Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.  
 
 ```bash
