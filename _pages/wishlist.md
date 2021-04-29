@@ -155,23 +155,6 @@ nmap -Pn --top-ports 100 192.168.0.0/24 -oG result
 cat result | grep -i open | grep -oE [0-9]\{1,4}/open | sort | uniq -c | sort -r
 ```
 
-## Assess diversity of services inside your network
-**CIS 4:** Limitation and Control of Network Ports, Protocols, and Services   
-**From:** Ash  
-Implemented in platform: :heavy_check_mark: [January 2021](https://www.securiful.com/monthly-security-tests/new-test-january/)
->Check for privileges on your own computer. If you find yourself being admin (and your job is not being a system administrator) it's a good indicator that you need to look deeper into your organizations privilege management.  
-
-```bash
-# From the computer(s) under test:
-# Check if we are running elevated:
-whoami /groups | find "S-1-16-12288" && Echo I am running elevated, so I must be an admin
-# Check if we belong to local administrators:
-whoami /groups | find "S-1-5-32-544" && Echo I am a local admin
-# Check if we belong to domain admins:
-whoami /groups | find "-512 " && Echo I am a domain admin
-# Track changes and audit for unnecessary privileges.
-```
-
 ## Test connectivity from other countries to your organization
 **CIS 12:** Boundary Defense  
 **From:** Jason  
