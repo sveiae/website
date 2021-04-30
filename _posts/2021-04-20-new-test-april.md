@@ -27,7 +27,7 @@ image:
 * Does not need special software or hardware
 
 ## Test ability to interact with Malware and Cybercrime controlled websites
-**CIS 9:** Malware Defense
+**CIS 9:** Malware Defense  
 **From:** Phil  
 Implemented in platform: :heavy_check_mark:  
 >I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks.  
