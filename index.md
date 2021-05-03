@@ -16,7 +16,7 @@ Find your ideal security architecture by testing your security controls through 
 {% endcapture %}
 <div class="notice--info">{{ pro | markdownify }}</div>
 
-{% capture notice-2 %}
+
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
 * Validate security tools and architecture on demand.
@@ -25,10 +25,9 @@ Find your ideal security architecture by testing your security controls through 
 * Get anonymously graded against industry peers.
 * Increase ROI on your security tools.
 * Zero deployment time. Run our application and test.  
-{% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
 
-{% capture notice-2 %}
+
+
 ## Look beyond your Internet gateway.
 [![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
@@ -36,10 +35,9 @@ Find your ideal security architecture by testing your security controls through 
   * Geographic attack exposure.
   * Local network attack surfaces.
   * Security compliance and best practice of Internet facing web services.  
-{% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
 
-{% capture notice-2 %}
+
+
 ## Don't guess or trust. Test.
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
 * Test:
@@ -50,8 +48,7 @@ Find your ideal security architecture by testing your security controls through 
   * SIEMs
   * Traffic Filtering
   * Core Network Services  
-{% endcapture %}
-<div class="notice">{{ notice-2 | markdownify }}</div>
+
 
 ## Create an account and start testing!
 
