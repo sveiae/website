@@ -1,6 +1,6 @@
 ---
-permalink: /requested-tests/
-title: "Requested Tests"
+permalink: /proposed-tests/
+title: "Proposed Tests"
 ---
 
 <!-- Google analytics -->
