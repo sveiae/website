@@ -22,7 +22,7 @@ These are the most highly ranked tests, that people have been recommending we im
 **CIS 12:** Boundary Defense  
 **From:** Eion  
 Implemented in platform: :heavy_check_mark: [March 2021](https://www.securiful.com/monthly-security-tests/new-test-march/)
->Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
+>Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from [iplocation](https://lite.ip2location.com/ip-address-ranges-by-country)  
 
 ```bash
 # From a computer on the Internet:
@@ -64,8 +64,7 @@ nmap -p1-65535 scanme.nmap.org
 **CIS 8:** Malware Defenses  
 **From:** Brian  
 Implemented in platform: :heavy_check_mark: [November 2020](https://www.securiful.com/monthly-security-tests/new-test-november/)
->Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds.
-Simply download eicar here: https://secure.eicar.org/eicar.com  
+>Run Eicar. It's a test virus, and doesn't harm your computer. I let helpdesk run it on multiple endpoints and then see if it's alerted in our central AV system. I also use it to see if my SIEM picks up the alert, and that security team responds. Simply download [eicar](https://secure.eicar.org/eicar.com)  
 
 ### Manual test:
 ```bash
@@ -83,8 +82,7 @@ eicar.com
 Implemented in platform: :x:  
 ### Manual Test:
 >I started test my websites' SSL score myself after paying way too much for a 'pentester' to only find SSL flaws in a security audit.
-Simply put in your website urls here: https://www.ssllabs.com/ssltest/ and then run the test.
-You can also script this with nmap, which is what I do:  
+Simply put in your website urls at [ssl labs](https://www.ssllabs.com/ssltest/) and then run the test. You can also script this with nmap, which is what I do:  
 
 ```bash
 # From a computer on the Internet:
@@ -97,9 +95,7 @@ nmap -sV --script ssl-enum-ciphers -p 443 your-websites
 **CIS 9:** Malware Defense
 **From:** Phil  
 Implemented in platform: :heavy_check_mark: [April 2021](https://www.securiful.com/monthly-security-tests/new-test-april/)
->I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks.  
-
-I use the malware list from the [blocklists project](https://blocklistproject.github.io/Lists/)
+>I try finding lists of URLs for malware sites and services, then test if I can use curl (a commandline web client) to hit those sites. It gives me an indication of how well my URL filter is working at blocking malware downloads and drive by attacks. I use the malware list from the [blocklists project](https://blocklistproject.github.io/Lists/)  
 ### Manual test:
 ```bash
 # From a computer on the network:
@@ -144,7 +140,7 @@ Invoke-RestMethod ifconfig.me
 **CIS 9:** Limitation and Control of Network Ports, Protocols, and Services  
 **From:** Brice  
 Implemented in platform: :heavy_check_mark: [January 2021](https://www.securiful.com/monthly-security-tests/new-test-january/)
->Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from: https://lite.ip2location.com/ip-address-ranges-by-country  
+>Unfortunately most attacks come from a small set of countries, because of this we've started blocking entire IP blocks from the worst offenders (we use pfBlocker for this). In order to test that this control is implemented we do ongoing nmap of a random set of IPs within these blocks. You can get the IP blocks from [here](https://lite.ip2location.com/ip-address-ranges-by-country)  
 
 ```bash
 # From a computer on the network:
