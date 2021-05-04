@@ -8,7 +8,7 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture pro %}
-# Community: 349 per month
+# Community: Free!
 * Grading against industry peers.
 * Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
