@@ -10,12 +10,6 @@ layout: single
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
-{% capture pro %}
-# Pro: 349 per month
-# Visionary:  $799 per month
-{% endcapture %}
-<div class="notice--info">{{ pro | markdownify }}</div>
-
 
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
