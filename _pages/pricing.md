@@ -8,17 +8,17 @@ title: "Pricing"
 {% include hubSpot.html %}
 
 {% capture pro %}
-# Pro: 349 per month
+# Community: 349 per month
 * Grading against industry peers.
 * Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
-* Test rules for IDSes, SIEMs, Web gateways, and more.
 {% endcapture %}
 <div class="notice--info">{{ pro | markdownify }}</div>
 
 {% capture visionary %}
-# Visionary:  $799 per month
-* Pro version features.
+# Enterprise:  $499 per month
+* Community version features.
+* Test rules for IDSes, SIEMs, Web gateways, and more.
 * Server-side threats and attack simulation.
 * Test Inbound rules for Firewalls, IDSes, Web Gateways, Web Application Firewalls.
 * Holistic attack surface assessment.
