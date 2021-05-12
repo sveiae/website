@@ -1,5 +1,5 @@
 ---
-permalink: /pring/
+permalink: /pricing/
 title: "Pricing"
 layout: splash
 header:
