@@ -1,5 +1,5 @@
 ---
-permalink: /scores/
+permalink: /scoring/
 title: "Cyber Score"
 layout: splash
 header:

@@ -21,7 +21,7 @@ feature_row:
     alt: "Grading against industry peers"
     title: "Cyber Score"
     excerpt: "Scoring against industry peers"
-    url: "/score"
+    url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
