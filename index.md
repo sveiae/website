@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.3"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
 #   overlay_image: /assets/images/logo-goost.webp
-  overlay_image: /assets/images/analytics.jpg
+  overlay_image: /assets/images/main-header.jpg
   actions:
     - label: "Buy Now"
       url: "/buy/"
