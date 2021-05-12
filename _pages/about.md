@@ -10,9 +10,9 @@ header:
   actions:
   - label: "Pricing"
     url: "/pricing/"
-excerpt: "against industry peers"
-intro: 
-  - excerpt: 'Get a comparable understanding of your security'
+excerpt: "Who we are"
+# intro: 
+#   - excerpt: 'Get a comparable understanding of your security'
 ---
 {% include feature_row id="intro" type="center" %}
 
