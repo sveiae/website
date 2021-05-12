@@ -1,8 +1,8 @@
 main:
-  - title: "blog"
-    url: /posts/
   - title: "pricing"
     url: /pricing/
+  - title: "blog"
+    url: /posts/
   - title: "about"
     url: /about/
   - title: "proposed tests"
