@@ -1,12 +1,21 @@
 ---
 permalink: /proposed-tests/
 title: "Proposed Tests"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+#   overlay_filter: rgba(255, 0, 0, 0.5)
+  overlay_image: /assets/images/main-header2.jpg
+  actions:
+  - label: "Pricing"
+    url: "/pricing/"
+excerpt: "Subscriber submitted tests"
 ---
-
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
-<!-- {% include leadfeederAnalytics.html %} -->
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
 
 ![feature image](/assets/images/requested-tests/crash-test-1620591_640.jpg){:class="img-responsive"}
 

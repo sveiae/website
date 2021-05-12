@@ -14,6 +14,11 @@ excerpt: "that are actionable"
 intro: 
   - excerpt: 'Perform tests that give measurable results'
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
+
 {% include feature_row id="intro" type="center" %}
 
 ## Tests that helps you improve your security program

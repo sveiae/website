@@ -14,6 +14,11 @@ excerpt: "and your exposure to them"
 intro: 
   - excerpt: 'Understand your threats better than they understand you'
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
+
 {% include feature_row id="intro" type="center" %}
 
 ## Understand your threat exposure and take action

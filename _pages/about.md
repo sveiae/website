@@ -14,12 +14,12 @@ excerpt: "Who we are"
 # intro: 
 #   - excerpt: 'Get a comparable understanding of your security'
 ---
-{% include feature_row id="intro" type="center" %}
-
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
+
+{% include feature_row id="intro" type="center" %}
 
 # Who we are
 We are a team of security professionals that are determined to help businesses look through hype, and find security clarity.

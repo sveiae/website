@@ -16,5 +16,5 @@ excerpt: "Monthly tests and other stuff"
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
-<!-- leadfeeder analytics -->
-{% include leadfeederAnalytics.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}

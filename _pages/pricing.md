@@ -14,8 +14,6 @@ excerpt: "Affordable security testing"
 # intro: 
 #   - excerpt: 'Get a comparable understanding of your security'
 ---
-{% include feature_row id="intro" type="center" %}
-
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
 <!-- Hub Spot analytics -->

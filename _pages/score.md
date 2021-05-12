@@ -14,6 +14,11 @@ excerpt: "against industry peers"
 intro: 
   - excerpt: 'Get a comparable understanding of your security'
 ---
+<!-- Google analytics -->
+{% include googleAnalytics.html %}
+<!-- Hub Spot analytics -->
+{% include hubSpot.html %}
+
 {% include feature_row id="intro" type="center" %}
 
 # Get security metrics that stick and can be measured over time
