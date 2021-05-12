@@ -17,21 +17,21 @@ excerpt: "Test fundamental security controls in minutes"
 intro: 
   - excerpt: 'A private phone to get your freedom back'
 feature_row:
-  - image_path: /assets/images/privacy.jpg
+  - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Attack on American freedom"
     title: "Privacy"
     excerpt: "Privacy features you can trust"
     url: "/privacy"
     btn_label: "Read"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/security.jpg
+  - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Attack on American freedom"
     title: "Security"
     excerpt: "Secure phone and networks"
     url: "/security"
     btn_label: "Read"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/community.jpg
+  - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
     alt: "Attack on American freedom"
     title: "Community"
     excerpt: "Of the people, by the people, for the people"
@@ -47,6 +47,7 @@ feature_row:
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
+{% include feature_row %}
 
 # Get security metrics that stick
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
