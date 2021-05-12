@@ -1,7 +1,44 @@
 ---
 permalink: /
 title: "Test Driven Security Platform"
-layout: single
+# layout: single
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+#   overlay_filter: rgba(255, 0, 0, 0.5)
+#   overlay_image: /assets/images/logo-goost.webp
+  overlay_image: /assets/images/analytics.jpg
+  actions:
+    - label: "Buy Now"
+      url: "/buy/"
+#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Test fundamental security controls in minutes"
+intro: 
+  - excerpt: 'A private phone to get your freedom back'
+feature_row:
+  - image_path: /assets/images/privacy.jpg
+    alt: "Attack on American freedom"
+    title: "Privacy"
+    excerpt: "Privacy features you can trust"
+    url: "/privacy"
+    btn_label: "Read"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/security.jpg
+    alt: "Attack on American freedom"
+    title: "Security"
+    excerpt: "Secure phone and networks"
+    url: "/security"
+    btn_label: "Read"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/community.jpg
+    alt: "Attack on American freedom"
+    title: "Community"
+    excerpt: "Of the people, by the people, for the people"
+    url: "/community"
+    btn_label: "Read"
+    btn_class: "btn--inverse"
+
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
