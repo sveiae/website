@@ -1,12 +1,12 @@
 ---
-permalink: /score/
+permalink: /scores/
 title: "Cyber Score"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/grading.jpg
+  overlay_image: /assets/images/scores.jpg
   actions:
   - label: "Buy Now"
     url: "/buy/"
