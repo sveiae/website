@@ -10,8 +10,8 @@ header:
 #   overlay_image: /assets/images/logo-goost.webp
   overlay_image: /assets/images/main-header2.jpg
   actions:
-    - label: "Buy Now"
-      url: "/buy/"
+    - label: "Pricing"
+      url: "/pricing/"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Test fundamental security controls in minutes"
 intro: 

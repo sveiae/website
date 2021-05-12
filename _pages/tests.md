@@ -8,8 +8,8 @@ header:
 #   overlay_filter: rgba(255, 0, 0, 0.5)
   overlay_image: /assets/images/main-header2.jpg
   actions:
-  - label: "Buy Now"
-    url: "/buy/"
+  - label: "Pricing"
+    url: "/pricing/"
 excerpt: "that are actionable"
 intro: 
   - excerpt: 'Perform tests that give measurable results'
