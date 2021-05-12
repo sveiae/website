@@ -34,7 +34,7 @@ feature_row:
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
     alt: "Real Tests"
     title: "Real Tests"
-    excerpt: "Tests with actionable feedback"
+    excerpt: "Tests from common attack patterns"
     url: "/tests"
     btn_label: "Tests"
     btn_class: "btn--inverse"
