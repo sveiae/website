@@ -19,10 +19,10 @@ intro:
 feature_row:
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
-    title: "Cyber Grading"
-    excerpt: "Grading against industry peers"
-    url: "/grading"
-    btn_label: "Grading"
+    title: "Cyber Score"
+    excerpt: "Scoring against industry peers"
+    url: "/score"
+    btn_label: "Scoring"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Surface Analysis"

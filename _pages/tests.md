@@ -6,13 +6,13 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/private-big.jpg
+  overlay_image: /assets/images/tests.jpg
   actions:
   - label: "Buy Now"
     url: "/buy/"
 excerpt: "that are actionable"
 intro: 
-  - excerpt: 'GOOST PHONE has perfected going of the grid'
+  - excerpt: 'Perform tests that give measurable results'
 ---
 {% include feature_row id="intro" type="center" %}
 

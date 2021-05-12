@@ -6,13 +6,13 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.3"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/private-big.jpg
+  overlay_image: /assets/images/threats.jpg
   actions:
   - label: "Buy Now"
     url: "/pricing/"
 excerpt: "and your exposure to them"
 intro: 
-  - excerpt: 'GOOST PHONE has perfected going of the grid'
+  - excerpt: 'Understand your threats better than they understand you'
 ---
 {% include feature_row id="intro" type="center" %}
 

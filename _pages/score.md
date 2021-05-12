@@ -1,18 +1,18 @@
 ---
-permalink: /grading/
-title: "Grading"
+permalink: /score/
+title: "Cyber Score"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/private-big.jpg
+  overlay_image: /assets/images/grading.jpg
   actions:
   - label: "Buy Now"
     url: "/buy/"
 excerpt: "against industry peers"
 intro: 
-  - excerpt: 'GOOST PHONE has perfected going of the grid'
+  - excerpt: 'Get a comparable understanding of your security'
 ---
 {% include feature_row id="intro" type="center" %}
 
