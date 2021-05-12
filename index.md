@@ -32,7 +32,7 @@ feature_row:
     btn_label: "Threats"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
-    alt: "Real Tests"
+    alt: "Realistic Tests"
     title: "Real Tests"
     excerpt: "Tests from common attack patterns"
     url: "/tests"
