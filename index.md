@@ -15,7 +15,7 @@ header:
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Test fundamental security controls in minutes"
 intro: 
-  - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns'
+  - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
@@ -45,7 +45,11 @@ feature_row:
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
+Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
+
 {% include feature_row %}
+
+
 
 ## Create an account and start testing!
 
