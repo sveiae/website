@@ -5,7 +5,7 @@ title: "Test Driven Security Platform"
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
+  overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
 #   overlay_image: /assets/images/logo-goost.webp
   overlay_image: /assets/images/main-header2.jpg
