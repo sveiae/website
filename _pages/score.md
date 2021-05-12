@@ -11,8 +11,8 @@ header:
   - label: "Pricing"
     url: "/pricing/"
 excerpt: "against industry peers"
-intro: 
-  - excerpt: 'Get a comparable understanding of your security'
+# intro: 
+#   - excerpt: 'Get a comparable understanding of your security'
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}

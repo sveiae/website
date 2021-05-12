@@ -11,8 +11,8 @@ header:
   - label: "Pricing"
     url: "/pricing/"
 excerpt: "and your exposure to them"
-intro: 
-  - excerpt: 'Understand your threats better than they understand you'
+# intro: 
+#   - excerpt: 'Understand your threats better than they understand you'
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}

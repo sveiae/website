@@ -11,8 +11,8 @@ header:
   - label: "Pricing"
     url: "/pricing/"
 excerpt: "that are actionable"
-intro: 
-  - excerpt: 'Perform tests that give measurable results'
+# intro: 
+#   - excerpt: 'Perform tests that give measurable results'
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
