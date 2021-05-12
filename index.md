@@ -18,25 +18,25 @@ intro:
   - excerpt: 'A private phone to get your freedom back'
 feature_row:
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
-    alt: "Attack on American freedom"
-    title: "Privacy"
-    excerpt: "Privacy features you can trust"
-    url: "/privacy"
-    btn_label: "Read"
+    alt: "Grading against industry peers"
+    title: "Cyber Grading"
+    excerpt: "Grading against industry peers"
+    url: "/grading"
+    btn_label: "Grading"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
-    alt: "Attack on American freedom"
-    title: "Security"
-    excerpt: "Secure phone and networks"
-    url: "/security"
-    btn_label: "Read"
+    alt: "Threat Surface Analysis"
+    title: "Threat surface"
+    excerpt: "See your network from an attacker's perspective"
+    url: "/threats"
+    btn_label: "Threats"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
-    alt: "Attack on American freedom"
-    title: "Community"
-    excerpt: "Of the people, by the people, for the people"
-    url: "/community"
-    btn_label: "Read"
+    alt: "Real tests"
+    title: "Real tests"
+    excerpt: "Tests with actionable feedback"
+    url: "/tests"
+    btn_label: "Tests"
     btn_class: "btn--inverse"
 
 ---
@@ -49,37 +49,6 @@ Find your ideal security architecture by testing your security controls through 
 
 {% include feature_row %}
 
-# Get security metrics that stick
-[![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
-* Validate security tools and architecture on demand.
-* Test attack detection.
-* Test reaction times of your security team.
-* Get anonymously graded against industry peers.
-* Increase ROI on your security tools.
-* Zero deployment time. Run our application and test.  
-
-
-
-## Look beyond your Internet gateway.
-[![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
-* Test:
-  * Holistic attack surface.
-  * Geographic attack exposure.
-  * Local network attack surfaces.
-  * Security compliance and best practice of Internet facing web services.  
-
-
-
-## Don't guess or trust. Test.
-[![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
-* Test:
-  * Firewalls
-  * IDSes
-  * Antivirus
-  * VPNs
-  * SIEMs
-  * Traffic Filtering
-  * Core Network Services  
 
 
 ## Create an account and start testing!
