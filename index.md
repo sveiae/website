@@ -27,7 +27,7 @@ feature_row:
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Surface Analysis"
     title: "Threat surface"
-    excerpt: "See your network from an attacker's perspective"
+    excerpt: "Assess your weakspots"
     url: "/threats"
     btn_label: "Threats"
     btn_class: "btn--inverse"
