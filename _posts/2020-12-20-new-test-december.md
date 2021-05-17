@@ -19,7 +19,7 @@ image:
 
 ![feature image](/assets/images/monthly-tests/featureImage.jpg){:class="img-responsive"}
 
-# This months implemented tests:
+# This months implemented test:
 
 **Test requirements**
 * Can be done from a single computer
