@@ -66,9 +66,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Father, husband, security guy. I help people see beyond the security horizon."
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/securiful/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/securiful/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/company/securiful-inc/"
