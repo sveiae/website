@@ -20,7 +20,7 @@ excerpt: "Affordable security testing"
 {% include hubSpot.html %}
 
 {% capture pro %}
-# Pro: $99 per month!
+# Pro: $199 per month!
 * Grading against industry peers.
 * Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
@@ -28,7 +28,7 @@ excerpt: "Affordable security testing"
 <div class="notice--info">{{ pro | markdownify }}</div>
 
 {% capture visionary %}
-# Enterprise:  $699 per month
+# Enterprise:  $699 per month (Coming Soon!)
 * Community version features.
 * Test rules for IDSes, SIEMs, Web gateways, and more.
 * Server-side threats and attack simulation.
