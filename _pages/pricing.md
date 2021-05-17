@@ -20,7 +20,7 @@ excerpt: "Affordable security testing"
 {% include hubSpot.html %}
 
 {% capture pro %}
-# Pro: $199 per month!
+# Pro: $199 per month
 * Grading against industry peers.
 * Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
