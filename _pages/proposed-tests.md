@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/proposed-tests.jpg
+  overlay_image: /assets/images/main-header2.jpg
   actions:
   - label: "Pricing"
     url: "/pricing/"
