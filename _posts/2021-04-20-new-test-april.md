@@ -26,7 +26,7 @@ image:
 * We can expect to get similar results on similar systems in the organization.
 * Does not need special software or hardware
 
-## Test ability to interact with Malware and Cybercrime controlled websites
+## Test ability to interact with Malware and Cybercrime controlled services
 **CIS 9:** Malware Defense  
 **From:** Phil  
 Implemented in platform: :heavy_check_mark:  
