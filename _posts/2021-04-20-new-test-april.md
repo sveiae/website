@@ -37,10 +37,17 @@ I use the malware list from the [blocklists project](https://blocklistproject.gi
 ```bash
 # From a computer on the network:
 # make or download a file with malware URLs.
+# download a malware url file:
+wget https://blocklistproject.github.io/Lists/malware.txt
+# get a few domains from the file (from line 20 to 120, total of 100 tests),
+# saved to 'sample.txt'
+sed -n '20,120p' malware.txt | awk '{print $2}' > sample.txt
 # open a cmd prompt, then simply run:
-for i in $(cat textFileWithMalwareURLS); do curl $i -I; done
-# HTTP 200 means you were able to hit that website
+for i in $(cat out); do curl --max-time 2 -k $i -I -L; done
+# HTTP 200 means either you hit the actual malware domain, or some sort of blackhole.
 ```
+You will need to inspect the HTTP responses further to sort out any false positives.  
+
 ### Automated - Using our platform:
 ![app image](/assets/images/monthly-tests/malicious-website.png){:class="img-responsive"}
 
