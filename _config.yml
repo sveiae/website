@@ -21,6 +21,7 @@ email:
 description: # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. This will appear in your document head meta (for Google search results) and in your feed.xml site description.
   Test driven security assessment application. Perform quick security assessments to track security controls and ensure the highest return on security investment.
   # Test, understand, and track your attack surface in order to implement information security controls that are relevant in driving return on security investment.
+logo: "/assets/images/logo.png"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "default"
