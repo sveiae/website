@@ -19,7 +19,7 @@ excerpt: "Subscriber submitted tests"
 
 <!-- ![feature image](/assets/images/requested-tests/crash-test-1620591_640.jpg){:class="img-responsive"} -->
 
-These are the most highly ranked tests which people have been recommending we implement into our testing platform through our [email list](https://www.securiful.com/proposed-tests/#want-more-tests-register-below).
+These are the highest ranked tests which people have been recommended by our users through our [email list](https://www.securiful.com/proposed-tests/#want-more-tests-register-below).
 
 **Test requirements**
 * Can be done from a single computer
