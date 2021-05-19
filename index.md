@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Test Driven Security Platform"
+title: "Test Driven Security Platform"
 # layout: single
 layout: splash
 header:
