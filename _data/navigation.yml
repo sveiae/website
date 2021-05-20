@@ -3,7 +3,7 @@ main:
     url: /pricing/
   - title: "blog"
     url: /posts/
-  - title: "about"
-    url: /about/
+  # - title: "about"
+  #   url: /about/
   - title: "proposed tests"
     url: /proposed-tests/
