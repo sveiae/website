@@ -23,7 +23,6 @@ excerpt: "against industry peers"
 
 # Get security metrics that stick and can be measured over time
 [![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
-{% capture metrics %}
 # Pro: $199 per month
 * Validate security tools and architecture on demand.
 * Test attack detection.
@@ -31,8 +30,7 @@ excerpt: "against industry peers"
 * Get anonymously graded against industry peers.
 * Increase ROI on your security tools.
 * Zero deployment time. Run our application and test.  
-{% endcapture %}
-<div class="notice--info">{{ pro | markdownify }}</div>
+
 
 ## Create an account and start testing!
 
