@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /test-index
 title: "Test Driven Security Platform"
 # layout: single
 layout: splash
