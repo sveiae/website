@@ -48,7 +48,7 @@ feature_row:
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->
 
 
 
