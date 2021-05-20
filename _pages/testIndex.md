@@ -21,7 +21,7 @@ feature_row:
     alt: "Grading against industry peers"
     title: "Cyber Score"
     excerpt: "
-    * Scoring against industry peers
+    * Scoring against industry peers \n
     * Firewalls
     "
     url: "/scoring"
