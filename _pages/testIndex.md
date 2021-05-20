@@ -47,7 +47,7 @@ feature_row:
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-{% include feature_row %}
+{% include feature_row type="left" %}
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
