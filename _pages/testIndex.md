@@ -21,14 +21,11 @@ feature_row:
     alt: "Tests"
     title: "Tests"
     excerpt: "
-    * Firewalls\n
-    * IDS\n
-    * AV\n
+    * Firewall\n
+    * IDS and SIEM\n
+    * Endpoint protection\n
     * VPN\n
-    * SIEM\n
-    * Traffic Filtering\n
-    * DLP\n
-    * Core Network Devices
+    * And more!
     "
     url: "/tests"
     btn_label: "Tests"
