@@ -23,10 +23,9 @@ feature_row:
     excerpt: "
     * Firewalls and routers\n
     * IDSes and SIEMs\n
-    * Endpoint protections\n
+    * Endpoint protection\n
     * VPN security\n
-    * DLP and Traffic Filtering\n
-    * Core Network Devices and More!
+    * DNS and other core services
     "
     url: "/tests"
     btn_label: "Tests"
