@@ -1,6 +1,6 @@
 ---
 permalink: /scoring/
-title: "Cyber Score"
+title: "Cyber Security Score"
 layout: splash
 header:
   overlay_color: "#000"
@@ -10,7 +10,7 @@ header:
   actions:
   - label: "Pricing"
     url: "/pricing/"
-excerpt: "against industry peers"
+excerpt: "Scores against industry peers"
 # intro: 
 #   - excerpt: 'Get a comparable understanding of your security'
 ---

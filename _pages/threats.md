@@ -1,6 +1,6 @@
 ---
 permalink: /threats/
-title: "Threats"
+title: "Threat Assessment"
 layout: splash
 header:
   overlay_color: "#000"
@@ -10,7 +10,7 @@ header:
   actions:
   - label: "Pricing"
     url: "/pricing/"
-excerpt: "and your exposure to them"
+excerpt: "Exposure to real threats"
 # intro: 
 #   - excerpt: 'Understand your threats better than they understand you'
 ---

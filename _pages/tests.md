@@ -1,6 +1,6 @@
 ---
 permalink: /tests/
-title: "Tests"
+title: "Security Tests"
 layout: splash
 header:
   overlay_color: "#000"
@@ -10,7 +10,7 @@ header:
   actions:
   - label: "Pricing"
     url: "/pricing/"
-excerpt: "that are actionable"
+excerpt: "Test your security architecture"
 # intro: 
 #   - excerpt: 'Perform tests that give measurable results'
 ---
