@@ -35,8 +35,8 @@ feature_row:
     title: "Cyber Security Score"
     excerpt: "
     * Cyber Security Score from A to F\n
-    * Compare against industry peers
-    * Easily understand weakspots
+    * Compare against industry peers\n
+    * Easily understand weakspots\n
     * Score against CIS Top 20 controls
     "
     url: "/scoring"
@@ -46,8 +46,8 @@ feature_row:
     alt: "Threat Assessment"
     title: "Threat Assessment"
     excerpt: "
-    * Assess your exposure against real threats
-    * Align security controls against true treaths
+    * Assess your exposure against real threats\n
+    * Align security controls against true treaths\n
     * Get geographic attack exposure
     "
     url: "/threats"
