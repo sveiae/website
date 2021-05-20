@@ -40,7 +40,7 @@ feature_row:
     * Score against CIS Top 20 controls
     "
     url: "/scoring"
-    btn_label: "Scoring"
+    btn_label: "Learn More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Assessment"
@@ -51,7 +51,7 @@ feature_row:
     * Get geographic attack exposure
     "
     url: "/threats"
-    btn_label: "Threats"
+    btn_label: "Learn More"
     btn_class: "btn--inverse"
 ---
 <!-- Google analytics -->
