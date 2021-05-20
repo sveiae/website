@@ -17,28 +17,42 @@ excerpt: "Test fundamental security controls in minutes"
 intro: 
   - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
+  - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
+    alt: "Security Tests"
+    title: "Security Tests"
+    excerpt: "
+    * Firewalls and routers\n
+    * IDSes and SIEMs\n
+    * Endpoint protection\n
+    * VPN security\n
+    * DNS and other core services
+    "
+    url: "/tests"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
-    alt: "Grading against industry peers"
-    title: "Cyber Score"
-    excerpt: "Scoring against industry peers"
+    alt: "Cyber Security Score"
+    title: "Cyber Security Score"
+    excerpt: "
+    * Cyber Security Score from A to F\n
+    * Compare against industry peers\n
+    * Easily understand weakspots\n
+    * Score against CIS Top 20 controls
+    "
     url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
-    alt: "Threat Surface Analysis"
-    title: "Threat Surface"
-    excerpt: "Assess your weakspots"
+    alt: "Threat Assessment"
+    title: "Threat Assessment"
+    excerpt: "
+    * Assess your exposure against real threats\n
+    * Align security controls against true treaths\n
+    * Get geographic attack exposure
+    "
     url: "/threats"
     btn_label: "Threats"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
-    alt: "Realistic Tests"
-    title: "Realistic Tests"
-    excerpt: "Tests from common attack patterns"
-    url: "/tests"
-    btn_label: "Tests"
-    btn_class: "btn--inverse"
-
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
