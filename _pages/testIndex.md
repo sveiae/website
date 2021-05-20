@@ -20,17 +20,19 @@ feature_row:
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
     alt: "Tests"
     title: "Tests"
-    excerpt: "
-    * Firewall\n
-    * IDS and SIEM\n
-    * Endpoint protection\n
-    * VPN\n
-    * And more!
+    excerpt: "Test:
+    * Firewalls and routers\n
+    * IDSes and SIEMs\n
+    * Endpoint protections\n
+    * VPN security\n
+    * Traffic Filtering\n
+    * Data Loss Prevention\n
+    * Core Network Devices
     "
     url: "/tests"
     btn_label: "Tests"
     btn_class: "btn--inverse"
-- image_path: /assets/images/macbook_gradingDashboard.jpeg
+  - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
     title: "Cyber Score"
     excerpt: "
