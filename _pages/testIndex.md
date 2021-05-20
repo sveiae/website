@@ -20,10 +20,7 @@ feature_row:
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
     title: "Cyber Score"
-    excerpt: "
-    * Scoring against industry peers \n
-    * Firewalls
-    "
+    excerpt: "* Scoring against industry peers"
     url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
