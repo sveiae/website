@@ -20,7 +20,10 @@ feature_row:
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
     title: "Cyber Score"
-    excerpt: "* Scoring against industry peers"
+    excerpt: "
+    * Scoring from A to F
+    * Compare against industry peers
+    "
     url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
@@ -44,7 +47,7 @@ feature_row:
 <!-- Hub Spot analytics -->
 {% include hubSpot.html %}
 
-{% include feature_row type="left" %}
+{% include feature_row type="right" %}
 
 Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.
 
