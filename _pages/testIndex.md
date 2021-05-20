@@ -21,13 +21,13 @@ feature_row:
     alt: "Tests"
     title: "Tests"
     excerpt: "
-    * Firewalls \n
-    * IDS \n
-    * AV \n
-    * VPN \n
-    * SIEM \n
-    * Traffic Filtering \n
-    * DLP \n
+    * Firewalls\n
+    * IDS\n
+    * AV\n
+    * VPN\n
+    * SIEM\n
+    * Traffic Filtering\n
+    * DLP\n
     * Core Network Devices
     "
     url: "/tests"
