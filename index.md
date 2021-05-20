@@ -21,23 +21,24 @@ feature_row:
     alt: "Grading against industry peers"
     title: "Cyber Score"
     excerpt: "Scoring against industry peers"
-    url: "/scoring"
-    btn_label: "Scoring"
-    btn_class: "btn--inverse"
+    # url: "/scoring"
+    # btn_label: "Scoring"
+    # btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Surface Analysis"
     title: "Threat Surface"
-    excerpt: "Assess your weakspots"
-    url: "/threats"
-    btn_label: "Threats"
-    btn_class: "btn--inverse"
+    excerpt: 
+    "* Assess your weakspots"
+    # url: "/threats"
+    # btn_label: "Threats"
+    # btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
     alt: "Realistic Tests"
     title: "Realistic Tests"
     excerpt: "Tests from common attack patterns"
-    url: "/tests"
-    btn_label: "Tests"
-    btn_class: "btn--inverse"
+    # url: "/tests"
+    # btn_label: "Tests"
+    # btn_class: "btn--inverse"
 
 ---
 <!-- Google analytics -->
