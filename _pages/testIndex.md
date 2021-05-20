@@ -20,14 +20,13 @@ feature_row:
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
     alt: "Tests"
     title: "Tests"
-    excerpt: "Test:
+    excerpt: "
     * Firewalls and routers\n
     * IDSes and SIEMs\n
     * Endpoint protections\n
     * VPN security\n
-    * Traffic Filtering\n
-    * Data Loss Prevention\n
-    * Core Network Devices
+    * DLP and Traffic Filtering\n
+    * Core Network Devices and More!
     "
     url: "/tests"
     btn_label: "Tests"
