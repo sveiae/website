@@ -18,8 +18,8 @@ intro:
   - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
   - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
-    alt: "Tests"
-    title: "Tests"
+    alt: "Security Tests"
+    title: "Security Tests"
     excerpt: "
     * Firewalls and routers\n
     * IDSes and SIEMs\n
@@ -28,22 +28,28 @@ feature_row:
     * DNS and other core services
     "
     url: "/tests"
-    btn_label: "Tests"
+    btn_label: "Learn More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
-    alt: "Grading against industry peers"
-    title: "Cyber Score"
+    alt: "Cyber Security Score"
+    title: "Cyber Security Score"
     excerpt: "
-    * Scoring from A to F\n
+    * Cyber Security Score from A to F\n
     * Compare against industry peers
+    * Easily understand weakspots
+    * Score against CIS Top 20 controls
     "
     url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
-    alt: "Threat Surface Analysis"
-    title: "Threat Surface"
-    excerpt: "Assess your weakspots"
+    alt: "Threat Assessment"
+    title: "Threat Assessment"
+    excerpt: "
+    * Assess your exposure against real threats
+    * Align security controls against true treaths
+    * Get geographic attack exposure
+    "
     url: "/threats"
     btn_label: "Threats"
     btn_class: "btn--inverse"
