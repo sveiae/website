@@ -17,13 +17,13 @@ excerpt: "Test fundamental security controls in minutes"
 intro: 
   - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
+  - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Grading against industry peers"
     title: "Cyber Score"
     excerpt: "
     * Scoring from A to F\n
     * Compare against industry peers
     "
-  - image_path: /assets/images/macbook_gradingDashboard.jpeg
     url: "/scoring"
     btn_label: "Scoring"
     btn_class: "btn--inverse"
