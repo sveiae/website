@@ -13,7 +13,7 @@ header:
     - label: "Pricing"
       url: "/pricing/"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Test fundamental security controls in minutes"
+excerpt: "Test fundamental security controls quickly"
 intro: 
   - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
