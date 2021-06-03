@@ -21,16 +21,27 @@ excerpt: "Test your security architecture"
 
 {% include feature_row id="intro" type="center" %}
 
-## Tests that helps you improve your security program
+# Test security controls that matter
 [![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
-* Test:
+## What's important to test?
+Most security tools overwhelm you with data what should be considered as *edge cases*, that are easy to test, instead of focusing on primary security controls that are proven to be extremely effective in reducing risk.
+
+Our platform truly stands out by testing your **MAIN security controls**, such as:
   * Firewalls
   * IDSes
   * Antivirus
   * VPNs
   * SIEMs
   * Traffic Filtering
-  * Core Network Services  
+  * DNS
+  * Routers and switches
+
+## Why focus on your MAIN security controls
+When we say **main** security controls, we mean the controls that have been reported to be effective in reducing risk by CIS, SANS, and Verizon's annual breach report. These are controls that are known to reduce risk, and have proven to be  effective for a very long time.
+
+These controls are so mature, that they can be implemented by common security tools, such as firewalls and antivirus. **This is key;** if there aren't available tools that can easily and affordably secure your systems, then it will be very hard to implement good security around them - and it will cost you a great deal. 
+
+That is why we focus on your MAIN security controls; it's effective and doable.
 
 ## Create an account and start testing!
 
