@@ -39,9 +39,9 @@ feature_row:
     * Easily understand weakspots\n
     * Score against CIS Top 20 controls
     "
-    # url: "/scoring"
-    # btn_label: "Learn More"
-    # btn_class: "btn--inverse"
+    url: "/scoring"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Assessment"
     title: "Threat Assessment"
@@ -50,9 +50,9 @@ feature_row:
     * Align security controls against true treaths\n
     * Get geographic attack exposure
     "
-    # url: "/threats"
-    # btn_label: "Learn More"
-    # btn_class: "btn--inverse"
+    url: "/threats"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
