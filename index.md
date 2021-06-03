@@ -29,7 +29,7 @@ feature_row:
     "
     url: "/tests"
     btn_label: "Learn More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--primary"
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Cyber Security Score"
     title: "Cyber Security Score"
@@ -41,7 +41,7 @@ feature_row:
     "
     url: "/scoring"
     btn_label: "Learn More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--primary"
   - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
     alt: "Threat Assessment"
     title: "Threat Assessment"
@@ -52,7 +52,7 @@ feature_row:
     "
     url: "/threats"
     btn_label: "Learn More"
-    btn_class: "btn--inverse"
+    btn_class: "btn--primary"
 ---
 <!-- Google analytics -->
 {% include googleAnalytics.html %}
