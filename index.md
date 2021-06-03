@@ -27,9 +27,9 @@ feature_row:
     * VPN security\n
     * DNS and other core services
     "
-    # url: "/tests"
-    # btn_label: "Learn More"
-    # btn_class: "btn--inverse"
+    url: "/tests"
+    btn_label: "Learn More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/macbook_gradingDashboard.jpeg
     alt: "Cyber Security Score"
     title: "Cyber Security Score"
