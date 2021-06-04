@@ -7,8 +7,8 @@ header:
   overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
   overlay_image: /assets/images/main-header2.jpg
-  image: /assets/images/macbook_geoThreatsDashboard.jpeg
-  og_image: /assets/images/macbook_geoThreatsDashboard.jpeg
+  image: /assets/images/macbook_big_threats.png
+  og_image: /assets/images/macbook_big_threats.png
   actions:
   - label: "Pricing"
     url: "/pricing/"
@@ -24,7 +24,7 @@ excerpt: "Exposure to real threats"
 {% include feature_row id="intro" type="center" %}
 
 ## Understand your threat exposure and take action
-[![Global threat exposure](/assets/images/macbook_geoThreatsDashboard.jpeg)](/assets/images/macbook_geoThreatsDashboard.jpeg)
+[![Global threat exposure](/assets/images/macbook_big_threats.png)](/assets/images/macbook_geoThreatsDashboard.jpeg)
 * Test:
   * Holistic attack surface.
   * Geographic attack exposure.

@@ -9,8 +9,8 @@ header:
 #   overlay_filter: rgba(255, 0, 0, 0.5)
 #   overlay_image: /assets/images/logo-goost.webp
   overlay_image: /assets/images/main-header2.jpg
-  image: /assets/images/macbook_gradingDashboard.jpeg
-  og_image: /assets/images/macbook_gradingDashboard.jpeg
+  image: /assets/images/macbook_big_score.png
+  og_image: /assets/images/macbook_big_score.png
   actions:
     - label: "Pricing"
       url: "/pricing/"
@@ -19,7 +19,7 @@ excerpt: "Test critical security controls quickly"
 intro: 
   - excerpt: 'Find your ideal security architecture by testing your security controls through standard requirements, threat intelligence and common attacks patterns.'
 feature_row:
-  - image_path: /assets/images/macbook_malwareDomainsTest.jpeg
+  - image_path: /assets/images/macbook_big_tests.png
     alt: "Security Tests"
     title: "Security Tests"
     excerpt: "
@@ -32,7 +32,7 @@ feature_row:
     url: "/tests"
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/macbook_gradingDashboard.jpeg
+  - image_path: /assets/images/macbook_big_score.png
     alt: "Cyber Security Score"
     title: "Cyber Security Score"
     excerpt: "

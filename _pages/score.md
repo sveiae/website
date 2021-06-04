@@ -12,8 +12,8 @@ header:
   overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
   overlay_image: /assets/images/main-header2.jpg
-  image: /assets/images/macbook_gradingDashboard.jpeg
-  og_image: /assets/images/macbook_gradingDashboard.jpeg
+  image: /assets/images/macbook_big_score.png
+  og_image: /assets/images/macbook_big_score.png
   actions:
   - label: "Pricing"
     url: "/pricing/"
@@ -29,7 +29,7 @@ excerpt: "Scores against industry peers"
 {% include feature_row id="intro" type="center" %}
 
 # Get security metrics that stick and can be measured over time
-[![Get graded against industry peers](/assets/images/macbook_gradingDashboard.jpeg)](/assets/images/macbook_gradingDashboard.jpeg)
+[![Get graded against industry peers](/assets/images/macbook_big_score.png)](/assets/images/macbook_gradingDashboard.jpeg)
 # Pro: $199 per month
 * Validate security tools and architecture on demand.
 * Test attack detection.

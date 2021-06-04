@@ -7,9 +7,8 @@ header:
   overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
   overlay_image: /assets/images/main-header2.jpg
-  image: /assets/images/macbook_malwareDomainsTest.jpeg
-  og_image: /assets/images/macbook_malwareDomainsTest.jpeg
-  actions:
+  image: /assets/images/macbook_big_tests.png
+  og_image: /assets/images/macbook_big_tests.png
   - label: "Pricing"
     url: "/pricing/"
 excerpt: "Test your security architecture"
@@ -24,7 +23,7 @@ excerpt: "Test your security architecture"
 {% include feature_row id="intro" type="center" %}
 
 # Test security controls that matter
-[![Deep dive into the gaps of your security tools](/assets/images/macbook_malwareDomainsTest.jpeg)](/assets/images/macbook_malwareDomainsTest.jpeg)
+[![Deep dive into the gaps of your security tools](/assets/images/macbook_big_tests.png)](/assets/images/macbook_malwareDomainsTest.jpeg)
 ## What's important to test?
 Most security tools overwhelm you with data what should be considered as *edge cases*, that are easy to test, instead of focusing on primary security controls that are proven to be extremely effective in reducing risk.
 
