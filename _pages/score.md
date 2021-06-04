@@ -2,6 +2,11 @@
 permalink: /scoring/
 title: "Cyber Security Score"
 layout: splash
+# table of contents:
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+# header:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
