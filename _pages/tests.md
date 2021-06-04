@@ -7,8 +7,6 @@ header:
   overlay_filter: "0.5"
 #   overlay_filter: rgba(255, 0, 0, 0.5)
   overlay_image: /assets/images/main-header2.jpg
-  image: /assets/images/main-header2.jpg
-  og_image: /assets/images/main-header2.jpg
   actions:
   - label: "Pricing"
     url: "/pricing/"
@@ -39,7 +37,9 @@ Our platform truly stands out by testing your **MAIN security controls**, such a
   * Routers and switches
 
 ## Why focus on your MAIN security controls
-When we say **main security controls**, we mean the controls that have been reported to be **effective in reducing risk** by CIS, SANS, and Verizon's annual breach report. These are controls that are known to reduce risk, and have proven to be  effective for a very long time. These controls are so mature, that they can be implemented by common security tools, such as firewalls and antivirus. 
+When we say **main** security controls, we mean the controls that have been reported to be effective in reducing risk by CIS, SANS, and Verizon's annual breach report. These are controls that are known to reduce risk, and have proven to be  effective for a very long time.
+
+These controls are so mature, that they can be implemented by common security tools, such as firewalls and antivirus. **This is key;** if there aren't available tools that can easily and affordably secure your systems, then it will be very hard to implement good security around them - and it will cost you a great deal. 
 
 That is why we focus on your MAIN security controls; it's effective and doable.
 
