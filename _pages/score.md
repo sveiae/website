@@ -29,7 +29,7 @@ excerpt: "Scores against industry peers"
 {% include feature_row id="intro" type="center" %}
 
 # Get security metrics that stick and can be measured over time
-[![Get graded against industry peers](/assets/images/macbook_big_score.png)](/assets/images/macbook_gradingDashboard.jpeg)
+[![Get graded against industry peers](/assets/images/macbook_big_score.png)](/assets/images/macbook_big_score.png)
 # Pro: $199 per month
 * Validate security tools and architecture on demand.
 * Test attack detection.

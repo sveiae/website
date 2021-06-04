@@ -23,7 +23,7 @@ excerpt: "Test your security architecture"
 {% include feature_row id="intro" type="center" %}
 
 # Test security controls that matter
-[![Deep dive into the gaps of your security tools](/assets/images/macbook_big_tests.png)](/assets/images/macbook_malwareDomainsTest.jpeg)
+[![Deep dive into the gaps of your security tools](/assets/images/macbook_big_tests.png)](/assets/images/macbook_big_tests.png)
 ## What's important to test?
 Most security tools overwhelm you with data what should be considered as *edge cases*, that are easy to test, instead of focusing on primary security controls that are proven to be extremely effective in reducing risk.
 
