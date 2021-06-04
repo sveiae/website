@@ -9,6 +9,8 @@ header:
 #   overlay_filter: rgba(255, 0, 0, 0.5)
 #   overlay_image: /assets/images/logo-goost.webp
   overlay_image: /assets/images/main-header2.jpg
+  image: /assets/images/main-header2.jpg
+  og_image: /assets/images/main-header2.jpg
   actions:
     - label: "Pricing"
       url: "/pricing/"
