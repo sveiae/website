@@ -44,7 +44,7 @@ feature_row:
     url: "/scoring"
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/macbook_geoThreatsDashboard.jpeg
+  - image_path: /assets/images/macbook_big_threats.png
     alt: "Threat Assessment"
     title: "Threat Assessment"
     excerpt: "
