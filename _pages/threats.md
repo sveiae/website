@@ -24,7 +24,7 @@ excerpt: "Exposure to real threats"
 {% include feature_row id="intro" type="center" %}
 
 # Understand your threat exposure and take action
-[![Global threat exposure](/assets/images/macbook_big_threats.png)](/assets/images/macbook_big_threats.png)
+![Global threat exposure](/assets/images/macbook_big_threats.png)
 * Test:
   * Holistic attack surface.
   * Geographic attack exposure.
