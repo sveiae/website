@@ -28,9 +28,11 @@ excerpt: "Scores against industry peers"
 
 {% include feature_row id="intro" type="center" %}
 
-# Get security metrics that stick and can be measured over time
+# Get quick feedback on how well controls are implemented
 [![Get graded against industry peers](/assets/images/macbook_big_score.png)](/assets/images/macbook_big_score.png)
-# Pro: $199 per month
+## Why is this score important?
+This type of score lets you get an understanding on how you score against you industry peers, as well as how well you can defend against typical threats.
+
 * Validate security tools and architecture on demand.
 * Test attack detection.
 * Test reaction times of your security team.

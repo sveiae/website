@@ -23,13 +23,14 @@ excerpt: "Exposure to real threats"
 
 {% include feature_row id="intro" type="center" %}
 
-## Understand your threat exposure and take action
+# Understand your threat exposure and take action
 [![Global threat exposure](/assets/images/macbook_big_threats.png)](/assets/images/macbook_big_threats.png)
-* Test:
-  * Holistic attack surface.
-  * Geographic attack exposure.
-  * Local network attack surfaces.
-  * Security compliance and best practice of Internet facing web services.  
+## Why is threat exposure and attack surfaces important?
+The **threat exposure** lets you understand how well you are prepared to stand up to cyber threats. It is also important to understand what **surfaces** that is open for a threat to attack your systems.
+* Holistic attack surface analysis.
+* Geographic threat exposure.
+* Local threat exposure.
+* Security compliance and best practice of Internet facing web services.  
 
 ## Create an account and start testing!
 
