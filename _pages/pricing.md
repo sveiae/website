@@ -20,7 +20,7 @@ excerpt: "Affordable security testing"
 {% include hubSpot.html %}
 
 {% capture pro %}
-# Pro: Free for early adopters!
+# Pro: $199 (for early adopters!)
 * Grading against industry peers.
 * Test Outbound rules for Firewalls, Routers, and more.
 * Outbound threats and attack simulation.
