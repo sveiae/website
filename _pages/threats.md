@@ -25,8 +25,8 @@ excerpt: "Exposure to real threats"
 
 # Understand your threat exposure and take action
 [![Global threat exposure](/assets/images/macbook_big_threats.png)](/assets/images/macbook_big_threats.png)
-## Why is threat exposure and attack surfaces important?
-The **threat exposure** lets you understand how well you are prepared to stand up to cyber threats. It is also important to identify any **attack surfaces** that is open for a threat to attack your systems.
+## Why are threat exposures and attack surfaces important to understand?
+The **threat exposure** lets you understand how many cyber threats you are exposed to. It is also important to identify any **attack surfaces** that is open for a threat to attack your systems.
 
 * Holistic attack surface analysis.
 * Geographic threat exposure.

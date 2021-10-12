@@ -25,12 +25,12 @@ Have you ever asked yourself if all your hard work and investments in security w
 # The need to know
 The current state we're in is that information security professionals know --that they don't know-- how secure their own systems are, and [feel I'll equipped to manage security](https://www.isc2.org/-/media/B7E003F79E1D4043A0E74A57D5B6F33E.ashx). This extends to how [private citizens'](https://www.pewresearch.org/internet/2017/01/26/1-americans-experiences-with-data-security/) view companies' ability to manage security. There is little confidence accross the board.
 
-The proven way to get more confidence is to **test whether what we're doing works, or if we need to improve on something**. This line of thinking ties into the methodology of failing fast.
+The proven way to get more confidence is to **test if what we're doing works, or if we need to improve on something**. This line of thinking ties into the methodology of failing fast.
 
 It's like most other things in life - such as sports, personal health, and dating: You need to test to know.
 
 ## We're effective when we have clarity on our security gaps
-The times we understand we have a significant security gap, we are able to put resources into fixing the problem: IT organizations, which usually are fairly stagnant, summon the troops, poor in resources, and quickly fix problems to reduce risk. Unfortunately this usually happens when news break about some exploitable vulnerability, after a annual penetration test, or when the organization fails a compliance requirement.
+When we understand we have a significant security gap, we are able to put resources into fixing the problem: IT organizations, which usually are fairly stagnant, summon the troops, poor in resources, and quickly fix problems to reduce risk. Unfortunately this usually happens when news break about some exploitable vulnerability, after a annual penetration test, or when the organization fails a compliance requirement.
 
 The main problem with this type of learning is that it is reactive and unstructured. In addition, the information we get is sometimes  irrelevant and over emphasized relative to other gaps, which results in a slow progression towards clarity. We need to find ways to learn about what is relevant to us, and to do it as fast as possible. This can be achieved through **methodic testing of relevant security controls and then analyzing the results.**
 
